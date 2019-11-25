@@ -1,21 +1,33 @@
-import { createNode } from "utils"
+import { initFilter, normalizeDiacritics } from "filter"
 import { Sound } from "sounds"
+import { createNode } from "utils"
 
+async function main() {
+  const sounds = await (await fetch<Sound[]>('sounds/sounds.json')).json()
+  const list = buildHtmlList(sounds.sort(localeSortBy(s => s.title)))
+  document.body.appendChild(list)
+}
 
 const play = (file: string) => new Audio(`sounds/${file}`).play()
-
 const listenToClick = (sound: Sound) => () => play(sound.file)
-
 const soundUrl = (sound: Sound) => `${window.location.href}sounds/${sound.file}`
-const toClipboard = (sound: Sound) => () =>
-  navigator.clipboard.writeText(soundUrl(sound))
+const toClipboard = (sound: Sound) => () => navigator.clipboard.writeText(soundUrl(sound))
 
-function makeListItem(sound: Sound) {
+function buildHtmlList(sounds: readonly Sound[]) {
+  return createNode('div', {
+    id: 'list',
+    children: [
+      createNode('ul', { children: sounds.map(buildListItem) })
+    ]
+  })
+}
+
+function buildListItem(sound: Sound) {
   return createNode('li', {
     attributes: {
-      'data-title': sound.title.toLocaleLowerCase(),
-      'data-character': sound.character.toLocaleLowerCase(),
-      'data-episode': sound.episode.toLocaleLowerCase(),
+      'data-title': normalizeDiacritics(sound.title),
+      'data-character': normalizeDiacritics(sound.character),
+      'data-episode': normalizeDiacritics(sound.episode),
     },
     children: [
       createNode('div', {
@@ -41,62 +53,13 @@ function makeListItem(sound: Sound) {
   })
 }
 
-function checkNode(value: string) {
-  return (node: HTMLLIElement) => {
-    if (value.length === 0) {
-      return true
-    }
-    const title = node.getAttribute('data-title')
-    const character = node.getAttribute('data-character')
-    const episode = node.getAttribute('data-episode')
-    if (!title || !character || !episode) {
-      return false
-    }
-    return character.includes(value)
-      || title.includes(value)
-      || episode.includes(value)
-  }
-}
-
-function insertList(listNodes: readonly HTMLLIElement[]) {
-  const listDiv = createNode('div', {
-    id: 'list',
-    children: [
-      createNode('ul', { children: listNodes })
-    ]
-  })
-  document.body.appendChild(listDiv)
-}
-
-function localeSort<T>(selector: (value: T) => string) {
+function localeSortBy<T>(selector: (value: T) => string) {
   return (a: T, b: T) => {
     return selector(a).localeCompare(selector(b))
   }
 }
 
-async function main() {
-  const sounds = await (await fetch<Sound[]>('sounds/sounds.json')).json()
-  insertList(sounds.sort(localeSort(s =>  s.title)).map(makeListItem))
-}
-
-function initFilter() {
-  const input = document.querySelector<HTMLInputElement>('input#searchbox')
-  const list = Array.from(document.querySelectorAll('li'))
-  if (!input || !list) {
-    return
-  }
-  input.addEventListener('keyup', () => {
-    const filtering = checkNode(input.value.toLocaleLowerCase())
-    for (const el of list) {
-      el.style.display = 'inline-block'
-      if (!filtering(el)) {
-        el.style.display = 'none'
-      }
-    }
-  })
-}
-
 window.onload = async () => {
   await main()
-  setTimeout(initFilter, 0)
+  initFilter()
 }
