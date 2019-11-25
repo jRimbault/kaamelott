@@ -1,5 +1,5 @@
 import { initFilter, normalizeDiacritics } from "filter"
-import { Sound } from "sounds"
+import { Sound, AttrData } from "sounds"
 import { createNode } from "utils"
 
 async function main() {
@@ -25,9 +25,9 @@ function buildHtmlList(sounds: readonly Sound[]) {
 function buildListItem(sound: Sound) {
   return createNode('li', {
     attributes: {
-      'data-title': normalizeDiacritics(sound.title),
-      'data-character': normalizeDiacritics(sound.character),
-      'data-episode': normalizeDiacritics(sound.episode),
+      [AttrData.title]: normalizeDiacritics(sound.title),
+      [AttrData.character]: normalizeDiacritics(sound.character),
+      [AttrData.episode]: normalizeDiacritics(sound.episode),
     },
     children: [
       createNode('div', {

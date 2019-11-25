@@ -4,3 +4,9 @@ export type Sound = {
   readonly file: string
   readonly title: string
 }
+
+export enum AttrData {
+  episode = 'data-episode',
+  character = 'data-character',
+  title = 'data-title',
+}
