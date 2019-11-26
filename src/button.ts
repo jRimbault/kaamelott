@@ -2,11 +2,6 @@ import { setAttributes } from 'attributes'
 import { NodeDefinition } from 'dom'
 import { Sound } from 'sounds'
 
-const listenToClick = (sound: Sound) => () => play(sound.file)
-const play = (file: string) => new Audio(`sounds/${file}`).play()
-const soundUrl = (sound: Sound) => `${window.location.href}sounds/${sound.file}`
-const toClipboard = (sound: Sound) => () => navigator.clipboard.writeText(soundUrl(sound))
-
 export function buildListItem(sound: Sound): NodeDefinition {
   return [
     'li',
@@ -45,10 +40,26 @@ function buildShareButton(sound: Sound): NodeDefinition {
     'a',
     {
       classList: ['btn', 'btn-share'],
-      attributes: { title: soundUrl(sound) },
+      attributes: { title: getSoundFileUrl(sound) },
       listeners: {
         click: { callback: toClipboard(sound) },
       },
     },
   ]
+}
+
+function getSoundFileUrl(sound: Sound) {
+  return `${window.location.href}sounds/${sound.file}`
+}
+
+function toClipboard(sound: Sound) {
+  return () => navigator.clipboard.writeText(getSoundFileUrl(sound))
+}
+
+function listenToClick(sound: Sound) {
+  return () => play(sound.file)
+}
+
+function play(file: string) {
+  return new Audio(`sounds/${file}`).play()
 }
