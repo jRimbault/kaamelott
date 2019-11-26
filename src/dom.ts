@@ -4,7 +4,7 @@ type EventHandler<Event extends EventNames> = {
   readonly options?: boolean | EventListenerOptions
 }
 
-type NodeDefinition = { tag: keyof HTMLElementTagNameMap; options?: NodeOptions }
+export type NodeDefinition = readonly [keyof HTMLElementTagNameMap, NodeOptions] | readonly [keyof HTMLElementTagNameMap]
 
 export type NodeOptions = {
   readonly id?: string
@@ -52,7 +52,7 @@ function addChildren(node: HTMLElement, children: NodeOptions['children']) {
       if (child instanceof HTMLElement) {
         node.append(child)
       } else {
-        node.append(createNode(child.tag, child.options))
+        node.append(createNode(child[0], child[1]))
       }
     }
   }

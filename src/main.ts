@@ -14,7 +14,7 @@ async function main() {
 function buildHtmlList(sounds: readonly Sound[]) {
   return createNode('div', {
     id: 'list',
-    children: [createNode('ul', { children: sounds.map(buildListItem) })],
+    children: [['ul', { children: sounds.map(buildListItem) }]],
   })
 }
 
