@@ -1,4 +1,5 @@
-import { AttrData } from "sounds"
+import { getAttributes } from 'attributes'
+import { normalizeDiacritics } from 'utils'
 
 export function initFilter() {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
@@ -9,17 +10,13 @@ export function initFilter() {
   input.addEventListener('keyup', filterOnKeyUp(input, list))
 }
 
-export function normalizeDiacritics(value: string) {
-  return value.toLocaleLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
-}
-
 enum DisplayState {
   hide = 'none',
   show = 'inline-block',
 }
 
 function filterOnKeyUp(input: HTMLInputElement, list: readonly HTMLLIElement[]) {
-  const buildFilter = filterBuilder({});
+  const buildFilter = filterBuilder({})
   return () => {
     const filter = buildFilter(normalizeDiacritics(input.value))
     for (const node of list) {
@@ -38,16 +35,9 @@ function filterBuilder(filters: { [k in string]?: RegExp }) {
       if (value.length === 0) {
         return true
       }
-      return getAttributes(node).some(resetAndTest(pattern))
+      return Object.values(getAttributes(node)).some(resetAndTest(pattern))
     }
   }
-}
-
-function getAttributes(node: HTMLLIElement) {
-  const character = node.getAttribute(AttrData.character) ?? ''
-  const title = node.getAttribute(AttrData.title) ?? ''
-  const episode = node.getAttribute(AttrData.episode) ?? ''
-  return [character, title, episode]
 }
 
 function resetAndTest(pattern: RegExp) {

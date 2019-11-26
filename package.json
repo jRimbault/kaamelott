@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Quelques-unes des meilleures répliques sonores de Kaamelott. C'était ça ou chante Sloubi.",
   "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
     "start:serve": "webpack-dev-server --open",
     "build:watch": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack"
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/jRimbault/kaamelott#readme",
   "devDependencies": {
     "cross-env": "^6.0.3",
+    "prettier": "^1.19.1",
     "ts-loader": "^6.2.0",
     "typescript": "^3.7.0",
     "webpack": "^4.41.1",
