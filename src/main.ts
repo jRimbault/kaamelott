@@ -2,11 +2,11 @@ import { buildListItem } from 'button'
 import { createNode } from 'dom'
 import { initFilter } from 'filter'
 import { Sound } from 'sounds'
-import { localeSortBy } from 'utils'
+import { sort } from 'utils'
 
 async function main() {
   const sounds = await (await fetch<Sound[]>('sounds/sounds.json')).json()
-  const list = buildHtmlList(sounds.sort(localeSortBy(s => s.title)))
+  const list = buildHtmlList(sort(sounds, s => s.title))
   document.body.appendChild(list)
   initFilter()
 }
