@@ -4,10 +4,7 @@ import { normalizeDiacritics } from 'utils'
 export function initFilter() {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
   const list = Array.from(document.querySelectorAll('li'))
-  if (input === null || list.length === 0) {
-    return
-  }
-  input.addEventListener('keyup', filterOnKeyUp(input, list))
+  input?.addEventListener('keyup', debounce(filterOnKeyUp(input, list)))
 }
 
 enum DisplayState {
@@ -15,7 +12,10 @@ enum DisplayState {
   show = 'inline-block',
 }
 
-function filterOnKeyUp(input: HTMLInputElement, list: readonly HTMLLIElement[]) {
+function filterOnKeyUp(
+  input: HTMLInputElement,
+  list: readonly HTMLLIElement[],
+) {
   const buildFilter = filterBuilder({})
   return () => {
     const filter = buildFilter(normalizeDiacritics(input.value))
@@ -30,11 +30,11 @@ function filterOnKeyUp(input: HTMLInputElement, list: readonly HTMLLIElement[]) 
 
 function filterBuilder(filters: { [k in string]?: RegExp }) {
   return (value: string) => {
-    const pattern = filters[value] ?? (filters[value] = new RegExp(value, 'gi'))
+    if (value.length === 0) {
+      return () => true
+    }
+    const pattern = filters[value] ?? (filters[value] = new RegExp(value, 'g'))
     return (node: HTMLLIElement) => {
-      if (value.length === 0) {
-        return true
-      }
       return Object.values(getAttributes(node)).some(resetAndTest(pattern))
     }
   }
@@ -45,4 +45,17 @@ function resetAndTest(pattern: RegExp) {
     pattern.lastIndex = 0
     return pattern.test(attribute)
   }
+}
+
+export function debounce<F extends Function>(
+  eventHandler: F,
+  milliseconds = 500,
+): F {
+  let timer: ReturnType<typeof setTimeout> | undefined
+  return (function(this: unknown, ...args: unknown[]) {
+    if (timer !== undefined) {
+      clearTimeout(timer)
+    }
+    timer = setTimeout(eventHandler.bind(this, ...args), milliseconds)
+  } as unknown) as F
 }

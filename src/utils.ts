@@ -12,7 +12,9 @@ function sortBy<T>(selector: Selector<T>) {
       if (valueA > valueB) return 1
       return 0
     }
-    throw new TypeError('Selector function should return either a number or a string')
+    throw new TypeError(
+      'Selector function should return either a number or a string',
+    )
   }
 }
 

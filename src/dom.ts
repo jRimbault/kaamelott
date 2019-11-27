@@ -1,10 +1,15 @@
 type EventNames = keyof HTMLElementEventMap
 type EventHandler<Event extends EventNames> = {
-  readonly callback: (this: HTMLObjectElement, $event: HTMLElementEventMap[Event]) => unknown
+  readonly callback: (
+    this: HTMLObjectElement,
+    $event: HTMLElementEventMap[Event],
+  ) => unknown
   readonly options?: boolean | EventListenerOptions
 }
 
-export type NodeDefinition = readonly [keyof HTMLElementTagNameMap, NodeOptions] | readonly [keyof HTMLElementTagNameMap]
+export type NodeDefinition =
+  | readonly [keyof HTMLElementTagNameMap, NodeOptions]
+  | readonly [keyof HTMLElementTagNameMap]
 
 export type NodeOptions = {
   readonly id?: string
@@ -58,7 +63,10 @@ function addChildren(node: HTMLElement, children: NodeOptions['children']) {
   }
 }
 
-function addAttributes(node: HTMLElement, attributes: NodeOptions['attributes']) {
+function addAttributes(
+  node: HTMLElement,
+  attributes: NodeOptions['attributes'],
+) {
   if (attributes) {
     for (const [attributeName, value] of Object.entries(attributes)) {
       node.setAttribute(attributeName, value)
@@ -66,7 +74,10 @@ function addAttributes(node: HTMLElement, attributes: NodeOptions['attributes'])
   }
 }
 
-function addContent(node: HTMLElement, textContent: NodeOptions['textContent']) {
+function addContent(
+  node: HTMLElement,
+  textContent: NodeOptions['textContent'],
+) {
   if (textContent) {
     if (typeof textContent === 'string') {
       node.textContent = textContent
