@@ -1,5 +1,5 @@
 type EventNames = keyof HTMLElementEventMap
-type EventHandler<Event extends EventNames> = {
+interface EventHandler<Event extends EventNames> {
   readonly callback: (
     this: HTMLObjectElement,
     $event: HTMLElementEventMap[Event],
@@ -11,7 +11,7 @@ export type NodeDefinition =
   | readonly [keyof HTMLElementTagNameMap, NodeOptions]
   | readonly [keyof HTMLElementTagNameMap]
 
-export type NodeOptions = {
+export interface NodeOptions {
   readonly id?: string
   readonly classList?: string | readonly string[]
   readonly textContent?: string | { readonly html: string }
@@ -37,6 +37,19 @@ export function createNode<Tag extends keyof HTMLElementTagNameMap>(
   addChildren(node, options.children)
   addListeners(node, options.listeners)
   return node
+}
+
+export function debounce<F extends Function>(
+  eventHandler: F,
+  milliseconds = 500,
+): F {
+  let timer: ReturnType<typeof setTimeout> | undefined
+  return (function(this: unknown, ...args: unknown[]) {
+    if (timer !== undefined) {
+      clearTimeout(timer)
+    }
+    timer = setTimeout(eventHandler.bind(this, ...args), milliseconds)
+  } as unknown) as F
 }
 
 type Entry = [EventNames, EventHandler<EventNames> | undefined]

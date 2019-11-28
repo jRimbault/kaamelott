@@ -1,4 +1,4 @@
-export type Sound = {
+export interface Sound {
   readonly character: string
   readonly episode: string
   readonly file: string

@@ -1,10 +1,12 @@
 import { getAttributes } from 'attributes'
+import { debounce } from 'dom'
 import { normalizeDiacritics } from 'utils'
 
 export function initFilter() {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
   const list = Array.from(document.querySelectorAll('li'))
-  input?.addEventListener('keyup', debounce(filterOnKeyUp(input, list)))
+  if (!input) return
+  input.addEventListener('keyup', debounce(filterOnKeyUp(input, list)))
 }
 
 enum DisplayState {
@@ -45,17 +47,4 @@ function resetAndTest(pattern: RegExp) {
     pattern.lastIndex = 0
     return pattern.test(attribute)
   }
-}
-
-export function debounce<F extends Function>(
-  eventHandler: F,
-  milliseconds = 500,
-): F {
-  let timer: ReturnType<typeof setTimeout> | undefined
-  return (function(this: unknown, ...args: unknown[]) {
-    if (timer !== undefined) {
-      clearTimeout(timer)
-    }
-    timer = setTimeout(eventHandler.bind(this, ...args), milliseconds)
-  } as unknown) as F
 }
