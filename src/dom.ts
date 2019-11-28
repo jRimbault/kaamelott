@@ -39,17 +39,19 @@ export function createNode<Tag extends keyof HTMLElementTagNameMap>(
   return node
 }
 
-export function debounce<F extends Function>(
+export function debounce<E extends Event, F extends ($event: E) => any>(
   eventHandler: F,
   milliseconds = 500,
-): F {
+): ($event: E) => Promise<ReturnType<F>> {
   let timer: ReturnType<typeof setTimeout> | undefined
-  return (function(this: unknown, ...args: unknown[]) {
-    if (timer !== undefined) {
-      clearTimeout(timer)
-    }
-    timer = setTimeout(eventHandler.bind(this, ...args), milliseconds)
-  } as unknown) as F
+  return ($event: E) => {
+    return new Promise(resolve => {
+      if (timer !== undefined) {
+        clearTimeout(timer)
+      }
+      timer = setTimeout(() => resolve(eventHandler($event)), milliseconds)
+    })
+  }
 }
 
 type Entry = [EventNames, EventHandler<EventNames> | undefined]
