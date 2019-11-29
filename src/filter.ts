@@ -1,4 +1,4 @@
-import { getAttributes } from 'attributes'
+import { getAttributes, Data } from 'attributes'
 import { debounce } from 'dom'
 import { normalizeDiacritics } from 'utils'
 
@@ -31,14 +31,46 @@ function filterOnKeyUp(
 }
 
 function filterBuilder(filters: { [k in string]?: RegExp }) {
+
+  const shortcuts: { [k in string]?: Data } = {
+    c: Data.character,
+    e: Data.episode,
+    t: Data.title,
+  }
+
   return (value: string) => {
     if (value.length === 0) {
       return () => true
     }
-    const pattern = filters[value] ?? (filters[value] = new RegExp(value, 'g'))
-    return (node: HTMLLIElement) => {
-      return Object.values(getAttributes(node)).some(resetAndTest(pattern))
+
+    if (value[1] === ':') {
+      const field = shortcuts[value[0]]
+      if (field) {
+        return searchField(value.slice(2), field)
+      }
     }
+
+    const pattern = filters[value] ?? (filters[value] = new RegExp(value, 'g'))
+    return fullSearch(pattern)
+  }
+}
+
+function fullSearch(pattern: RegExp) {
+  return (node: HTMLLIElement) => {
+    return Object.values(getAttributes(node)).some(resetAndTest(pattern))
+  }
+}
+
+const cache: { [k in Data]: { [k in string]?: RegExp } } = {
+  [Data.character]: {},
+  [Data.episode]: {},
+  [Data.title]: {},
+}
+
+function searchField(value: string, field: Data) {
+  const pattern = cache[field][value] ?? (cache[field][value] = new RegExp(value, 'g'))
+  return (node: HTMLLIElement) => {
+    return pattern.test(getAttributes(node, field))
   }
 }
 

@@ -1,13 +1,18 @@
 import { Sound } from 'sounds'
 import { normalizeDiacritics } from 'utils'
 
-enum Data {
+export enum Data {
   episode = 'data-episode',
   character = 'data-character',
   title = 'data-title',
 }
 
-export function getAttributes(node: HTMLLIElement) {
+export function getAttributes(node: HTMLLIElement): { [k in keyof Omit<Sound, 'file'>]: string }
+export function getAttributes(node: HTMLLIElement, field: Data): string
+export function getAttributes(node: HTMLLIElement, field?: Data) {
+  if (field !== undefined) {
+    return node.getAttribute(field) ?? ''
+  }
   const character = node.getAttribute(Data.character) ?? ''
   const title = node.getAttribute(Data.title) ?? ''
   const episode = node.getAttribute(Data.episode) ?? ''
