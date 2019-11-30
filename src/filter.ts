@@ -1,20 +1,58 @@
 import { getAttributes, Data } from 'attributes'
-import { debounce } from 'dom'
-import { normalizeDiacritics } from 'utils'
+import { debounce, NodeDefinition, createNode } from 'dom'
+import { normalizeDiacritics, partition, sort } from 'utils'
+import { Sound } from 'sounds'
+import { buildListItem } from 'layout'
 
-export function initFilter() {
+export function initFilter(sounds: Sound[]) {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
-  const list = Array.from(document.querySelectorAll('li'))
   if (!input) return
-  input.setAttribute('title', [
-    'Recherche avancée :',
-    ' personnage : "c:personnage"',
-    ' citation : "q:citation"',
-    ' titre episode : "t:titre"',
-    ' livre : "b:3"',
-    ' episode : "n:16"',
-  ].join('\n'))
-  input.addEventListener('keyup', debounce(filterOnKeyUp(input, list)))
+  input.setAttribute(
+    'title',
+    [
+      'Recherche avancée :',
+      ' personnage : "c:personnage"',
+      ' citation : "q:citation"',
+      ' titre episode : "t:titre"',
+      ' livre : "b:3"',
+      ' episode : "n:16"',
+    ].join('\n'),
+  )
+  input.addEventListener('keyup', debounce(filterOnKeyUp(input)))
+  attributeFilter(sounds, '#book-filter', s => s.episode.book.toString())
+  attributeFilter(sounds, '#character-filter', s => s.character)
+}
+
+function attributeFilter(
+  sounds: Sound[],
+  buttonId: string,
+  get: (s: Sound) => string,
+) {
+  const filter = document.querySelector<HTMLButtonElement>('button' + buttonId)
+  if (!filter) return
+  filter.addEventListener('click', async () => {
+    const groups = partition(sounds, get)
+    const defs: NodeDefinition[] = []
+    const sortedGroupsKeys = sort(Object.keys(groups), b => b)
+    for (const groupKey of sortedGroupsKeys) {
+      const target = groups[groupKey]
+      if (target) {
+        defs.push(
+          ['h2', { textContent: groupKey }],
+          [
+            'ul',
+            {
+              children: sort(target, t => t.episode.number).map(buildListItem),
+            },
+          ],
+        )
+      }
+    }
+    const list = createNode('div', { id: 'list', children: defs })
+    const div = document.querySelector('#list')
+    if (!div) return
+    div.replaceWith(list)
+  })
 }
 
 enum DisplayState {
@@ -22,12 +60,10 @@ enum DisplayState {
   show = 'inline-block',
 }
 
-function filterOnKeyUp(
-  input: HTMLInputElement,
-  list: readonly HTMLLIElement[],
-) {
+function filterOnKeyUp(input: HTMLInputElement) {
   const buildFilter = filterBuilder({})
   return () => {
+    const list = Array.from(document.querySelectorAll('li'))
     const filter = buildFilter(normalizeDiacritics(input.value))
     for (const node of list) {
       node.style.display = DisplayState.show

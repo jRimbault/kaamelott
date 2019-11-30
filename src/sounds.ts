@@ -14,5 +14,7 @@ function fakeDecimalToRoman(n: number): string {
 }
 
 export function getEpisode(sound: Sound): string {
-  return `Livre ${fakeDecimalToRoman(sound.episode.book)}, ${sound.episode.number} - ${sound.episode.title}`
+  return `Livre ${fakeDecimalToRoman(sound.episode.book)}, ${
+    sound.episode.number
+  } - ${sound.episode.title}`
 }

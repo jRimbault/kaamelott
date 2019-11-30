@@ -1,14 +1,27 @@
-import { buildListItem } from 'button'
+import { buildListItem } from 'layout'
 import { createNode } from 'dom'
-import { initFilter } from 'filter'
+import { initFilter as initFilters } from 'filter'
 import { Sound } from 'sounds'
 import { sort } from 'utils'
 
 async function main() {
-  const sounds = await (await fetch<Sound[]>('sounds/sounds.json')).json()
-  const list = buildHtmlList(sort(sounds, s => s.quote))
-  document.body.appendChild(list)
-  initFilter()
+  const sounds = sort(
+    await (await fetch<Sound[]>('sounds/sounds.json')).json(),
+    s => s.quote,
+  )
+  initialList(sounds)
+  initFilters(sounds)
+  const resetButton =
+  document.querySelector<HTMLButtonElement>('button#reset-filter')
+  if (!resetButton) return
+  resetButton.addEventListener('click', () => initialList(sounds))
+}
+
+function initialList(sounds: readonly Sound[]) {
+  const list = buildHtmlList(sounds)
+  const div = document.querySelector('#list')
+  if (!div) return
+  div.replaceWith(list)
 }
 
 function buildHtmlList(sounds: readonly Sound[]) {

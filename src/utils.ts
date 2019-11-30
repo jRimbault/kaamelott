@@ -33,3 +33,16 @@ export function normalizeDiacritics(value: string) {
     .normalize('NFKD')
     .replace(/[\u0300-\u036f]/g, '')
 }
+
+export function partition<T, K extends string | number>(
+  list: readonly T[],
+  getKey: (el: T) => K,
+) {
+  const res: { [k in K]?: T[] } = {}
+  for (const el of list) {
+    const key = getKey(el)
+    const target: T[] = res[key] ?? (res[key] = [])
+    target.push(el)
+  }
+  return res
+}
