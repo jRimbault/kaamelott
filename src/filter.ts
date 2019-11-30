@@ -6,6 +6,14 @@ export function initFilter() {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
   const list = Array.from(document.querySelectorAll('li'))
   if (!input) return
+  input.setAttribute('title', [
+    'Recherche avancée :',
+    ' personnage : "c:personnage"',
+    ' citation : "q:citation"',
+    ' titre episode : "t:titre"',
+    ' livre : "b:3"',
+    ' episode : "n:16"',
+  ].join('\n'))
   input.addEventListener('keyup', debounce(filterOnKeyUp(input, list)))
 }
 
@@ -33,8 +41,10 @@ function filterOnKeyUp(
 function filterBuilder(filters: { [k in string]?: RegExp }) {
   const shortcuts: { [k in string]?: Data } = {
     c: Data.character,
-    e: Data.episode,
+    q: Data.quote,
     t: Data.title,
+    b: Data.book,
+    n: Data.number,
   }
 
   return (value: string) => {
@@ -62,8 +72,10 @@ function fullSearch(pattern: RegExp) {
 
 const cache: { [k in Data]: { [k in string]?: RegExp } } = {
   [Data.character]: {},
-  [Data.episode]: {},
+  [Data.quote]: {},
   [Data.title]: {},
+  [Data.book]: {},
+  [Data.number]: {},
 }
 
 function searchField(value: string, field: Data) {

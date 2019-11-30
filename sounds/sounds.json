@@ -2,7 +2,7 @@
   {
     "character": "Léodagan",
     "file": "2_3_poils_de_Q.mp3",
-    "title": "A 2-3 poils de cul",
+    "quote": "A 2-3 poils de cul",
     "episode": {
       "title": "L'éscorte",
       "number": 88,
@@ -12,7 +12,7 @@
   {
     "character": "Perceval",
     "file": "chaque_fois_que_je_vais_a_un_balloche_je_picole_je_discute.mp3",
-    "title": "À chaque fois qu'j'vais à un baloche, j'picole, j'discute, trois mois après y'a toujours un type qui débaroule avec sa fille enceinte.",
+    "quote": "À chaque fois qu'j'vais à un baloche, j'picole, j'discute, trois mois après y'a toujours un type qui débaroule avec sa fille enceinte.",
     "episode": {
       "title": "La Coccinelle de Madenn",
       "number": 43,
@@ -22,7 +22,7 @@
   {
     "character": "Kadoc",
     "file": "a_kadoc.mp3",
-    "title": "A Kadoc !",
+    "quote": "A Kadoc !",
     "episode": {
       "title": "Le Jeu du Caillou",
       "number": 60,
@@ -32,7 +32,7 @@
   {
     "character": "Arthur",
     "file": "a_la_volette1.mp3",
-    "title": "À la volette",
+    "quote": "À la volette",
     "episode": {
       "title": "À la volette",
       "number": 26,
@@ -42,7 +42,7 @@
   {
     "character": "Bohort",
     "file": "a_moi.mp3",
-    "title": "A MOI !",
+    "quote": "A MOI !",
     "episode": {
       "title": "Un Bruit dans la Nuit",
       "number": 61,
@@ -52,7 +52,7 @@
   {
     "character": "L'évêque Boniface",
     "file": "a_moi_a_lassassin.mp3",
-    "title": "À moi ! À l'assassin !",
+    "quote": "À moi ! À l'assassin !",
     "episode": {
       "title": "Compagnons de chambrée",
       "number": 33,
@@ -62,7 +62,7 @@
   {
     "character": "Dagonet",
     "file": "un_bon_quart_dheure.mp3",
-    "title": "À mon avis, un bon quart d'heure et on a fait le tour",
+    "quote": "À mon avis, un bon quart d'heure et on a fait le tour",
     "episode": {
       "title": "De retour de Judée",
       "number": 27,
@@ -72,7 +72,7 @@
   {
     "character": "Arthur",
     "file": "a_plus_tard.mp3",
-    "title": "A plus tard",
+    "quote": "A plus tard",
     "episode": {
       "title": "Ablutions",
       "number": 11,
@@ -82,7 +82,7 @@
   {
     "character": "Perceval",
     "file": "a_roulettes.mp3",
-    "title": "A ROULETTES !!!",
+    "quote": "A ROULETTES !!!",
     "episode": {
       "title": "L'étudiant",
       "number": 95,
@@ -92,7 +92,7 @@
   {
     "character": "Arthur",
     "file": "ah_ah_mais_vous_etes_marteau_et_regardez_ca_ca_pisse_le_sang.mp3",
-    "title": "Ah ! Ah, mais vous êtes marteau ?! Et regardez ça, ça pisse le sang !",
+    "quote": "Ah ! Ah, mais vous êtes marteau ?! Et regardez ça, ça pisse le sang !",
     "episode": {
       "title": "La Pâte d'Amande",
       "number": 90,
@@ -102,7 +102,7 @@
   {
     "character": "Guenièvre",
     "file": "ah__enfin_vous_voila_mon_ami__mais_que_se_passe_t_il_jentends_crier.mp3",
-    "title": "Ah ! Enfin vous voilà mon ami ! Mais que se passe-t-il, j'entends crier ?",
+    "quote": "Ah ! Enfin vous voilà mon ami ! Mais que se passe-t-il, j'entends crier ?",
     "episode": {
       "title": "Raison Et Sentiments",
       "number": 3,
@@ -112,7 +112,7 @@
   {
     "character": "Arthur",
     "file": "ah_bah_alors_la_je_les_attends_les_mecs.mp3",
-    "title": "Ah bah alors là, je les attends les mecs",
+    "quote": "Ah bah alors là, je les attends les mecs",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -122,7 +122,7 @@
   {
     "character": "Dame Séli",
     "file": "cest_pas_des_fleches.mp3",
-    "title": "Ah bah c'est pas des flèches",
+    "quote": "Ah bah c'est pas des flèches",
     "episode": {
       "title": "Les Nouveaux Frères",
       "number": 50,
@@ -132,7 +132,7 @@
   {
     "character": "Breccan",
     "file": "apres_pour_le_detail_je_sais_pas.mp3",
-    "title": "Ah bah ça après, moi, pour le détail, je sais pas",
+    "quote": "Ah bah ça après, moi, pour le détail, je sais pas",
     "episode": {
       "title": "La Table de Breccan",
       "number": 3,
@@ -142,7 +142,7 @@
   {
     "character": "Perceval",
     "file": "ca_me_ferait_mal.mp3",
-    "title": "Ah bah ça m'ferait mal",
+    "quote": "Ah bah ça m'ferait mal",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -152,7 +152,7 @@
   {
     "character": "Léodagan",
     "file": "faut_ce_qui_faut.mp3",
-    "title": "Ah bah faut c'qui faut, hein !",
+    "quote": "Ah bah faut c'qui faut, hein !",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -162,7 +162,7 @@
   {
     "character": "Perceval",
     "file": "au_bout_dun_moment_on_a_prefere_plus_rien_dire.mp3",
-    "title": "Ah bah nous au bout d'un moment on a préféré plus rien dire !",
+    "quote": "Ah bah nous au bout d'un moment on a préféré plus rien dire !",
     "episode": {
       "title": "Le Sixième Sens",
       "number": 12,
@@ -172,7 +172,7 @@
   {
     "character": "Perceval",
     "file": "ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3",
-    "title": "Ah bah ouais mais après il faut un peu de technique.",
+    "quote": "Ah bah ouais mais après il faut un peu de technique.",
     "episode": {
       "title": "Le Vulgarisateur",
       "number": 81,
@@ -182,7 +182,7 @@
   {
     "character": "Arthur",
     "file": "moi_non_plus_je_vois_rien.mp3",
-    "title": "Ah ben tourné vers là-bas c'est sûr, moi non plus je vois rien !",
+    "quote": "Ah ben tourné vers là-bas c'est sûr, moi non plus je vois rien !",
     "episode": {
       "title": "Heat",
       "number": 1,
@@ -192,7 +192,7 @@
   {
     "character": "Léodagan",
     "file": "ah_bravo_bah_vous_parlez_d_un_hero.mp3",
-    "title": "Ah bravo ! Alors vous parlez d'un héro !",
+    "quote": "Ah bravo ! Alors vous parlez d'un héro !",
     "episode": {
       "title": "Le Cas Yvain",
       "number": 39,
@@ -202,7 +202,7 @@
   {
     "character": "Arthur",
     "file": "ah_cest_ca.mp3",
-    "title": "Ah c'est ça !",
+    "quote": "Ah c'est ça !",
     "episode": {
       "title": "Retour de Campagne",
       "number": 87,
@@ -212,7 +212,7 @@
   {
     "character": "Léodagan",
     "file": "cest_pas_jo_le_rigolo.mp3",
-    "title": "Ah c'est sûr qu'c'est pas Jo l'Rigolo, hein",
+    "quote": "Ah c'est sûr qu'c'est pas Jo l'Rigolo, hein",
     "episode": {
       "title": "Le Fléau de Dieu",
       "number": 5,
@@ -222,7 +222,7 @@
   {
     "character": "Arthur",
     "file": "ah_mais_arretez_de_gueuler_comme_un_con.mp3",
-    "title": "Ah mais arrêtez d'gueuler comme un con !",
+    "quote": "Ah mais arrêtez d'gueuler comme un con !",
     "episode": {
       "title": "La Blessure Mortelle",
       "number": 85,
@@ -232,7 +232,7 @@
   {
     "character": "Arthur",
     "file": "ah_nan_mais_quand_on_est_pas_habitue_c_est_drolement_impressionnant_la_magie.mp3",
-    "title": "Ah nan mais quand on est pas habitué c'est drôlement impressionnant la magie !",
+    "quote": "Ah nan mais quand on est pas habitué c'est drôlement impressionnant la magie !",
     "episode": {
       "title": "Décibels Nocturnes",
       "number": 82,
@@ -242,7 +242,7 @@
   {
     "character": "Perceval",
     "file": "ah_non_la_aujourd_hui_ca_passera_pas.mp3",
-    "title": "Ah non moi là aujourd'hui ça passera pas.",
+    "quote": "Ah non moi là aujourd'hui ça passera pas.",
     "episode": {
       "title": "Tel un Chevalier",
       "number": 89,
@@ -252,7 +252,7 @@
   {
     "character": "Arthur",
     "file": "ah_non_ca_c_est_que_nous.mp3",
-    "title": "Ah non, ça c'est que nous. Parce qu'il faut être capable de passer pour des cons en un temps record. Ah non, là dessus on a une avance considérable.",
+    "quote": "Ah non, ça c'est que nous. Parce qu'il faut être capable de passer pour des cons en un temps record. Ah non, là dessus on a une avance considérable.",
     "episode": {
       "title": "La Dent de Requin",
       "number": 20,
@@ -262,7 +262,7 @@
   {
     "character": "Karadoc",
     "file": "je_connais_que_le_cri.mp3",
-    "title": "Ah non, moi j'connais que le cri. Piu piu piu papapapapapa",
+    "quote": "Ah non, moi j'connais que le cri. Piu piu piu papapapapapa",
     "episode": {
       "title": "Heat",
       "number": 1,
@@ -272,7 +272,7 @@
   {
     "character": "Yvain",
     "file": "ah_ouais_vous_seriez_une_sorte_de_bi_taupe_en_fait.mp3",
-    "title": "Ah ouais ! Vous seriez une sorte de bi-taupe en fait !",
+    "quote": "Ah ouais ! Vous seriez une sorte de bi-taupe en fait !",
     "episode": {
       "title": "Le Choix de Gauvain",
       "number": 78,
@@ -282,7 +282,7 @@
   {
     "character": "Perceval",
     "file": "ah_ouais_je_l_ai_fait_trop_fulgurant_la_ca_va.mp3",
-    "title": "Ah ouais je l'ai fait trop fulgurant là. Ça va ?",
+    "quote": "Ah ouais je l'ai fait trop fulgurant là. Ça va ?",
     "episode": {
       "title": "Unagi",
       "number": 93,
@@ -292,7 +292,7 @@
   {
     "character": "Bohort",
     "file": "ah_oui_bravo_une_belle_lecon_de_sport.mp3",
-    "title": "Ah oui bravo, une belle leçon de sport",
+    "quote": "Ah oui bravo, une belle leçon de sport",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -302,7 +302,7 @@
   {
     "character": "Léodagan",
     "file": "ah_qu_est_ce_que_vous_voulez_mon_petit_bohort.mp3",
-    "title": "Ah qu'est-ce que vous voulez mon petit Bohort, entre son épée qui fait de la lumière, son Merlin qui fait pleuvoir des grenouilles et sa Dame du Lac qui se prend pour une truite, il ne lui manque plus qu'un numéro de trapèze au roi des bretons.",
+    "quote": "Ah qu'est-ce que vous voulez mon petit Bohort, entre son épée qui fait de la lumière, son Merlin qui fait pleuvoir des grenouilles et sa Dame du Lac qui se prend pour une truite, il ne lui manque plus qu'un numéro de trapèze au roi des bretons.",
     "episode": {
       "title": "L'Escorte",
       "number": 88,
@@ -312,7 +312,7 @@
   {
     "character": "Arthur",
     "file": "ah_si_moi_j_irai_me_recoucher_avant_de_prendre_un_pain.mp3",
-    "title": "Ah si, ah moi j'serais vous j'irai me recoucher vite fait avant de m'prendre un pain.",
+    "quote": "Ah si, ah moi j'serais vous j'irai me recoucher vite fait avant de m'prendre un pain.",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -322,7 +322,7 @@
   {
     "character": "Guenièvre",
     "file": "a_voui_vous_avez_raison.mp3",
-    "title": "Ah voui, c'est ça, vous avez raison hein",
+    "quote": "Ah voui, c'est ça, vous avez raison hein",
     "episode": {
       "title": "Polymorphie",
       "number": 81,
@@ -332,7 +332,7 @@
   {
     "character": "Arthur",
     "file": "commencez_pas_a_me_faire_chier.mp3",
-    "title": "Ah vous ne commencez pas à me faire chier, c'est pas l'soir",
+    "quote": "Ah vous ne commencez pas à me faire chier, c'est pas l'soir",
     "episode": {
       "title": "Le Repos du Guerrier",
       "number": 19,
@@ -342,7 +342,7 @@
   {
     "character": "Arthur",
     "file": "ah_le_printemps_on_crame_des_mecs.mp3",
-    "title": "Ah, le printemps. La nature se réveille, les oiseaux reviennent, on crame des mecs...",
+    "quote": "Ah, le printemps. La nature se réveille, les oiseaux reviennent, on crame des mecs...",
     "episode": {
       "title": "La fête du printemps",
       "number": 42,
@@ -352,7 +352,7 @@
   {
     "character": "Loth",
     "file": "pas_envie_de_participer.mp3",
-    "title": "Ah, mais c’est pas possible, ça ! J’ai pas envie, de participer ! À rien ! C’est pas mon genre, de participer ! Jamais je participerai ! À part à vos obsèques, bande de cons !",
+    "quote": "Ah, mais c’est pas possible, ça ! J’ai pas envie, de participer ! À rien ! C’est pas mon genre, de participer ! Jamais je participerai ! À part à vos obsèques, bande de cons !",
     "episode": {
       "title": "Vae Soli",
       "number": 14,
@@ -362,7 +362,7 @@
   {
     "character": "Arthur",
     "file": "allez_vous_preparer_mousaillon_on_largue_les_amarres_dans_une_heure.mp3",
-    "title": "Allez vous préparer mousaillon, on largue les amarres dans une heure !",
+    "quote": "Allez vous préparer mousaillon, on largue les amarres dans une heure !",
     "episode": {
       "title": "La Faute (2ème Partie)",
       "number": 9,
@@ -372,7 +372,7 @@
   {
     "character": "Arthur",
     "file": "allez_vous_reposer_vous_l_avez_bien_merite.mp3",
-    "title": "Allez vous reposer, vous l'avez bien mérité",
+    "quote": "Allez vous reposer, vous l'avez bien mérité",
     "episode": {
       "title": "L'Espion",
       "number": 91,
@@ -382,7 +382,7 @@
   {
     "character": "Arthur",
     "file": "alors__a_qui_cest_quelle_est_morte_la_va_vache.mp3",
-    "title": "Alors ? À qui c'est qu'elle est morte, la va-vache ?",
+    "quote": "Alors ? À qui c'est qu'elle est morte, la va-vache ?",
     "episode": {
       "title": "Feue La Vache De Roparzh",
       "number": 69,
@@ -392,7 +392,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "alors_ca_vient_ptite_bite.mp3",
-    "title": "Alors ca vient, p'tite bite !",
+    "quote": "Alors ca vient, p'tite bite !",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -402,7 +402,7 @@
   {
     "character": "Léodagan",
     "file": "alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3",
-    "title": "Alors dès qu'il s'agit d'aller s'dorer les miches en Armorique pour demander aux filles si elles ont pas vu le cul de Lulu alors là, là oui y a des volontaires !",
+    "quote": "Alors dès qu'il s'agit d'aller s'dorer les miches en Armorique pour demander aux filles si elles ont pas vu le cul de Lulu alors là, là oui y a des volontaires !",
     "episode": {
       "title": "Le Code de Chevalerie",
       "number": 46,
@@ -412,7 +412,7 @@
   {
     "character": "La Duchesse d'Aquitaine",
     "file": "tape-la-honte.mp3",
-    "title": "Alors là je cherche... mais je me souviens pas m'être autant tapé la honte comme ça.",
+    "quote": "Alors là je cherche... mais je me souviens pas m'être autant tapé la honte comme ça.",
     "episode": {
       "title": "Les Fruits d’hiver",
       "number": 16,
@@ -422,7 +422,7 @@
   {
     "character": "Dame Séli",
     "file": "alors_le_ratichon_on_a_un_ptit_creux.mp3",
-    "title": "Alors le ratichon, on a un p'tit creux ?",
+    "quote": "Alors le ratichon, on a un p'tit creux ?",
     "episode": {
       "title": "La restriction II",
       "number": 72,
@@ -432,7 +432,7 @@
   {
     "character": "Arthur",
     "file": "alors_si_j_ai_bien_resume_le_truc_vous_allez_creuser_trois_pieds_et_demi_sur_toute_la_bretagne.mp3",
-    "title": "Alors si j'veux bien résumer l'truc, vous allez creuser trois pieds et demi sur toute la Bretagne, jusqu'à c'que vous tombiez sur le Graal, c'est ça ?",
+    "quote": "Alors si j'veux bien résumer l'truc, vous allez creuser trois pieds et demi sur toute la Bretagne, jusqu'à c'que vous tombiez sur le Graal, c'est ça ?",
     "episode": {
       "title": "Le Forage",
       "number": 77,
@@ -442,7 +442,7 @@
   {
     "character": "Arthur",
     "file": "alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3",
-    "title": "Alors, moi j'ai un petit problème : c'est que j'ai pas pigé UN BROC de ce que vous bavez.",
+    "quote": "Alors, moi j'ai un petit problème : c'est que j'ai pas pigé UN BROC de ce que vous bavez.",
     "episode": {
       "title": "Les Félicitations",
       "number": 86,
@@ -452,7 +452,7 @@
   {
     "character": "Perceval",
     "file": "animaux_de_la_foret.mp3",
-    "title": "Animaux de la forêt !",
+    "quote": "Animaux de la forêt !",
     "episode": {
       "title": "Heat",
       "number": 1,
@@ -462,7 +462,7 @@
   {
     "character": "Léodagan",
     "file": "je_vais_pas_faire_des_aller_retours_3_fois_par_jours.mp3",
-    "title": "Après vous vous démerdez, hein, je vais pas faire des aller-retours 3 fois par jour, je vous préviens !",
+    "quote": "Après vous vous démerdez, hein, je vais pas faire des aller-retours 3 fois par jour, je vous préviens !",
     "episode": {
       "title": "L'Enragé",
       "number": 81,
@@ -472,7 +472,7 @@
   {
     "character": "Dame Séli",
     "file": "arretez_immediatement_de_me_prendre_pour_une_truite.mp3",
-    "title": "Arrêtez immédiatement de m'prendre pour une truite !",
+    "quote": "Arrêtez immédiatement de m'prendre pour une truite !",
     "episode": {
       "title": "La cassette II",
       "number": 52,
@@ -482,7 +482,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "arthour.mp3",
-    "title": "Arthour",
+    "quote": "Arthour",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 3,
@@ -492,7 +492,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "assiette_fromage.mp3",
-    "title": "Arthour, pas changer assiette pour fromage",
+    "quote": "Arthour, pas changer assiette pour fromage",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -502,7 +502,7 @@
   {
     "character": "Bohort",
     "file": "attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3",
-    "title": "Attendez... il faut que ça soit vrai tout ce qu'on dit la ?",
+    "quote": "Attendez... il faut que ça soit vrai tout ce qu'on dit la ?",
     "episode": {
       "title": "Le Serpent Géant",
       "number": 54,
@@ -512,7 +512,7 @@
   {
     "character": "Guethenoc",
     "file": "attention_attention_a_un_moment_il_y_a_des_granges_qui_vont_se_mettre_a_flamber_il_faudra_pas_demander_d_ou_sa_vient.mp3",
-    "title": "Attention attention ! Il va arriver un moment il y a des granges qui vont se mettre à flamber il faudra pas demander d'où ça vient !",
+    "quote": "Attention attention ! Il va arriver un moment il y a des granges qui vont se mettre à flamber il faudra pas demander d'où ça vient !",
     "episode": {
       "title": "Feu l'Âne de Guethenoc",
       "number": 62,
@@ -522,7 +522,7 @@
   {
     "character": "Le Répurgateur",
     "file": "au_bucher_demon_expie_tes_fautes.mp3",
-    "title": "Au bûcher démon expie tes fautes !",
+    "quote": "Au bûcher démon expie tes fautes !",
     "episode": {
       "title": "L'Absolution",
       "number": 19,
@@ -532,7 +532,7 @@
   {
     "character": "Arthur",
     "file": "au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3",
-    "title": "Au gros sel ? Qu'est-ce que c'est ces conneries ? Vous me prenez pour une épaule d'agneau ?",
+    "quote": "Au gros sel ? Qu'est-ce que c'est ces conneries ? Vous me prenez pour une épaule d'agneau ?",
     "episode": {
       "title": "Le Coup d'Épée",
       "number": 58,
@@ -542,7 +542,7 @@
   {
     "character": "Urgan",
     "file": "Tout-travail-merite-salaire.mp3",
-    "title": "Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail mérite salaire.",
+    "quote": "Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail mérite salaire.",
     "episode": {
       "title": "Le professionnel",
       "number": 23,
@@ -552,7 +552,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "ave_cesar.mp3",
-    "title": "Ave Cesar !",
+    "quote": "Ave Cesar !",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -562,7 +562,7 @@
   {
     "character": "Léodagan",
     "file": "jai_arrete_les_pronostics.mp3",
-    "title": "Avec celui-là vous savez, ça fait un moment que j'ai arrêté les pronostics !",
+    "quote": "Avec celui-là vous savez, ça fait un moment que j'ai arrêté les pronostics !",
     "episode": {
       "title": "L'Enragé",
       "number": 81,
@@ -572,7 +572,7 @@
   {
     "character": "Yvain",
     "file": "avec_sa_couille.mp3",
-    "title": "Avec sa couille !",
+    "quote": "Avec sa couille !",
     "episode": {
       "title": "Le Prodige du Fakir",
       "number": 60,
@@ -582,7 +582,7 @@
   {
     "character": "Le Duc d'Aquitaine",
     "file": "degaine-crevette-merou.mp3",
-    "title": "Avec votre dégaine de crevette faites gaffe à pas vous faire bouffer par un mérou !",
+    "quote": "Avec votre dégaine de crevette faites gaffe à pas vous faire bouffer par un mérou !",
     "episode": {
       "title": "Le Forfait",
       "number": 23,
@@ -592,7 +592,7 @@
   {
     "character": "Arthur",
     "file": "cest_toujours_un_peu_delicat_de_parler_damour_aux_cons.mp3",
-    "title": "Bah c'est toujours un peu délicat de parler d'amour aux cons.",
+    "quote": "Bah c'est toujours un peu délicat de parler d'amour aux cons.",
     "episode": {
       "title": "Le Vulgarisateur",
       "number": 81,
@@ -602,7 +602,7 @@
   {
     "character": "Perceval",
     "file": "vous_allez_pas_commencer_avec_vos_termes_pourris.mp3",
-    "title": "Bah dîtes-le. Vous allez pas commencer avec vos termes pourris",
+    "quote": "Bah dîtes-le. Vous allez pas commencer avec vos termes pourris",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -612,7 +612,7 @@
   {
     "character": "Perceval",
     "file": "on_a_pas_regarde_dans_les_f.mp3",
-    "title": "Bah j'sais pas, on a pas regardé dans les F, si ?",
+    "quote": "Bah j'sais pas, on a pas regardé dans les F, si ?",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -622,7 +622,7 @@
   {
     "character": "Arthur",
     "file": "bah_je_sais_pas_me_lacher_la_grappe_par_exemple.mp3",
-    "title": "Bah je sais pas ? Me lâcher la grappe par exemple ?",
+    "quote": "Bah je sais pas ? Me lâcher la grappe par exemple ?",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -632,7 +632,7 @@
   {
     "character": "Léodagan",
     "file": "bah_si_il_n_y_avait_que_les_oiseaux_elle_est_a_moitie_givree_de_toute_facon_on_ne_peut_pas_tout_relever_non_plus.mp3",
-    "title": "Bah si il n'y avait que les oiseaux elle est à moitié givrée de toute façon. On ne peut pas tout relever non plus !",
+    "quote": "Bah si il n'y avait que les oiseaux elle est à moitié givrée de toute façon. On ne peut pas tout relever non plus !",
     "episode": {
       "title": "Guenièvre et les Oiseaux",
       "number": 55,
@@ -642,7 +642,7 @@
   {
     "character": "Arthur",
     "file": "vous_la_crachez_votre_pastille.mp3",
-    "title": "Bah vous la crachez votre pastille ?",
+    "quote": "Bah vous la crachez votre pastille ?",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -652,7 +652,7 @@
   {
     "character": "Guenièvre",
     "file": "ben_nous_on_a_cru_que_cetait_la_pour_faire_joli.mp3",
-    "title": "Ben nous on a cru que c'était là pour faire joli…",
+    "quote": "Ben nous on a cru que c'était là pour faire joli…",
     "episode": {
       "title": "Silbury Hill",
       "number": 5,
@@ -662,7 +662,7 @@
   {
     "character": "Yvain",
     "file": "ben_oui_cest_une_rime_triple__blanche_et_seche_poitrine_et_prairie_de_notre_enfance.mp3",
-    "title": "Ben oui, c'est une rime triple ! Blanche et sèche, poitrine et praiRIE, de notre enfance !",
+    "quote": "Ben oui, c'est une rime triple ! Blanche et sèche, poitrine et praiRIE, de notre enfance !",
     "episode": {
       "title": "Les Félicitations",
       "number": 86,
@@ -672,7 +672,7 @@
   {
     "character": "Karadoc",
     "file": "bien_manger_cest_important.mp3",
-    "title": "Bien manger c'est important !",
+    "quote": "Bien manger c'est important !",
     "episode": {
       "title": "Patience dans la plaine",
       "number": 44,
@@ -682,7 +682,7 @@
   {
     "character": "Léodagan",
     "file": "bohort_arreter_de_vous_vexer_sans_arret_comme_une_grosse_dinde.mp3",
-    "title": "Bohort arrêtez de vous vexer sans arrêt comme une grosse dinde ! On vous dit qu'c'est politique !",
+    "quote": "Bohort arrêtez de vous vexer sans arrêt comme une grosse dinde ! On vous dit qu'c'est politique !",
     "episode": {
       "title": "Le Banquet des Chefs",
       "number": 16,
@@ -692,7 +692,7 @@
   {
     "character": "Loth",
     "file": "bon_je_la_suis_parce_que_je_suis_tres_amoureux.mp3",
-    "title": "Bon ! Moi, je la suis, parce que je suis… Très amoureux !",
+    "quote": "Bon ! Moi, je la suis, parce que je suis… Très amoureux !",
     "episode": {
       "title": "Lacrimosa",
       "number": 8,
@@ -702,7 +702,7 @@
   {
     "character": "Arthur",
     "file": "bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3",
-    "title": "Bon bah aller on démarre. Et ouvrez les échauguettes, j'ai pas envie de répéter.",
+    "quote": "Bon bah aller on démarre. Et ouvrez les échauguettes, j'ai pas envie de répéter.",
     "episode": {
       "title": "L'Escorte",
       "number": 88,
@@ -712,7 +712,7 @@
   {
     "character": "Arthur",
     "file": "bon_bah_ca_va_on_plaisante.mp3",
-    "title": "Bon bah ça va, on plaisante !",
+    "quote": "Bon bah ça va, on plaisante !",
     "episode": {
       "title": "La Tarte aux Myrtilles",
       "number": 2,
@@ -722,7 +722,7 @@
   {
     "character": "Arthur",
     "file": "bon_bah_je_vais_voir_ce_que_je_peux_faire.mp3",
-    "title": "Bon bah je vais voir ce que je peux faire.",
+    "quote": "Bon bah je vais voir ce que je peux faire.",
     "episode": {
       "title": "Tel un Chevalier",
       "number": 89,
@@ -732,7 +732,7 @@
   {
     "character": "Guethenoc",
     "file": "bon_ben_revolte.mp3",
-    "title": "Bon ben, révolte ?... REVOOOOLTE !!!",
+    "quote": "Bon ben, révolte ?... REVOOOOLTE !!!",
     "episode": {
       "title": "La Révolte",
       "number": 23,
@@ -742,7 +742,7 @@
   {
     "character": "Arthur",
     "file": "bon_cassez_vous.mp3",
-    "title": "Bon, cassez-vous ! Cassez-vous sans déconner j'vous défonce. Vous vous tirez où je vous caillasse la tête !",
+    "quote": "Bon, cassez-vous ! Cassez-vous sans déconner j'vous défonce. Vous vous tirez où je vous caillasse la tête !",
     "episode": {
       "title": "La Garde Royale",
       "number": 30,
@@ -752,7 +752,7 @@
   {
     "character": "Arthur",
     "file": "bon_je_peux_pas_penser_a_tout_la.mp3",
-    "title": "Bon, je peux pas penser à tout, là !",
+    "quote": "Bon, je peux pas penser à tout, là !",
     "episode": {
       "title": "Silbury Hill",
       "number": 5,
@@ -762,7 +762,7 @@
   {
     "character": "Loth",
     "file": "demi_journee_vous_attend.mp3",
-    "title": "C'est à dire qu'ça fait un peu une demi-journée qu'on vous attend, mais ça fait rien",
+    "quote": "C'est à dire qu'ça fait un peu une demi-journée qu'on vous attend, mais ça fait rien",
     "episode": {
       "title": "Dagonet et le Cadastre",
       "number": 8,
@@ -772,7 +772,7 @@
   {
     "character": "Perceval",
     "file": "cest_beau_quand_meme.mp3",
-    "title": "C'est beau quand même",
+    "quote": "C'est beau quand même",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -782,7 +782,7 @@
   {
     "character": "Léodagan",
     "file": "cest_bien_fait.mp3",
-    "title": "C'est bien fait, hein ?",
+    "quote": "C'est bien fait, hein ?",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -792,7 +792,7 @@
   {
     "character": "Léodagan",
     "file": "pas_de_quoi_en_chier_une_galette.mp3",
-    "title": "C'est bon, y a pas de quoi en chier une galette",
+    "quote": "C'est bon, y a pas de quoi en chier une galette",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -802,7 +802,7 @@
   {
     "character": "Perceval",
     "file": "cest_chaud_quand_meme.mp3",
-    "title": "C'est chaud quand même.",
+    "quote": "C'est chaud quand même.",
     "episode": {
       "title": "Le Vulgarisateur",
       "number": 81,
@@ -812,7 +812,7 @@
   {
     "character": "Perceval",
     "file": "c_est_cotelette_que_vous_comprenez_pas.mp3",
-    "title": "C'est côtelette que vous ne comprenez pas ?",
+    "quote": "C'est côtelette que vous ne comprenez pas ?",
     "episode": {
       "title": "La Botte Secrète",
       "number": 28,
@@ -822,7 +822,7 @@
   {
     "character": "Karadoc",
     "file": "cest_de_la_merde.mp3",
-    "title": "C'est de la merde 1",
+    "quote": "C'est de la merde 1",
     "episode": {
       "title": "Le Pain",
       "number": 68,
@@ -832,7 +832,7 @@
   {
     "character": "Karadoc",
     "file": "mais_ya_rien_a_developper_cest_de_la_merde_cest_tout.mp3",
-    "title": "C'est de la merde 2",
+    "quote": "C'est de la merde 2",
     "episode": {
       "title": "Le Pain",
       "number": 68,
@@ -842,7 +842,7 @@
   {
     "character": "Guenièvre",
     "file": "cest_debile_cette_histoire.mp3",
-    "title": "C'est débile cette histoire",
+    "quote": "C'est débile cette histoire",
     "episode": {
       "title": "La Romance de Lancelot",
       "number": 37,
@@ -852,7 +852,7 @@
   {
     "character": "Perceval",
     "file": "vous_cassez_pas_la_nenette_pour_moi.mp3",
-    "title": "C'est gentil, mais ne vous cassez pas la nénette pour moi !",
+    "quote": "C'est gentil, mais ne vous cassez pas la nénette pour moi !",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -862,7 +862,7 @@
   {
     "character": "Bohort",
     "file": "cest_honteux.mp3",
-    "title": "C'EST HONTEUX",
+    "quote": "C'EST HONTEUX",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -872,7 +872,7 @@
   {
     "character": "Guethenoc",
     "file": "cest_interessant.mp3",
-    "title": "C'est intéressant !",
+    "quote": "C'est intéressant !",
     "episode": {
       "title": "Silbury Hill",
       "number": 5,
@@ -882,7 +882,7 @@
   {
     "character": "Léodagan",
     "file": "cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3",
-    "title": "C'est le rendez-vous des glandus là ou quoi ?",
+    "quote": "C'est le rendez-vous des glandus là ou quoi ?",
     "episode": {
       "title": "Séli et les Rongeurs",
       "number": 25,
@@ -892,7 +892,7 @@
   {
     "character": "Karadoc",
     "file": "cest_pas_faux1.mp3",
-    "title": "C'est pas faux",
+    "quote": "C'est pas faux",
     "episode": {
       "title": "La Botte secrète",
       "number": 28,
@@ -902,7 +902,7 @@
   {
     "character": "Perceval",
     "file": "c-est-les-autres-qui-sont-cons.mp3",
-    "title": "C'est pas moi qui explique mal, c'est les autres qui sont cons !",
+    "quote": "C'est pas moi qui explique mal, c'est les autres qui sont cons !",
     "episode": {
       "title": "Perceval Fait Raitournelle",
       "number": 71,
@@ -912,7 +912,7 @@
   {
     "character": "Yvain",
     "file": "c_est_pas_parce_qu_ils_ont_trahi_que_c_est_plus_des_allies.mp3",
-    "title": "C'est pas parce qu'ils ont trahi que c'est plus des alliés",
+    "quote": "C'est pas parce qu'ils ont trahi que c'est plus des alliés",
     "episode": {
       "title": "Le Choix de Gauvain",
       "number": 78,
@@ -922,7 +922,7 @@
   {
     "character": "Arthur",
     "file": "cest_que_cest_pas_une_blague.mp3",
-    "title": "C'est pas que c'est pas drôle, c'est que c'est pas une blague",
+    "quote": "C'est pas que c'est pas drôle, c'est que c'est pas une blague",
     "episode": {
       "title": "Le Rassemblement du Corbeau II",
       "number": 38,
@@ -932,7 +932,7 @@
   {
     "character": "Perceval",
     "file": "quequette.mp3",
-    "title": "C'est passé à ça d'la quequette",
+    "quote": "C'est passé à ça d'la quequette",
     "episode": {
       "title": "La Frange Romaine",
       "number": 98,
@@ -942,7 +942,7 @@
   {
     "character": "Perceval",
     "file": "cest_plus_filiforme.mp3",
-    "title": "C'est plus filiforme",
+    "quote": "C'est plus filiforme",
     "episode": {
       "title": "Les Exploités",
       "number": 36,
@@ -952,7 +952,7 @@
   {
     "character": "Léodagan",
     "file": "cest_qui_tout_ces_cons.mp3",
-    "title": "C'est qui tout ces cons ?",
+    "quote": "C'est qui tout ces cons ?",
     "episode": {
       "title": "La mort le Roy Artu",
       "number": 69,
@@ -962,7 +962,7 @@
   {
     "character": "Arthur",
     "file": "inattendu.mp3",
-    "title": "C'est systématiquement débile, mais c'est toujours inattendu !",
+    "quote": "C'est systématiquement débile, mais c'est toujours inattendu !",
     "episode": {
       "title": "Unagi II",
       "number": 57,
@@ -972,7 +972,7 @@
   {
     "character": "Arthur",
     "file": "cest_tellement_facile_que_je_vais_peut_etre_systematise_le_processus.mp3",
-    "title": "C'est tellement facile que j'vais p'tet systématiser le processus. Parce qu'y'a pas qu'la statue qui m'emmerde.",
+    "quote": "C'est tellement facile que j'vais p'tet systématiser le processus. Parce qu'y'a pas qu'la statue qui m'emmerde.",
     "episode": {
       "title": "Le Discobole",
       "number": 78,
@@ -982,7 +982,7 @@
   {
     "character": "Bohort",
     "file": "catastrophe.mp3",
-    "title": "C'est une catastrophe !",
+    "quote": "C'est une catastrophe !",
     "episode": {
       "title": "L'Aveu de Bohort",
       "number": 3,
@@ -992,7 +992,7 @@
   {
     "character": "Bohort",
     "file": "cest_une_catastrophe_souffle.mp3",
-    "title": "C'est une catastrophe… (soufflé)",
+    "quote": "C'est une catastrophe… (soufflé)",
     "episode": {
       "title": "Drakkars !",
       "number": 49,
@@ -1002,7 +1002,7 @@
   {
     "character": "Perceval",
     "file": "cest_vrai_quelle_reste.mp3",
-    "title": "C'est vrai qu'elle reste celle-là",
+    "quote": "C'est vrai qu'elle reste celle-là",
     "episode": {
       "title": "À la volette",
       "number": 26,
@@ -1012,7 +1012,7 @@
   {
     "character": "Le Duc d'Aquitaine",
     "file": "blaireau-peignecul-tarlouze.mp3",
-    "title": "C'est-à-dire que là nous sommes avec une personne qui ne va pas hésiter si vous voulez à... à aller piocher dans un lexique très intuitif, donc on va être sur du blaireau, sur du peigne-cul heu... sur de la tarlouze. Voilà c'est pour ça que je vous demande, heu, qu'est-ce que vous dites vous à votre épouse pour désamorcer, quoi, le conflit.",
+    "quote": "C'est-à-dire que là nous sommes avec une personne qui ne va pas hésiter si vous voulez à... à aller piocher dans un lexique très intuitif, donc on va être sur du blaireau, sur du peigne-cul heu... sur de la tarlouze. Voilà c'est pour ça que je vous demande, heu, qu'est-ce que vous dites vous à votre épouse pour désamorcer, quoi, le conflit.",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -1022,7 +1022,7 @@
   {
     "character": "La Dame du Lac",
     "file": "un_genre_cake.mp3",
-    "title": "C'est... un genre de cake",
+    "quote": "C'est... un genre de cake",
     "episode": {
       "title": "La Grotte de Padraig",
       "number": 34,
@@ -1032,7 +1032,7 @@
   {
     "character": "Perceval",
     "file": "cest_facile_on_peut_jouer_soit_avec_des_haricots_soit_avec_des_lentilles.mp3",
-    "title": "C’est facile. On peut jouer soit avec des haricots, soit avec des lentilles. Le premier qui annonce la mise, il dit mettons : \"lance de seize\" ou \"lance de trente-deux\" ou une quadruplée comme on appelle, c’est une \"lance de soixante-quatre\". Parce qu’on annonce toujours de seize en seize, sauf pour les demi-coups. Là, celui qui est à sa gauche, soit il monte au moins de quatre, soit il passe il dit : \"passe-grelot\", soit il parie qu’il va monter de six ou de sept et il peut tenter une grelottine. À ce compte-là, il joue pas, il attend le tour d’après, et si le total des mises des deux autres suffit pas à combler l’écart, il gagne sa grelottine et on recommence le tour avec des mises de dix-sept en dix-sept. (…) Donc mettons le suivant, il annonce une quadruplée, donc là elle vaut soixante-huit, il peut contrer ou il se lève et il tape sur ses haricots en criant \"grelotte, ça picote !\" et il tente la relance jusqu’au tour d’après.",
+    "quote": "C’est facile. On peut jouer soit avec des haricots, soit avec des lentilles. Le premier qui annonce la mise, il dit mettons : \"lance de seize\" ou \"lance de trente-deux\" ou une quadruplée comme on appelle, c’est une \"lance de soixante-quatre\". Parce qu’on annonce toujours de seize en seize, sauf pour les demi-coups. Là, celui qui est à sa gauche, soit il monte au moins de quatre, soit il passe il dit : \"passe-grelot\", soit il parie qu’il va monter de six ou de sept et il peut tenter une grelottine. À ce compte-là, il joue pas, il attend le tour d’après, et si le total des mises des deux autres suffit pas à combler l’écart, il gagne sa grelottine et on recommence le tour avec des mises de dix-sept en dix-sept. (…) Donc mettons le suivant, il annonce une quadruplée, donc là elle vaut soixante-huit, il peut contrer ou il se lève et il tape sur ses haricots en criant \"grelotte, ça picote !\" et il tente la relance jusqu’au tour d’après.",
     "episode": {
       "title": "Perceval Eelance de Quinze",
       "number": 57,
@@ -1042,7 +1042,7 @@
   {
     "character": "La Duchesse d'Aquitaine",
     "file": "bibelots-mongol-parthenon.mp3",
-    "title": "Ça fait une heure que vous admirez des bibelots en souriant comme un mongol ; vous êtes dans la salle à manger du roi pour un déjeuner protocolaire, vous visitez pas le parthénon !",
+    "quote": "Ça fait une heure que vous admirez des bibelots en souriant comme un mongol ; vous êtes dans la salle à manger du roi pour un déjeuner protocolaire, vous visitez pas le parthénon !",
     "episode": {
       "title": "Les Fruits d’hiver",
       "number": 16,
@@ -1052,7 +1052,7 @@
   {
     "character": "Loth",
     "file": "cuit_les_boules.mp3",
-    "title": "Ça m'a littéralement cuit les boules !",
+    "quote": "Ça m'a littéralement cuit les boules !",
     "episode": {
       "title": "Lacrimosa",
       "number": 8,
@@ -1062,7 +1062,7 @@
   {
     "character": "Père Blaise",
     "file": "ca_me_fait_gerber.mp3",
-    "title": "Ça me fait gerber",
+    "quote": "Ça me fait gerber",
     "episode": {
       "title": "La Quinte Juste",
       "number": 55,
@@ -1072,7 +1072,7 @@
   {
     "character": "Guenièvre",
     "file": "jpeux_pas_vous_dire.mp3",
-    "title": "Ça moi j'peux pas vous dire",
+    "quote": "Ça moi j'peux pas vous dire",
     "episode": {
       "title": "Le Trois de cœur",
       "number": 30,
@@ -1082,7 +1082,7 @@
   {
     "character": "Kadoc",
     "file": "casuffit.mp3",
-    "title": "Ça suffit, ça suffit, ça suffit !!",
+    "quote": "Ça suffit, ça suffit, ça suffit !!",
     "episode": {
       "title": "Domi Nostrae",
       "number": 33,
@@ -1092,7 +1092,7 @@
   {
     "character": "Roparzh",
     "file": "ca_va_encore_faire_des_discussions_a_rallonge.mp3",
-    "title": "Ça va encore faire des discussions à rallonge",
+    "quote": "Ça va encore faire des discussions à rallonge",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -1102,7 +1102,7 @@
   {
     "character": "Guenièvre",
     "file": "ca_va_oui_ca_va_vous_etes_content.mp3",
-    "title": "ça va oui, ça va, vous êtes CONTENT !",
+    "quote": "ça va oui, ça va, vous êtes CONTENT !",
     "episode": {
       "title": "La Pâte d'Amande",
       "number": 90,
@@ -1112,7 +1112,7 @@
   {
     "character": "Karadoc",
     "file": "ca_va_si_faut_sonner_lalerte_vous_pouvez_bien_attendre_que_je_revienne_nan.mp3",
-    "title": "Ça va, si faut sonner l'alerte, vous pouvez bien attendre que je revienne, nan ?",
+    "quote": "Ça va, si faut sonner l'alerte, vous pouvez bien attendre que je revienne, nan ?",
     "episode": {
       "title": "Les Tacticiens (2ème Partie)",
       "number": 48,
@@ -1122,7 +1122,7 @@
   {
     "character": "Bohort",
     "file": "ca_vous_ennuie_si_je_vomis.mp3",
-    "title": "Ça vous ennuie si j'vomis ?",
+    "quote": "Ça vous ennuie si j'vomis ?",
     "episode": {
       "title": "Arthur et la Question",
       "number": 10,
@@ -1132,7 +1132,7 @@
   {
     "character": "Arthur",
     "file": "ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3",
-    "title": "Ça vous fait pas mal à la tête de glandouiller 24h sur 24 ?",
+    "quote": "Ça vous fait pas mal à la tête de glandouiller 24h sur 24 ?",
     "episode": {
       "title": "Unagi",
       "number": 93,
@@ -1142,7 +1142,7 @@
   {
     "character": "Perceval",
     "file": "ca_vous_regarde_pas_cest_secret_ok.mp3",
-    "title": "Ça vous regarde pas, c'est secret, ok ?",
+    "quote": "Ça vous regarde pas, c'est secret, ok ?",
     "episode": {
       "title": "Les Tacticiens (2ème Partie)",
       "number": 48,
@@ -1152,7 +1152,7 @@
   {
     "character": "La Duchesse d'Aquitaine",
     "file": "plus-trop-parler.mp3",
-    "title": "Ce que vous allez faire c'est que vous allez plus trop parler vers ici.",
+    "quote": "Ce que vous allez faire c'est que vous allez plus trop parler vers ici.",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -1162,7 +1162,7 @@
   {
     "character": "Yvain",
     "file": "ce-serait-hyper.mp3",
-    "title": "Ce serait hyper whoooo",
+    "quote": "Ce serait hyper whoooo",
     "episode": {
       "title": "Les Nouveaux Frères",
       "number": 50,
@@ -1172,7 +1172,7 @@
   {
     "character": "Arthur",
     "file": "centurion_caius_camilus_lulululu.mp3",
-    "title": "Centurion Caius Camilus lulululu",
+    "quote": "Centurion Caius Camilus lulululu",
     "episode": {
       "title": "Le Dernier Empereur",
       "number": 56,
@@ -1182,7 +1182,7 @@
   {
     "character": "Guenièvre",
     "file": "charmant.mp3",
-    "title": "Charmant !",
+    "quote": "Charmant !",
     "episode": {
       "title": "Agnus Dei",
       "number": 97,
@@ -1192,7 +1192,7 @@
   {
     "character": "Guethenoc",
     "file": "chui_un_marteau_moi.mp3",
-    "title": "Chuis un marteau moi ! Je crame tout moi ! Ma ferme, la sienne, celles des autres, le château, j'vais flamber la moitié de la Bretagne.",
+    "quote": "Chuis un marteau moi ! Je crame tout moi ! Ma ferme, la sienne, celles des autres, le château, j'vais flamber la moitié de la Bretagne.",
     "episode": {
       "title": "Feue La Vache De Roparzh",
       "number": 69,
@@ -1202,7 +1202,7 @@
   {
     "character": "Le Duc d'Aquitaine",
     "file": "ratisser-bouse-torcher-cul-poules.mp3",
-    "title": "Comme ça vous pourrez aller ratisser la bouse et torcher le cul des poules ça vous fera prendre l'air.",
+    "quote": "Comme ça vous pourrez aller ratisser la bouse et torcher le cul des poules ça vous fera prendre l'air.",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -1212,7 +1212,7 @@
   {
     "character": "Arthur",
     "file": "gras-sur-le-cul.mp3",
-    "title": "Comme ça, ça vous fera perdre un peu le gras que vous avez sur le cul !",
+    "quote": "Comme ça, ça vous fera perdre un peu le gras que vous avez sur le cul !",
     "episode": {
       "title": "Le Forfait",
       "number": 23,
@@ -1222,7 +1222,7 @@
   {
     "character": "Arthur",
     "file": "comment.mp3",
-    "title": "Comment ?",
+    "quote": "Comment ?",
     "episode": {
       "title": "Tel Un Chevalier",
       "number": 89,
@@ -1232,7 +1232,7 @@
   {
     "character": "Karadoc",
     "file": "Comment_ca_on_bute_Karadoc.mp3",
-    "title": "Comment ça, 'on bute Karadoc ?'",
+    "quote": "Comment ça, 'on bute Karadoc ?'",
     "episode": {
       "title": "Le Plat National",
       "number": 95,
@@ -1242,7 +1242,7 @@
   {
     "character": "Spurius Cordius Frontiniu",
     "file": "comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3",
-    "title": "Comment peut-on arriver à un grade aussi élevé en étant aussi naïf ?",
+    "quote": "Comment peut-on arriver à un grade aussi élevé en étant aussi naïf ?",
     "episode": {
       "title": "Nuptiae",
       "number": 6,
@@ -1252,7 +1252,7 @@
   {
     "character": "Guethenoc",
     "file": "coup_de_beche.mp3",
-    "title": "Coup de bèche dans la tête",
+    "quote": "Coup de bèche dans la tête",
     "episode": {
       "title": "Feue La Vache De Roparzh",
       "number": 69,
@@ -1262,7 +1262,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "cuillere.mp3",
-    "title": "Cuillère",
+    "quote": "Cuillère",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 3,
@@ -1272,7 +1272,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "cuillere_2.mp3",
-    "title": "Cuillère (2)",
+    "quote": "Cuillère (2)",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -1282,7 +1282,7 @@
   {
     "character": "Elias de Kelliwic'h",
     "file": "dans_la_vie.mp3",
-    "title": "Dans la vie, faut bosser pour personne, et y faut faire bosser personne ! C'est le secret de la liberté.",
+    "quote": "Dans la vie, faut bosser pour personne, et y faut faire bosser personne ! C'est le secret de la liberté.",
     "episode": {
       "title": "Vae soli!",
       "number": 1,
@@ -1292,7 +1292,7 @@
   {
     "character": "Kadoc",
     "file": "dans_trois_jours_cest_les_vacances.mp3",
-    "title": "Dans trois jours c'est les vacances.",
+    "quote": "Dans trois jours c'est les vacances.",
     "episode": {
       "title": "Le Paladin",
       "number": 70,
@@ -1302,7 +1302,7 @@
   {
     "character": "Kadoc",
     "file": "dans_trois_jours_ma_tata_elle_menmene_a_la_mer_pour_me_noyer.mp3",
-    "title": "Dans trois jours ma tata elle m'enmène à la mer pour me noyer.",
+    "quote": "Dans trois jours ma tata elle m'enmène à la mer pour me noyer.",
     "episode": {
       "title": "Le Paladin",
       "number": 70,
@@ -1312,7 +1312,7 @@
   {
     "character": "Perceval",
     "file": "humilite_infiltration.mp3",
-    "title": "De l'humilité ? L'humilité c'est pas quand il y a des infiltrations ?",
+    "quote": "De l'humilité ? L'humilité c'est pas quand il y a des infiltrations ?",
     "episode": {
       "title": "L'étudiant",
       "number": 95,
@@ -1322,7 +1322,7 @@
   {
     "character": "Hervé De Rinel",
     "file": "de_quoi_desole_excusez_moi_j_ecoutais_pas.mp3",
-    "title": "De quoi... Désolé... Excusez-moi... J'écoutais pas !",
+    "quote": "De quoi... Désolé... Excusez-moi... J'écoutais pas !",
     "episode": {
       "title": "L'Espion",
       "number": 91,
@@ -1332,7 +1332,7 @@
   {
     "character": "Perceval",
     "file": "de_tout_facon_on_dit_le_nord_selon_comment_on_est_tourne_ca_change_tout.mp3",
-    "title": "De tout façon on dit le Nord, selon comment on est tourné ça change tout !",
+    "quote": "De tout façon on dit le Nord, selon comment on est tourné ça change tout !",
     "episode": {
       "title": "Ambidextrie",
       "number": 35,
@@ -1342,7 +1342,7 @@
   {
     "character": "Le Duc d'Aquitaine",
     "file": "demain-cest-demain.mp3",
-    "title": "Demain c'est demain, si j'ai besoin de votre avis je vous le demande.",
+    "quote": "Demain c'est demain, si j'ai besoin de votre avis je vous le demande.",
     "episode": {
       "title": "Le Forfait",
       "number": 23,
@@ -1352,7 +1352,7 @@
   {
     "character": "Léodagan",
     "file": "des_pedales_ils_disent_sur_le_message.mp3",
-    "title": "Des pédales, ils disent, sur le message",
+    "quote": "Des pédales, ils disent, sur le message",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -1362,7 +1362,7 @@
   {
     "character": "Elias de Kelliwic'h",
     "file": "des_vetements.mp3",
-    "title": "Des vêtements ?!",
+    "quote": "Des vêtements ?!",
     "episode": {
       "title": "Corvus Corone",
       "number": 1,
@@ -1372,7 +1372,7 @@
   {
     "character": "Perceval",
     "file": "dis_donc_machine_si_tu_allais_voir_a_la_table_du_fond_si_on_y_ait.mp3",
-    "title": "Dis donc machin, si t'allais voir à la table du fond si on y est ?",
+    "quote": "Dis donc machin, si t'allais voir à la table du fond si on y est ?",
     "episode": {
       "title": "Un Roi à la Taverne",
       "number": 71,
@@ -1382,7 +1382,7 @@
   {
     "character": "Léodagan",
     "file": "dites_tout_de_suite_que_j_ai_des_idees_de_tocard.mp3",
-    "title": "Dites tout de suite que j'ai des idées de tocard.",
+    "quote": "Dites tout de suite que j'ai des idées de tocard.",
     "episode": {
       "title": "Arthur et les Ténèbres",
       "number": 41,
@@ -1392,7 +1392,7 @@
   {
     "character": "Guethenoc",
     "file": "dites_tirez_vous.mp3",
-    "title": "Dites, euh... tirez-vous",
+    "quote": "Dites, euh... tirez-vous",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -1402,7 +1402,7 @@
   {
     "character": "Karadoc",
     "file": "faisons_table_en_marbre.mp3",
-    "title": "Du passé faisons table en marbre",
+    "quote": "Du passé faisons table en marbre",
     "episode": {
       "title": "L’Échelle de Perceval",
       "number": 25,
@@ -1412,7 +1412,7 @@
   {
     "character": "Mévanoui",
     "file": "ecoutez_je_comprend_rien_a_ce_que_vous_faites.mp3",
-    "title": "Écoutez, je comprends rien à ce que vous faites",
+    "quote": "Écoutez, je comprends rien à ce que vous faites",
     "episode": {
       "title": "La Faute (2ème Partie)",
       "number": 9,
@@ -1422,7 +1422,7 @@
   {
     "character": "Guenièvre",
     "file": "on_est_pas_sorti_du_sable.mp3",
-    "title": "Eh ben, on est pas sorti du sable !",
+    "quote": "Eh ben, on est pas sorti du sable !",
     "episode": {
       "title": "Les Novices",
       "number": 34,
@@ -1432,7 +1432,7 @@
   {
     "character": "Dame Séli",
     "file": "quest_ce_que_vous_attendez_pour_la_couper.mp3",
-    "title": "Eh ben, qu'est-ce que vous attendez pour la couper ? Qu'il fasse nuit ?",
+    "quote": "Eh ben, qu'est-ce que vous attendez pour la couper ? Qu'il fasse nuit ?",
     "episode": {
       "title": "La Tarte aux Myrtilles",
       "number": 2,
@@ -1442,7 +1442,7 @@
   {
     "character": "Le tavernier",
     "file": "il_est_pas_beau_mon_graal.mp3",
-    "title": "Eh, il est pas beau mon Graal ?",
+    "quote": "Eh, il est pas beau mon Graal ?",
     "episode": {
       "title": "En Forme de Graal",
       "number": 18,
@@ -1452,7 +1452,7 @@
   {
     "character": "Guethenoc",
     "file": "elle_avait_rien_a_y_foutre_deja_pour_commencer.mp3",
-    "title": "Elle avait rien à y foutre déjà pour commencer",
+    "quote": "Elle avait rien à y foutre déjà pour commencer",
     "episode": {
       "title": "Feue La Vache De Roparzh",
       "number": 69,
@@ -1462,7 +1462,7 @@
   {
     "character": "Kadoc",
     "file": "elle_est_ou_la_poulette.mp3",
-    "title": "Elle est où la poulette ?",
+    "quote": "Elle est où la poulette ?",
     "episode": {
       "title": "Le Jeu du caillou",
       "number": 60,
@@ -1472,7 +1472,7 @@
   {
     "character": "Attila",
     "file": "elle_vomit.mp3",
-    "title": "Elle vomit ?",
+    "quote": "Elle vomit ?",
     "episode": {
       "title": "Le Fléau de Dieu II",
       "number": 17,
@@ -1482,7 +1482,7 @@
   {
     "character": "Yvain",
     "file": "embobinage_dans_l_air.mp3",
-    "title": "Embobinage dans l'air...",
+    "quote": "Embobinage dans l'air...",
     "episode": {
       "title": "Le Choix de Gauvain",
       "number": 78,
@@ -1492,7 +1492,7 @@
   {
     "character": "Appius Manilius",
     "file": "j-ai-cherche-la-merde.mp3",
-    "title": "En fait j'en ai pris deux, mais euh... j'ai cherché la merde",
+    "quote": "En fait j'en ai pris deux, mais euh... j'ai cherché la merde",
     "episode": {
       "title": "Nuptiae",
       "number": 6,
@@ -1502,7 +1502,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "en_garde_ma_mignone.mp3",
-    "title": "En garde ma mignonne !",
+    "quote": "En garde ma mignonne !",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -1512,7 +1512,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "en_garde_espece_de_vieille_pute_degarnie.mp3",
-    "title": "En garde, espèce de vieille pute dégarnie",
+    "quote": "En garde, espèce de vieille pute dégarnie",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -1522,7 +1522,7 @@
   {
     "character": "Merlin",
     "file": "pas_dalcool.mp3",
-    "title": "En plus il n'y a pas d'alcool",
+    "quote": "En plus il n'y a pas d'alcool",
     "episode": {
       "title": "Le Rassemblement du Corbeau",
       "number": 4,
@@ -1532,7 +1532,7 @@
   {
     "character": "Grüdü",
     "file": "mi_ours_mi_scorpion.mp3",
-    "title": "En plus y'en avait un il était mi-ours, mi-scorpion et re-mi-ours derrière !",
+    "quote": "En plus y'en avait un il était mi-ours, mi-scorpion et re-mi-ours derrière !",
     "episode": {
       "title": "La Queue du Scorpion",
       "number": 22,
@@ -1542,7 +1542,7 @@
   {
     "character": "Léodagan",
     "file": "buffet_a_vaisselle.mp3",
-    "title": "Encore une chance qu'on se soit pas fait construire un buffet à vaisselle, hein !",
+    "quote": "Encore une chance qu'on se soit pas fait construire un buffet à vaisselle, hein !",
     "episode": {
       "title": "La Table de Breccan",
       "number": 3,
@@ -1552,7 +1552,7 @@
   {
     "character": "Dame Séli",
     "file": "ils_sortent_bien_de_quelques_part.mp3",
-    "title": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?",
+    "quote": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?",
     "episode": {
       "title": "Silbury Hill",
       "number": 5,
@@ -1562,7 +1562,7 @@
   {
     "character": "Arthur",
     "file": "essayez_de_faire_des_phrases_pour_vous_deja.mp3",
-    "title": "Essayez de faire des phrases pour vous déjà, on verra après le reste.",
+    "quote": "Essayez de faire des phrases pour vous déjà, on verra après le reste.",
     "episode": {
       "title": "Le Vulgarisateur",
       "number": 81,
@@ -1572,7 +1572,7 @@
   {
     "character": "Arthur",
     "file": "est_ce_quil_sait_nager_deja.mp3",
-    "title": "Est-ce qu'il sait nager, déjà ?",
+    "quote": "Est-ce qu'il sait nager, déjà ?",
     "episode": {
       "title": "La Faute (2ème Partie)",
       "number": 9,
@@ -1582,7 +1582,7 @@
   {
     "character": "Yvain",
     "file": "est_ce_que_peut_servir_elan_pigeon.mp3",
-    "title": "Est-ce qu'on peut s'en servir pour donner de l'élan à un pigeon ?",
+    "quote": "Est-ce qu'on peut s'en servir pour donner de l'élan à un pigeon ?",
     "episode": {
       "title": "L'étudiant",
       "number": 88,
@@ -1592,7 +1592,7 @@
   {
     "character": "Arthur",
     "file": "est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3",
-    "title": "Est-ce que vous pouvez vous barrer, maintenant ?",
+    "quote": "Est-ce que vous pouvez vous barrer, maintenant ?",
     "episode": {
       "title": "La Chambre",
       "number": 10,
@@ -1602,7 +1602,7 @@
   {
     "character": "Le Duc d'Aquitaine",
     "file": "bled-natal-fion.mp3",
-    "title": "Et à partir de maintenant si j'entends un mot plus haut que l'autre je vous renvoie dans votre bled d'att... natal à coup de pied dans... dans le fion.",
+    "quote": "Et à partir de maintenant si j'entends un mot plus haut que l'autre je vous renvoie dans votre bled d'att... natal à coup de pied dans... dans le fion.",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -1612,7 +1612,7 @@
   {
     "character": "Gauvain",
     "file": "et_a_un_moment_le_sorcier_s_est_mis_a_nous_menacer_avec_ses_parties_genitales.mp3",
-    "title": "Et à un moment, le sorcier s'est mis à nous menacer avec ses parties genitales",
+    "quote": "Et à un moment, le sorcier s'est mis à nous menacer avec ses parties genitales",
     "episode": {
       "title": "Le Prodige du Fakir",
       "number": 60,
@@ -1622,7 +1622,7 @@
   {
     "character": "Dame Séli",
     "file": "une_claque_dans_le_museau_vous_repondez.mp3",
-    "title": "Et à une claque dans l'museau, vous répondez ?",
+    "quote": "Et à une claque dans l'museau, vous répondez ?",
     "episode": {
       "title": "La potion de fécondité II",
       "number": 70,
@@ -1632,7 +1632,7 @@
   {
     "character": "Dame Séli",
     "file": "et_alors_faut_un_permis.mp3",
-    "title": "Et alors faut un permis ?",
+    "quote": "Et alors faut un permis ?",
     "episode": {
       "title": "La Tarte aux Myrtilles",
       "number": 2,
@@ -1642,7 +1642,7 @@
   {
     "character": "Goustan",
     "file": "bataille_de_fions.mp3",
-    "title": "Et bien voilà, bataille de fions",
+    "quote": "Et bien voilà, bataille de fions",
     "episode": {
       "title": "Le Centurion",
       "number": 2,
@@ -1652,7 +1652,7 @@
   {
     "character": "Père Blaise",
     "file": "et_cest_de_la_merde.mp3",
-    "title": "Et c'est de la merde",
+    "quote": "Et c'est de la merde",
     "episode": {
       "title": "La Quinte Juste",
       "number": 55,
@@ -1662,7 +1662,7 @@
   {
     "character": "Arthur",
     "file": "et_puis_alors_mon_petit_pote_si_vous_en_tenez_une_qui_veux_se_marier_avec_vous.mp3",
-    "title": "Et puis alors mon petit pote si vous en tenez une qui veut vraiment se marier avec vous, rappelez-vous que c'est inespéré et sautez sur l'occasion avant qu'elle change d'avis !",
+    "quote": "Et puis alors mon petit pote si vous en tenez une qui veut vraiment se marier avec vous, rappelez-vous que c'est inespéré et sautez sur l'occasion avant qu'elle change d'avis !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -1672,7 +1672,7 @@
   {
     "character": "Roparzh",
     "file": "elle_avait_choppe_toutes_les_maladies.mp3",
-    "title": "Et puis quand elle est revenue, elle avait choppé toutes les maladies qu'existent",
+    "quote": "Et puis quand elle est revenue, elle avait choppé toutes les maladies qu'existent",
     "episode": {
       "title": "Feue La Vache De Roparzh",
       "number": 69,
@@ -1682,7 +1682,7 @@
   {
     "character": "Léodagan",
     "file": "et_puis_quoi_encore.mp3",
-    "title": "Et puis quoi encore ?",
+    "quote": "Et puis quoi encore ?",
     "episode": {
       "title": "L'Escorte",
       "number": 88,
@@ -1692,7 +1692,7 @@
   {
     "character": "Guethenoc",
     "file": "et_puis_y_a_toujours_une_proportion_de_secoues.mp3",
-    "title": "Et puis y'a toujours une proportion de secoués dans tous les métiers de toute façon hein",
+    "quote": "Et puis y'a toujours une proportion de secoués dans tous les métiers de toute façon hein",
     "episode": {
       "title": "L'Espion",
       "number": 91,
@@ -1702,7 +1702,7 @@
   {
     "character": "Arthur",
     "file": "et_si_vous_arretiez_de_gueuler.mp3",
-    "title": "Et si vous arrêtiez de gueuler, un peu ?",
+    "quote": "Et si vous arrêtiez de gueuler, un peu ?",
     "episode": {
       "title": "La Quinte Juste",
       "number": 55,
@@ -1712,7 +1712,7 @@
   {
     "character": "Perceval",
     "file": "remonte-ton-slibard.mp3",
-    "title": "Et toc ! Remonte ton slibard Lothard !",
+    "quote": "Et toc ! Remonte ton slibard Lothard !",
     "episode": {
       "title": "L'Absent",
       "number": 53,
@@ -1722,7 +1722,7 @@
   {
     "character": "Arthur",
     "file": "et_vous_bande_de_cons.mp3",
-    "title": "Et vous bande de cons !",
+    "quote": "Et vous bande de cons !",
     "episode": {
       "title": "Un Roi à la Taverne",
       "number": 71,
@@ -1732,7 +1732,7 @@
   {
     "character": "Loth",
     "file": "parfaitement_antipathique.mp3",
-    "title": "Et vous êtes parfaitement antipathique. D'ailleurs j'vous aime pas moi non plus, comme quoi, voyez ?",
+    "quote": "Et vous êtes parfaitement antipathique. D'ailleurs j'vous aime pas moi non plus, comme quoi, voyez ?",
     "episode": {
       "title": "Dagonet et le Cadastre",
       "number": 8,
@@ -1742,7 +1742,7 @@
   {
     "character": "Léodagan",
     "file": "cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3",
-    "title": "Euh… c'est moi ou y a une ambiance de merde ?",
+    "quote": "Euh… c'est moi ou y a une ambiance de merde ?",
     "episode": {
       "title": "L'assemblée des rois I",
       "number": 26,
@@ -1752,7 +1752,7 @@
   {
     "character": "Léodagan",
     "file": "ca_me_plait_qu_a_moitie.mp3",
-    "title": "Euh… Si c'est d'moi qu'vous parlez, j'vous préviens que ça m'plaît qu'à moitié.",
+    "quote": "Euh… Si c'est d'moi qu'vous parlez, j'vous préviens que ça m'plaît qu'à moitié.",
     "episode": {
       "title": "La potion de fécondité II",
       "number": 70,
@@ -1762,7 +1762,7 @@
   {
     "character": "Arthur",
     "file": "evidemment_quelquun.mp3",
-    "title": "Evidemment qu'y a quelqu'un !",
+    "quote": "Evidemment qu'y a quelqu'un !",
     "episode": {
       "title": "Sous Les Verrous",
       "number": 24,
@@ -1772,7 +1772,7 @@
   {
     "character": "Anna",
     "file": "signe_de_vouloir_discuter.mp3",
-    "title": "Excusez-moi, est-ce qu'à un seul moment j'aurais, par mégarde, donné le moindre signe de vouloir discuter avec vous ?",
+    "quote": "Excusez-moi, est-ce qu'à un seul moment j'aurais, par mégarde, donné le moindre signe de vouloir discuter avec vous ?",
     "episode": {
       "title": "L'Odyssée d'Arthur",
       "number": 32,
@@ -1782,7 +1782,7 @@
   {
     "character": "Guenièvre",
     "file": "excusez_moi_hein_je_ne_connais_pas_encore_bien_vos_noms.mp3",
-    "title": "Excusez-moi, hein, je ne connais pas encore bien vos noms !",
+    "quote": "Excusez-moi, hein, je ne connais pas encore bien vos noms !",
     "episode": {
       "title": "Raison et Sentiments",
       "number": 3,
@@ -1792,7 +1792,7 @@
   {
     "character": "Léodagan",
     "file": "fagot_fagot_fagot.mp3",
-    "title": "Fagot ! Fagot ! Fagot !",
+    "quote": "Fagot ! Fagot ! Fagot !",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -1802,7 +1802,7 @@
   {
     "character": "Karadoc",
     "file": "faites_gaffe_aux_pieges_a_loups.mp3",
-    "title": "Faites gaffe aux pièges à loup j'en ai rajouté !",
+    "quote": "Faites gaffe aux pièges à loup j'en ai rajouté !",
     "episode": {
       "title": "La restriction II",
       "number": 72,
@@ -1812,7 +1812,7 @@
   {
     "character": "Kadoc",
     "file": "compote.mp3",
-    "title": "Faut pas respirer de la compote, ça fait tousser",
+    "quote": "Faut pas respirer de la compote, ça fait tousser",
     "episode": {
       "title": "Le Destitué",
       "number": 42,
@@ -1822,7 +1822,7 @@
   {
     "character": "Perceval",
     "file": "faut_que_je_retourne_a_la_ferme_de_mes_vieux.mp3",
-    "title": "Faut qu'j'retourne à la ferme de mes vieux, y a ma grand-mère qu'à glissé sur une bouse, c'est l'vrai merdier !",
+    "quote": "Faut qu'j'retourne à la ferme de mes vieux, y a ma grand-mère qu'à glissé sur une bouse, c'est l'vrai merdier !",
     "episode": {
       "title": "Le Code de Chevalerie",
       "number": 46,
@@ -1832,7 +1832,7 @@
   {
     "character": "Léodagan",
     "file": "venir_foutre_votre_merde.mp3",
-    "title": "Faut toujours que vous veniez foutre votre merde",
+    "quote": "Faut toujours que vous veniez foutre votre merde",
     "episode": {
       "title": "Arthur et les Ténèbres",
       "number": 41,
@@ -1842,7 +1842,7 @@
   {
     "character": "Yvain",
     "file": "ebaubir.mp3",
-    "title": "Femme ! Cesse donc de nous ébaubir les oreilles ! Ohlala, il suffit !",
+    "quote": "Femme ! Cesse donc de nous ébaubir les oreilles ! Ohlala, il suffit !",
     "episode": {
       "title": "Les Pionniers",
       "number": 40,
@@ -1852,7 +1852,7 @@
   {
     "character": "Arthur",
     "file": "ferme_ta_gueule.mp3",
-    "title": "Ferme ta gueule",
+    "quote": "Ferme ta gueule",
     "episode": {
       "title": "Le Cadeau",
       "number": 46,
@@ -1862,7 +1862,7 @@
   {
     "character": "Léodagan",
     "file": "fier_je_vais_l_envoyer_trois_mois_a_poil_dans_la_foret.mp3",
-    "title": "Fier ?! J'vais l'envoyer trois mois à poil dans la forêt à bouffer des asticots et des racines, et puis j'vous garantis que quand il reviendra il fera moins de poêmes hein !",
+    "quote": "Fier ?! J'vais l'envoyer trois mois à poil dans la forêt à bouffer des asticots et des racines, et puis j'vous garantis que quand il reviendra il fera moins de poêmes hein !",
     "episode": {
       "title": "Le Cas Yvain",
       "number": 39,
@@ -1872,7 +1872,7 @@
   {
     "character": "Arthur",
     "file": "fils_d_unijambiste.mp3",
-    "title": "Fils d'unijambiste",
+    "quote": "Fils d'unijambiste",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -1882,7 +1882,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "fort_en_pomme_2.mp3",
-    "title": "Fort en pommes !? (2)",
+    "quote": "Fort en pommes !? (2)",
     "episode": {
       "title": "Le Dialogue de Paix II",
       "number": 42,
@@ -1892,7 +1892,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "fort_en_pomme_1.mp3",
-    "title": "Fort en pommes ? (1)",
+    "quote": "Fort en pommes ? (1)",
     "episode": {
       "title": "Le Dialogue de Paix II",
       "number": 42,
@@ -1902,7 +1902,7 @@
   {
     "character": "Caius",
     "file": "he_les_connards_vous_pouvez_faire_griller_un_porcelet.mp3",
-    "title": "Hé les connards ! Vous pouvez faire griller un porcelet s'il vous plaît ?",
+    "quote": "Hé les connards ! Vous pouvez faire griller un porcelet s'il vous plaît ?",
     "episode": {
       "title": "Seigneur Caius",
       "number": 22,
@@ -1912,7 +1912,7 @@
   {
     "character": "Fearmac",
     "file": "hein_titi.mp3",
-    "title": "Hein Titi !",
+    "quote": "Hein Titi !",
     "episode": {
       "title": "Le Terroriste",
       "number": 9,
@@ -1922,7 +1922,7 @@
   {
     "character": "Le Répurgateur",
     "file": "bucher1.mp3",
-    "title": "HÉRÉTIQUE ! AU BUCHER !",
+    "quote": "HÉRÉTIQUE ! AU BUCHER !",
     "episode": {
       "title": "L'Expurgation de Merlin",
       "number": 79,
@@ -1932,7 +1932,7 @@
   {
     "character": "Le Répurgateur",
     "file": "bucher2.mp3",
-    "title": "HÉRÉTIQUE ! AU BUCHER ! 2",
+    "quote": "HÉRÉTIQUE ! AU BUCHER ! 2",
     "episode": {
       "title": "L'Expurgation de Merlin",
       "number": 79,
@@ -1942,7 +1942,7 @@
   {
     "character": "Le Répurgateur",
     "file": "bucher3.mp3",
-    "title": "HÉRÉTIQUE ! AU BUCHER ! 3",
+    "quote": "HÉRÉTIQUE ! AU BUCHER ! 3",
     "episode": {
       "title": "L'Expurgation de Merlin",
       "number": 79,
@@ -1952,7 +1952,7 @@
   {
     "character": "Perceval",
     "file": "heu_cest_plutot_des_cons.mp3",
-    "title": "Heu... C'est plutôt des cons.",
+    "quote": "Heu... C'est plutôt des cons.",
     "episode": {
       "title": "Le Vulgarisateur",
       "number": 81,
@@ -1962,7 +1962,7 @@
   {
     "character": "Urgan",
     "file": "Homme-sans-metier.mp3",
-    "title": "Homme sans métier n'est plus apte à exercer une activité professionnelle",
+    "quote": "Homme sans métier n'est plus apte à exercer une activité professionnelle",
     "episode": {
       "title": "Le professionnel",
       "number": 23,
@@ -1972,7 +1972,7 @@
   {
     "character": "Roparzh",
     "file": "honnetement_je_connais_pas_le_mot_la.mp3",
-    "title": "Honnêtement, j'connais pas le mot, là, j'saurais pas vous dire",
+    "quote": "Honnêtement, j'connais pas le mot, là, j'saurais pas vous dire",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -1982,7 +1982,7 @@
   {
     "character": "Yvain",
     "file": "il_avait_une_touffe_de_cheveux_comme_ca_un_vieux_moisi_tout_gueze_a_poil_dans_la_neige.mp3",
-    "title": "Il avait une touffe de cheveux comme ça, un vieux moisi tout gueze à poil dans la neige !",
+    "quote": "Il avait une touffe de cheveux comme ça, un vieux moisi tout gueze à poil dans la neige !",
     "episode": {
       "title": "Le Prodige du Fakir",
       "number": 60,
@@ -1992,7 +1992,7 @@
   {
     "character": "Perceval",
     "file": "il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3",
-    "title": "Il m'aura fait chier jusqu'au bout celui-là !",
+    "quote": "Il m'aura fait chier jusqu'au bout celui-là !",
     "episode": {
       "title": "Le chaudron rutilant",
       "number": 64,
@@ -2002,7 +2002,7 @@
   {
     "character": "Yvain",
     "file": "il_nous_a_chie_dessus.mp3",
-    "title": "Il nous a chié d'ssus.",
+    "quote": "Il nous a chié d'ssus.",
     "episode": {
       "title": "La Fureur du Dragon",
       "number": 91,
@@ -2012,7 +2012,7 @@
   {
     "character": "Léodagan",
     "file": "il_pige_rien_a_rien.mp3",
-    "title": "Il pige rien à rien !",
+    "quote": "Il pige rien à rien !",
     "episode": {
       "title": "Le Choix de Gauvain",
       "number": 78,
@@ -2022,7 +2022,7 @@
   {
     "character": "L'Interprète",
     "file": "il_pue_il_pete.mp3",
-    "title": "Il pue, il pète, il lâche des ruines",
+    "quote": "Il pue, il pète, il lâche des ruines",
     "episode": {
       "title": "L'Interprète",
       "number": 24,
@@ -2032,7 +2032,7 @@
   {
     "character": "Kadoc",
     "file": "il_ressemble_a_tatan.mp3",
-    "title": "Il ressemble à Tatan",
+    "quote": "Il ressemble à Tatan",
     "episode": {
       "title": "Le Jeu Du Caillou",
       "number": 60,
@@ -2042,7 +2042,7 @@
   {
     "character": "L'Interprète",
     "file": "burgonde_ou_anglais.mp3",
-    "title": "Il restait que burgonde ou anglais, anglais",
+    "quote": "Il restait que burgonde ou anglais, anglais",
     "episode": {
       "title": "L'Interprète",
       "number": 24,
@@ -2052,7 +2052,7 @@
   {
     "character": "Perceval",
     "file": "chevalierisation.mp3",
-    "title": "Ils auraient pu se creuser la tronche pour trouver un autre nom. Je sais pas moi... Chevalierisation. Quoi, déjà pris?",
+    "quote": "Ils auraient pu se creuser la tronche pour trouver un autre nom. Je sais pas moi... Chevalierisation. Quoi, déjà pris?",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -2062,7 +2062,7 @@
   {
     "character": "Arthur",
     "file": "ils_se_barrent_en_mission_pendant_trois_mois_et_ils_reviennent_avec_une_anguille.mp3",
-    "title": "Ils se barrent en mission pendant trois mois et ils reviennent avec une anguille ?",
+    "quote": "Ils se barrent en mission pendant trois mois et ils reviennent avec une anguille ?",
     "episode": {
       "title": "Le Serpent Géant",
       "number": 54,
@@ -2072,7 +2072,7 @@
   {
     "character": "Séli",
     "file": "ils-se-sont-pas-leve-1.mp3",
-    "title": "Ils se sont pas levés 1",
+    "quote": "Ils se sont pas levés 1",
     "episode": {
       "title": "Le Grand Départ",
       "number": 39,
@@ -2082,7 +2082,7 @@
   {
     "character": "Séli",
     "file": "ils-se-sont-pas-leve-2.mp3",
-    "title": "Ils se sont pas levés 2",
+    "quote": "Ils se sont pas levés 2",
     "episode": {
       "title": "Le Grand Départ",
       "number": 39,
@@ -2092,7 +2092,7 @@
   {
     "character": "Séli",
     "file": "ils-se-sont-pas-leve-3.mp3",
-    "title": "Ils se sont pas levés 3",
+    "quote": "Ils se sont pas levés 3",
     "episode": {
       "title": "Le Grand Départ",
       "number": 39,
@@ -2102,7 +2102,7 @@
   {
     "character": "Perceval",
     "file": "incandescent.mp3",
-    "title": "Incandescente, c'est : qui peut accaparer des objets sans ressurgir sur autrui",
+    "quote": "Incandescente, c'est : qui peut accaparer des objets sans ressurgir sur autrui",
     "episode": {
       "title": "Les Suppléants",
       "number": 24,
@@ -2112,7 +2112,7 @@
   {
     "character": "Arthur - Le Roi Burgonde",
     "file": "interprete.mp3",
-    "title": "Interprète",
+    "quote": "Interprète",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 3,
@@ -2122,7 +2122,7 @@
   {
     "character": "Perceval",
     "file": "j_ai_fais_pile_comme_vous_avez_dis_tout_au_feu_de_bois.mp3",
-    "title": "J'ai fait pile comme vous avez dit, tout au feu de bois.",
+    "quote": "J'ai fait pile comme vous avez dit, tout au feu de bois.",
     "episode": {
       "title": "L'Éclaireur",
       "number": 94,
@@ -2132,7 +2132,7 @@
   {
     "character": "Angharad",
     "file": "insipide.mp3",
-    "title": "J'ai l'impression d'être... insipide, mais alors",
+    "quote": "J'ai l'impression d'être... insipide, mais alors",
     "episode": {
       "title": "La Botte secrète",
       "number": 28,
@@ -2142,7 +2142,7 @@
   {
     "character": "Kadoc",
     "file": "j_ai_le_droit_d_etre_4_jours_pas_chez_moi.mp3",
-    "title": "J'ai le droit d'être quatre jours pas chez moi, et après chez moi. Il ya du voyage qui se prépare, et heu, pour soigner les bêtes, y a pas que ma tante, y a moi aussi.",
+    "quote": "J'ai le droit d'être quatre jours pas chez moi, et après chez moi. Il ya du voyage qui se prépare, et heu, pour soigner les bêtes, y a pas que ma tante, y a moi aussi.",
     "episode": {
       "title": "O'Brother",
       "number": 41,
@@ -2152,7 +2152,7 @@
   {
     "character": "Arthur",
     "file": "jai_pas_envie_de_voir_vos_tronches.mp3",
-    "title": "J'ai pas envie de voir vos tronches",
+    "quote": "J'ai pas envie de voir vos tronches",
     "episode": {
       "title": "Les Exploités",
       "number": 36,
@@ -2162,7 +2162,7 @@
   {
     "character": "Bohort",
     "file": "j_ai_pas_eu_le_temps_d_enlever_mon_armure.mp3",
-    "title": "J'ai pas eu le temps d'enlever mon armure.",
+    "quote": "J'ai pas eu le temps d'enlever mon armure.",
     "episode": {
       "title": "Basidiomycètes",
       "number": 31,
@@ -2172,7 +2172,7 @@
   {
     "character": "Perceval",
     "file": "jai_rien_compris.mp3",
-    "title": "J'ai rien compris !",
+    "quote": "J'ai rien compris !",
     "episode": {
       "title": "Le Sixième Sens",
       "number": 12,
@@ -2182,7 +2182,7 @@
   {
     "character": "Arthur",
     "file": "jai_toujours_ete_fascine_par_le_monde_paysan.mp3",
-    "title": "J'ai toujours été fasciné par le monde paysan",
+    "quote": "J'ai toujours été fasciné par le monde paysan",
     "episode": {
       "title": "Feue la Vache de Roparzh",
       "number": 69,
@@ -2192,7 +2192,7 @@
   {
     "character": "Merlin",
     "file": "j-ai-tout-entendu.mp3",
-    "title": "J'ai tout entendu et c'est honteux !",
+    "quote": "J'ai tout entendu et c'est honteux !",
     "episode": {
       "title": "Le Renfort Magique",
       "number": 4,
@@ -2202,7 +2202,7 @@
   {
     "character": "Loth",
     "file": "petit_ton_decale.mp3",
-    "title": "J'aime assez ce petit ton décalé...",
+    "quote": "J'aime assez ce petit ton décalé...",
     "episode": {
       "title": "Lacrimosa",
       "number": 8,
@@ -2212,7 +2212,7 @@
   {
     "character": "Perceval",
     "file": "j_aimerais_bien_qu_on_commence_a_me_considerer_en_tant_que_tel.mp3",
-    "title": "J'aimerais bien qu'on commence à me considérer en tant que tel.",
+    "quote": "J'aimerais bien qu'on commence à me considérer en tant que tel.",
     "episode": {
       "title": "Tel un Chevalier",
       "number": 89,
@@ -2222,7 +2222,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "j_apprecie_les_fruits_au_sirop.mp3",
-    "title": "J'apprécie les fruits au sirop !",
+    "quote": "J'apprécie les fruits au sirop !",
     "episode": {
       "title": "Le Jeu de la guerre",
       "number": 63,
@@ -2232,7 +2232,7 @@
   {
     "character": "Arthur",
     "file": "je_crois_pas_que_vous_soyez_le_symbole_de_la_nation_bretonne.mp3",
-    "title": "J'crois pas qu'vous soyez le symbole de la nation bretonne.",
+    "quote": "J'crois pas qu'vous soyez le symbole de la nation bretonne.",
     "episode": {
       "title": "La Pâte d'Amande",
       "number": 90,
@@ -2242,7 +2242,7 @@
   {
     "character": "Karadoc",
     "file": "rien_a_carer.mp3",
-    "title": "J'EN AI RIEN À CARER",
+    "quote": "J'EN AI RIEN À CARER",
     "episode": {
       "title": "La restriction II",
       "number": 72,
@@ -2252,7 +2252,7 @@
   {
     "character": "Arthur",
     "file": "j_en_ai_rien_a_foutre.mp3",
-    "title": "J'en ai rien à foutre !",
+    "quote": "J'en ai rien à foutre !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -2262,7 +2262,7 @@
   {
     "character": "Le Barde",
     "file": "je_l_ai_perdu.mp3",
-    "title": "J'l'ai perdu. J'l'ai perdu, je, j'l'ai perdu",
+    "quote": "J'l'ai perdu. J'l'ai perdu, je, j'l'ai perdu",
     "episode": {
       "title": "Des Nouvelles du Monde",
       "number": 7,
@@ -2272,7 +2272,7 @@
   {
     "character": "Léodagan",
     "file": "deux_trous_du_cul_soient_plus_efficaces_qu_un_seul.mp3",
-    "title": "J'pense pas que deux trous du cul soient plus efficaces qu'un seul",
+    "quote": "J'pense pas que deux trous du cul soient plus efficaces qu'un seul",
     "episode": {
       "title": "Les Nouveaux Frères",
       "number": 50,
@@ -2282,7 +2282,7 @@
   {
     "character": "Le tavernier",
     "file": "cest_pas_une_sinecure.mp3",
-    "title": "J'peux vous dire qu'tavernier, c'est pas une sinécure",
+    "quote": "J'peux vous dire qu'tavernier, c'est pas une sinécure",
     "episode": {
       "title": "La Botte secrète",
       "number": 28,
@@ -2292,7 +2292,7 @@
   {
     "character": "Léodagan",
     "file": "jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3",
-    "title": "J'suis à mon poste ! C'est pas le cas de tout le monde !",
+    "quote": "J'suis à mon poste ! C'est pas le cas de tout le monde !",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -2302,7 +2302,7 @@
   {
     "character": "Léodagan",
     "file": "je_vais_vous_passer_le_gout_du_plein_air_moi.mp3",
-    "title": "J'vais vous passer le goût du plein air, moi !",
+    "quote": "J'vais vous passer le goût du plein air, moi !",
     "episode": {
       "title": "Silbury Hill",
       "number": 5,
@@ -2312,7 +2312,7 @@
   {
     "character": "Perceval",
     "file": "je_vois_pas_le_rapport_avec_bretagne.mp3",
-    "title": "J'vois pas le rapport avec la Bretagne",
+    "quote": "J'vois pas le rapport avec la Bretagne",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -2322,7 +2322,7 @@
   {
     "character": "Perceval",
     "file": "jvoudrais_pas_faire_ma_raclette.mp3",
-    "title": "J'voudrais pas faire ma raclette, mais la soirée s'annonce pas super",
+    "quote": "J'voudrais pas faire ma raclette, mais la soirée s'annonce pas super",
     "episode": {
       "title": "Un Roi à La Taverne",
       "number": 26,
@@ -2332,7 +2332,7 @@
   {
     "character": "Perceval",
     "file": "je_vous_disais_que_j_etais_victime_des_colifiches.mp3",
-    "title": "J'vous disais que j'étais victime des colifichés et qu'il faudrait qu'on commence à me considérer en tant que tel.",
+    "quote": "J'vous disais que j'étais victime des colifichés et qu'il faudrait qu'on commence à me considérer en tant que tel.",
     "episode": {
       "title": "Tel un Chevalier",
       "number": 89,
@@ -2342,7 +2342,7 @@
   {
     "character": "Yvain",
     "file": "la_gerbe.mp3",
-    "title": "J'vous raconte pas la gerbe",
+    "quote": "J'vous raconte pas la gerbe",
     "episode": {
       "title": "Le Prodige du Fakir",
       "number": 60,
@@ -2352,7 +2352,7 @@
   {
     "character": "Arthur",
     "file": "soupcon_gros_nul.mp3",
-    "title": "J'vous soupçonne d'être un gros nul",
+    "quote": "J'vous soupçonne d'être un gros nul",
     "episode": {
       "title": "L'Imposteur",
       "number": 32,
@@ -2362,7 +2362,7 @@
   {
     "character": "Léodagan",
     "file": "jy_vais_javoine.mp3",
-    "title": "J'y vais ? J'avoine ?",
+    "quote": "J'y vais ? J'avoine ?",
     "episode": {
       "title": "La potion de fécondité II",
       "number": 70,
@@ -2372,7 +2372,7 @@
   {
     "character": "Guenièvre",
     "file": "petit_a_petit_vers_plus_dautonomie.mp3",
-    "title": "Je crois qu'il faut se diriger petit à petit vers plus d'autonomie, plus de responsabilités.",
+    "quote": "Je crois qu'il faut se diriger petit à petit vers plus d'autonomie, plus de responsabilités.",
     "episode": {
       "title": "Raison et Sentiments",
       "number": 3,
@@ -2382,7 +2382,7 @@
   {
     "character": "Guethenoc",
     "file": "je_pourrais_gueuler_dans_le_cul_dun_poney.mp3",
-    "title": "Je gueule, je gueule, j'pourrais gueuler dans le cul d'un poney, qu'ce serait pareil !",
+    "quote": "Je gueule, je gueule, j'pourrais gueuler dans le cul d'un poney, qu'ce serait pareil !",
     "episode": {
       "title": "La Révolte",
       "number": 23,
@@ -2392,7 +2392,7 @@
   {
     "character": "Léodagan",
     "file": "je-l-ai-pas-dit-fort.mp3",
-    "title": "Je l'ai pas dit fort",
+    "quote": "Je l'ai pas dit fort",
     "episode": {
       "title": "Dîner Dansant",
       "number": 11,
@@ -2402,7 +2402,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "je_ne_mange_pas_de_graines.mp3",
-    "title": "JE NE MANGE PAS DE GRAINES",
+    "quote": "JE NE MANGE PAS DE GRAINES",
     "episode": {
       "title": "Corpore sano",
       "number": 26,
@@ -2412,7 +2412,7 @@
   {
     "character": "Yvain",
     "file": "je_refuse_daller_me_battre.mp3",
-    "title": "Je refuse d'aller me battre pour soutenir une politique d'expansion territoriale dont je ne reconnais pas la légitimité.",
+    "quote": "Je refuse d'aller me battre pour soutenir une politique d'expansion territoriale dont je ne reconnais pas la légitimité.",
     "episode": {
       "title": "Le Cas Yvain",
       "number": 39,
@@ -2422,7 +2422,7 @@
   {
     "character": "Père Blaise",
     "file": "epique.mp3",
-    "title": "Je sens qu'ça va encore être épique",
+    "quote": "Je sens qu'ça va encore être épique",
     "episode": {
       "title": "La Quête des Deux Renards",
       "number": 96,
@@ -2432,7 +2432,7 @@
   {
     "character": "Léodagan",
     "file": "je_sens_que_ce_va_encore_etre_capital.mp3",
-    "title": "Je sens que ça va encore être capital.",
+    "quote": "Je sens que ça va encore être capital.",
     "episode": {
       "title": "En Forme de Graal",
       "number": 18,
@@ -2442,7 +2442,7 @@
   {
     "character": "Urgan",
     "file": "urgan-lhomme-goujon.mp3",
-    "title": "Je suis Urgan, dit l'homme goujon, chevalier des mers au service de votre seigneurie.",
+    "quote": "Je suis Urgan, dit l'homme goujon, chevalier des mers au service de votre seigneurie.",
     "episode": {
       "title": "Le professionnel",
       "number": 23,
@@ -2452,7 +2452,7 @@
   {
     "character": "Karadoc",
     "file": "je_trouve_qu_on_nous_prend_un_peu_trop_pour_des_cons.mp3",
-    "title": "Je trouve qu'on nous prend un peu trop pour des cons en ce moment !",
+    "quote": "Je trouve qu'on nous prend un peu trop pour des cons en ce moment !",
     "episode": {
       "title": "La Dent de Requin",
       "number": 20,
@@ -2462,7 +2462,7 @@
   {
     "character": "Guenièvre",
     "file": "lair_idiote.mp3",
-    "title": "Je vais avoir l'air d'une idiote",
+    "quote": "Je vais avoir l'air d'une idiote",
     "episode": {
       "title": "Le Zoomorphe",
       "number": 42,
@@ -2472,7 +2472,7 @@
   {
     "character": "Le Répurgateur",
     "file": "je_vais_devenir_paladin.mp3",
-    "title": "Je vais devenir... Paladin !",
+    "quote": "Je vais devenir... Paladin !",
     "episode": {
       "title": "Le Paladin",
       "number": 70,
@@ -2482,7 +2482,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "gras_du_cul.mp3",
-    "title": "Je vais vous découper le gras du cul, ça vous fera ça de moins à trimballer",
+    "quote": "Je vais vous découper le gras du cul, ça vous fera ça de moins à trimballer",
     "episode": {
       "title": "Excalibur et le Destin",
       "number": 52,
@@ -2492,7 +2492,7 @@
   {
     "character": "Guenièvre",
     "file": "je_veux_mhabiller_de_lierre_et_me_coiffer_de_roseaux.mp3",
-    "title": "Je veux m'habiller de lierre, et me coiffer de roseaux !",
+    "quote": "Je veux m'habiller de lierre, et me coiffer de roseaux !",
     "episode": {
       "title": "Raison et Sentiments",
       "number": 3,
@@ -2502,7 +2502,7 @@
   {
     "character": "La Duchesse d'Aquitaine",
     "file": "quicher-tete.mp3",
-    "title": "Je viens de me faire quicher la tête et il me semble que vous étiez là, ça vous inspire là ou il y a rien qui vient ?",
+    "quote": "Je viens de me faire quicher la tête et il me semble que vous étiez là, ça vous inspire là ou il y a rien qui vient ?",
     "episode": {
       "title": "Les Fruits d’hiver",
       "number": 16,
@@ -2512,7 +2512,7 @@
   {
     "character": "Guenièvre",
     "file": "cest_le_genre_dendroit_ou_il_faut_parler_fort.mp3",
-    "title": "Je vois ! Je suppose que c'est le genre d'endroit où il faut parler fort et se taper dans le dos !",
+    "quote": "Je vois ! Je suppose que c'est le genre d'endroit où il faut parler fort et se taper dans le dos !",
     "episode": {
       "title": "La Jupe de Calogrenant",
       "number": 59,
@@ -2522,7 +2522,7 @@
   {
     "character": "Karadoc",
     "file": "je_vois_trouble.mp3",
-    "title": "Je vois trouble, c'est le manque de gras, je m'déssèche",
+    "quote": "Je vois trouble, c'est le manque de gras, je m'déssèche",
     "episode": {
       "title": "La restriction",
       "number": 92,
@@ -2532,7 +2532,7 @@
   {
     "character": "Perceval",
     "file": "mes_endives.mp3",
-    "title": "L'autre jour on s'entraînait dans un champ à la catapulte, y'en a un qui arrive : \"oh mes endives mes endives\". On lui a mis un rocher sur la tête, ça l'a calmé l'bouseux.",
+    "quote": "L'autre jour on s'entraînait dans un champ à la catapulte, y'en a un qui arrive : \"oh mes endives mes endives\". On lui a mis un rocher sur la tête, ça l'a calmé l'bouseux.",
     "episode": {
       "title": "La Coccinelle de Madenn",
       "number": 43,
@@ -2542,7 +2542,7 @@
   {
     "character": "Arthur",
     "file": "intro_comaque.mp3",
-    "title": "L'intro est comaque",
+    "quote": "L'intro est comaque",
     "episode": {
       "title": "La Kleptomane",
       "number": 67,
@@ -2552,7 +2552,7 @@
   {
     "character": "Dame Séli",
     "file": "la_bouffe_est_interdite.mp3",
-    "title": "La bouffe est interdite en dehors des heures des repas !",
+    "quote": "La bouffe est interdite en dehors des heures des repas !",
     "episode": {
       "title": "La restriction II",
       "number": 72,
@@ -2562,7 +2562,7 @@
   {
     "character": "Perceval",
     "file": "la_dedans_carbure.mp3",
-    "title": "Là dedans par contre ça carbure",
+    "quote": "Là dedans par contre ça carbure",
     "episode": {
       "title": "Unagi",
       "number": 93,
@@ -2572,7 +2572,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "fleur_en_bouquet.mp3",
-    "title": "La fleur en bouquet fâne... et jamais ne renait !",
+    "quote": "La fleur en bouquet fâne... et jamais ne renait !",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -2582,7 +2582,7 @@
   {
     "character": "Karadoc",
     "file": "joie_de_vivre.mp3",
-    "title": "La joie de vivre et le jambon",
+    "quote": "La joie de vivre et le jambon",
     "episode": {
       "title": "Le Législateur",
       "number": 93,
@@ -2592,7 +2592,7 @@
   {
     "character": "Arthur",
     "file": "la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3",
-    "title": "La vache, ça daube là-dedans ! Il y a un chat qui est crevé ou quoi ?",
+    "quote": "La vache, ça daube là-dedans ! Il y a un chat qui est crevé ou quoi ?",
     "episode": {
       "title": "Agnus Dei",
       "number": 97,
@@ -2602,7 +2602,7 @@
   {
     "character": "Kadoc",
     "file": "le_caca_des_pigeons_c_est_caca_faut_pas_manger.mp3",
-    "title": "Le caca des pigeons c'est caca, faut pas manger",
+    "quote": "Le caca des pigeons c'est caca, faut pas manger",
     "episode": {
       "title": "Les Suppléants",
       "number": 24,
@@ -2612,7 +2612,7 @@
   {
     "character": "Karadoc",
     "file": "le_graal_par_ci_le_graal_par_la.mp3",
-    "title": "Le Graal par ci, le Graal par là",
+    "quote": "Le Graal par ci, le Graal par là",
     "episode": {
       "title": "Les Exploités",
       "number": 36,
@@ -2622,7 +2622,7 @@
   {
     "character": "Karadoc",
     "file": "le_gras_cest_la_vie.mp3",
-    "title": "Le gras, c'est la vie",
+    "quote": "Le gras, c'est la vie",
     "episode": {
       "title": "Corpore sano",
       "number": 26,
@@ -2632,7 +2632,7 @@
   {
     "character": "Venec",
     "file": "le_pognon_ca_va_ca_vient.mp3",
-    "title": "Le pognon ça va, ça vient, il faut jamais paniquer",
+    "quote": "Le pognon ça va, ça vient, il faut jamais paniquer",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -2642,7 +2642,7 @@
   {
     "character": "Kadoc",
     "file": "le_poisson_le_petit_poisson.mp3",
-    "title": "LE POISSON! LE PETIT POISSON!",
+    "quote": "LE POISSON! LE PETIT POISSON!",
     "episode": {
       "title": "Les Suppléants",
       "number": 24,
@@ -2652,7 +2652,7 @@
   {
     "character": "Arthur",
     "file": "le_prochain_qui_l_ouvre_galeres_trois_ans.mp3",
-    "title": "Le prochain qui l'ouvre, je l'envoie aux galères pendant trois ans, sans déconner j'le fais.",
+    "quote": "Le prochain qui l'ouvre, je l'envoie aux galères pendant trois ans, sans déconner j'le fais.",
     "episode": {
       "title": "L'étudiant",
       "number": 95,
@@ -2662,7 +2662,7 @@
   {
     "character": "Kadoc",
     "file": "les_pattes_de_canard.mp3",
-    "title": "Les pattes de canard",
+    "quote": "Les pattes de canard",
     "episode": {
       "title": "Le Jeu Du Caillou",
       "number": 60,
@@ -2672,7 +2672,7 @@
   {
     "character": "Guethenoc",
     "file": "les_premieres_oeillades.mp3",
-    "title": "Les premières œillades, la flûte enchantée, et trois mois après patatraque !",
+    "quote": "Les premières œillades, la flûte enchantée, et trois mois après patatraque !",
     "episode": {
       "title": "La Coccinelle de Madenn",
       "number": 43,
@@ -2682,7 +2682,7 @@
   {
     "character": "Guethenoc",
     "file": "lui_on_comprend_ni_ce_qu_il_dit_ni_ce_qu_il_fait.mp3",
-    "title": "Lui, on comprend ni ce qu'il dit, ni ce qu'il fait... C'est rare !",
+    "quote": "Lui, on comprend ni ce qu'il dit, ni ce qu'il fait... C'est rare !",
     "episode": {
       "title": "L'Espion",
       "number": 91,
@@ -2692,7 +2692,7 @@
   {
     "character": "Le Répurgateur",
     "file": "madresse_pas_la_parole.mp3",
-    "title": "M'ADRESSE PAS LA PAROLE HÉRÉTIQUE, DÉMON",
+    "quote": "M'ADRESSE PAS LA PAROLE HÉRÉTIQUE, DÉMON",
     "episode": {
       "title": "Monogame",
       "number": 14,
@@ -2702,7 +2702,7 @@
   {
     "character": "Arthur",
     "file": "quand_meme_raide.mp3",
-    "title": "M'enfin, elle est quand même raide celle-là",
+    "quote": "M'enfin, elle est quand même raide celle-là",
     "episode": {
       "title": "Choc Frontal",
       "number": 76,
@@ -2712,7 +2712,7 @@
   {
     "character": "Léodagan",
     "file": "fournis_notice.mp3",
-    "title": "Ma parole, des engins comme vous ça devrait être fournis avec une notice",
+    "quote": "Ma parole, des engins comme vous ça devrait être fournis avec une notice",
     "episode": {
       "title": "La potion de Fécondité",
       "number": 23,
@@ -2722,7 +2722,7 @@
   {
     "character": "Élias",
     "file": "mais_allez_chier_dans_une_fiolle.mp3",
-    "title": "Mais allez chier dans une fiole, on verra après",
+    "quote": "Mais allez chier dans une fiole, on verra après",
     "episode": {
       "title": "Le Privilégié",
       "number": 12,
@@ -2732,7 +2732,7 @@
   {
     "character": "Arthur",
     "file": "mais_arretez_de_discutailler_cinq_minutes.mp3",
-    "title": "Mais arrêtez de discutailler cinq minutes j'arrive pas à me concentrer !",
+    "quote": "Mais arrêtez de discutailler cinq minutes j'arrive pas à me concentrer !",
     "episode": {
       "title": "Le Jeu du Caillou",
       "number": 60,
@@ -2742,7 +2742,7 @@
   {
     "character": "Léodagan",
     "file": "mais_c_est_pas_possible_d_entendre_ca.mp3",
-    "title": "Mais c'est pas possible d'entendre ça !",
+    "quote": "Mais c'est pas possible d'entendre ça !",
     "episode": {
       "title": "Merlin et les Loups",
       "number": 38,
@@ -2752,7 +2752,7 @@
   {
     "character": "Guethenoc",
     "file": "mais_c_est_une_honte_d_entendre_des_trucs_comme_ca.mp3",
-    "title": "Mais c'est une honte d'entendre des trucs comme ça !",
+    "quote": "Mais c'est une honte d'entendre des trucs comme ça !",
     "episode": {
       "title": "Le Pain",
       "number": 68,
@@ -2762,7 +2762,7 @@
   {
     "character": "Léodagan",
     "file": "mais_evidemment_que_si.mp3",
-    "title": "Mais évidemment que si !",
+    "quote": "Mais évidemment que si !",
     "episode": {
       "title": "Silbury Hill",
       "number": 5,
@@ -2772,7 +2772,7 @@
   {
     "character": "Roparzh",
     "file": "mais_faut_pas_deconner_ils_y_sont_pour_rien.mp3",
-    "title": "Mais faut pas déconner, ils y sont pour rien",
+    "quote": "Mais faut pas déconner, ils y sont pour rien",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -2782,7 +2782,7 @@
   {
     "character": "Guethenoc",
     "file": "mais_je_vous_ai_dis_que_c_etait_important.mp3",
-    "title": "Mais j'vous ai dit que c'était important",
+    "quote": "Mais j'vous ai dit que c'était important",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -2792,7 +2792,7 @@
   {
     "character": "Arthur",
     "file": "mais_je_vous_emmerde_mon_ptit_pote.mp3",
-    "title": "Mais je vous emmerde mon p'tit pote",
+    "quote": "Mais je vous emmerde mon p'tit pote",
     "episode": {
       "title": "Les Classes de Bohort",
       "number": 12,
@@ -2802,7 +2802,7 @@
   {
     "character": "Roparzh",
     "file": "c_est_maintenant_quil_faut_se_secouer.mp3",
-    "title": "Mais justement c'est maintenant qu'il faut se secouer les rognons, sinon ça part tout à volo.",
+    "quote": "Mais justement c'est maintenant qu'il faut se secouer les rognons, sinon ça part tout à volo.",
     "episode": {
       "title": "Arturus Rex",
       "number": 7,
@@ -2812,7 +2812,7 @@
   {
     "character": "Arthur",
     "file": "mais_mariez_vous_avec_qui_vous_voulez_et_allez_crever.mp3",
-    "title": "Mais mariez-vous avec qui vous voulez et allez crever !",
+    "quote": "Mais mariez-vous avec qui vous voulez et allez crever !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -2822,7 +2822,7 @@
   {
     "character": "Perceval",
     "file": "mais_moi_je_vous_previens_jy_connais_rien_en_champignon.mp3",
-    "title": "Mais moi je vous préviens, j'y connais rien en champignon !",
+    "quote": "Mais moi je vous préviens, j'y connais rien en champignon !",
     "episode": {
       "title": "Les Tacticiens (2ème Partie)",
       "number": 48,
@@ -2832,7 +2832,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "ma_femme_a_pas_de_moustache.mp3",
-    "title": "Mais moi, ma femme n'a pas de moustache !",
+    "quote": "Mais moi, ma femme n'a pas de moustache !",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -2842,7 +2842,7 @@
   {
     "character": "Arthur",
     "file": "mais_qu_est_ce_que_j_en_ai_a_foutre_vous_pourriez_bien_vous_marier_avec_une_chevre_si_ca_vous_chante.mp3",
-    "title": "Mais qu'est-ce que j'en ai a foutre ?! Mais vous pourriez bien vous marier avec une chèvre si ça vous chante !",
+    "quote": "Mais qu'est-ce que j'en ai a foutre ?! Mais vous pourriez bien vous marier avec une chèvre si ça vous chante !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -2852,7 +2852,7 @@
   {
     "character": "Roparzh",
     "file": "mais_qu_est_ce_que_j_en_ai_a_foutre.mp3",
-    "title": "Mais qu'est-ce que j'en ai à foutre de vos horaires, j'arrive quand j'arrive et puis c'est tout",
+    "quote": "Mais qu'est-ce que j'en ai à foutre de vos horaires, j'arrive quand j'arrive et puis c'est tout",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -2862,7 +2862,7 @@
   {
     "character": "Arthur",
     "file": "mais_qu_est_ce_que_vous_me_bavez_encore.mp3",
-    "title": "Mais qu'est-ce que vous me bavez encore !",
+    "quote": "Mais qu'est-ce que vous me bavez encore !",
     "episode": {
       "title": "La Retraite",
       "number": 99,
@@ -2872,7 +2872,7 @@
   {
     "character": "Arthur",
     "file": "mais_qu_est_ce_que_vous_voulez_que_ca_me_foute.mp3",
-    "title": "Mais qu'est-ce que vous voulez que ça me foute !",
+    "quote": "Mais qu'est-ce que vous voulez que ça me foute !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -2882,7 +2882,7 @@
   {
     "character": "Arthur",
     "file": "mais_qu_est_ce_que_vous_voulez_que_ca_me_foute_vos_conneries.mp3",
-    "title": "Mais qu'est-ce que vous voulez que ça me foute vos conneries ?!",
+    "quote": "Mais qu'est-ce que vous voulez que ça me foute vos conneries ?!",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -2892,7 +2892,7 @@
   {
     "character": "Arthur",
     "file": "mais_qu_est_ce_qui_vous_prend_ca_va_pas_vous_etes_dingue.mp3",
-    "title": "Mais qu'est-ce qui vous prend, ça va pas, vous êtes dingue !?",
+    "quote": "Mais qu'est-ce qui vous prend, ça va pas, vous êtes dingue !?",
     "episode": {
       "title": "La Romance de Lancelot",
       "number": 37,
@@ -2902,7 +2902,7 @@
   {
     "character": "Caius",
     "file": "mais_si_on_fait_marrer_tout_le_monde.mp3",
-    "title": "Mais si on fait marrer tout le monde avec nos chenilles à la purée de fraise, nos couilles d'oursin aux amandes, j'sais pas quelles autres saloperies là.",
+    "quote": "Mais si on fait marrer tout le monde avec nos chenilles à la purée de fraise, nos couilles d'oursin aux amandes, j'sais pas quelles autres saloperies là.",
     "episode": {
       "title": "Le Dernier Empereur",
       "number": 56,
@@ -2912,7 +2912,7 @@
   {
     "character": "Roparzh",
     "file": "mais_tout_a_fait.mp3",
-    "title": "Mais tout à fait",
+    "quote": "Mais tout à fait",
     "episode": {
       "title": "Feue la Poule de Guethenoc",
       "number": 36,
@@ -2922,7 +2922,7 @@
   {
     "character": "Calogrenant",
     "file": "considerer_que_je_suis_officiellement_cul_nu.mp3",
-    "title": "Mais une tenue officielle, vous n'avez qu'à considérer que je suis officiellement cul nu !",
+    "quote": "Mais une tenue officielle, vous n'avez qu'à considérer que je suis officiellement cul nu !",
     "episode": {
       "title": "La Jupe de Calogrenant",
       "number": 59,
@@ -2932,7 +2932,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "vous_etes_completement_con.mp3",
-    "title": "MAIS VOUS ÊTES COMPLÈTEMENT CONS !",
+    "quote": "MAIS VOUS ÊTES COMPLÈTEMENT CONS !",
     "episode": {
       "title": "L'assemblée des rois - 2ème partie",
       "number": 26,
@@ -2942,7 +2942,7 @@
   {
     "character": "Arthur",
     "file": "mais_vous_savez_ce_que_ca_veux_dire_au_moins.mp3",
-    "title": "Mais vous savez ce que ça veux dire, au moins ?",
+    "quote": "Mais vous savez ce que ça veux dire, au moins ?",
     "episode": {
       "title": "Les Vœux",
       "number": 70,
@@ -2952,7 +2952,7 @@
   {
     "character": "Jacca",
     "file": "il_trouverait_meme_pas_sa_bite_pour_pisser.mp3",
-    "title": "Mais vous vous foutez de moi ! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !",
+    "quote": "Mais vous vous foutez de moi ! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !",
     "episode": {
       "title": "La Taxe Militaire",
       "number": 21,
@@ -2962,7 +2962,7 @@
   {
     "character": "Arthur",
     "file": "A-titre-purement-informatif.mp3",
-    "title": "Mais, à titre purement informatif, vous prendriez combien ?",
+    "quote": "Mais, à titre purement informatif, vous prendriez combien ?",
     "episode": {
       "title": "Le professionnel",
       "number": 23,
@@ -2972,7 +2972,7 @@
   {
     "character": "Arthur",
     "file": "me_parler_a_cette_heure_ci_vous_voulez_mon_pied_au_cul.mp3",
-    "title": "Me parler ? À c't'heure-ci ? Vous voulez mon pied au cul ?",
+    "quote": "Me parler ? À c't'heure-ci ? Vous voulez mon pied au cul ?",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -2982,7 +2982,7 @@
   {
     "character": "Bohort",
     "file": "mecreant.mp3",
-    "title": "MÉCRÉANT",
+    "quote": "MÉCRÉANT",
     "episode": {
       "title": "Les Classes de Bohort",
       "number": 14,
@@ -2992,7 +2992,7 @@
   {
     "character": "Bohort",
     "file": "mecreant_2.mp3",
-    "title": "MÉCRÉANT 2",
+    "quote": "MÉCRÉANT 2",
     "episode": {
       "title": "Les Classes de Bohort",
       "number": 14,
@@ -3002,7 +3002,7 @@
   {
     "character": "Perceval",
     "file": "merci_de_rien.mp3",
-    "title": "Merci de rien, au revoir messieurs dames",
+    "quote": "Merci de rien, au revoir messieurs dames",
     "episode": {
       "title": "La Botte Secrète II",
       "number": 79,
@@ -3012,7 +3012,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "meteo.mp3",
-    "title": "Météo",
+    "quote": "Météo",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -3022,7 +3022,7 @@
   {
     "character": "Loth",
     "file": "tres_en_colere.mp3",
-    "title": "Misa brevis et spiritus maxima. Ça veut rien dire, mais je suis très en colère contre moi-même.",
+    "quote": "Misa brevis et spiritus maxima. Ça veut rien dire, mais je suis très en colère contre moi-même.",
     "episode": {
       "title": "Miserere Noire",
       "number": 2,
@@ -3032,7 +3032,7 @@
   {
     "character": "Perceval",
     "file": "a_mon_epoque_ca_se_faisait_pas.mp3",
-    "title": "Moi à mon époque, ça se faisait pas",
+    "quote": "Moi à mon époque, ça se faisait pas",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -3042,7 +3042,7 @@
   {
     "character": "Arthur - Galessin",
     "file": "voeux_de_pauvrete_jarrivais_pas_a_concilier.mp3",
-    "title": "Moi à une époque, je voulais faire vœux de pauvreté — Et alors ? — Ben avec le blé que je rentrais, j'arrivais pas à concilier les deux",
+    "quote": "Moi à une époque, je voulais faire vœux de pauvreté — Et alors ? — Ben avec le blé que je rentrais, j'arrivais pas à concilier les deux",
     "episode": {
       "title": "Les Vœux",
       "number": 70,
@@ -3052,7 +3052,7 @@
   {
     "character": "Arthur",
     "file": "moi_depuis_ce_matin_je_me_fait_traiter_de_gonzesse.mp3",
-    "title": "Moi depuis ce matin j'me fais traiter de gonzesse, j'en fais pas tout un cake !",
+    "quote": "Moi depuis ce matin j'me fais traiter de gonzesse, j'en fais pas tout un cake !",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -3062,7 +3062,7 @@
   {
     "character": "Bohort",
     "file": "moi_il_faut_que_j_enleve_mon_armure.mp3",
-    "title": "Moi il faut que j'enlève mon armure sinon il va s'passer quelque chose d'atroce",
+    "quote": "Moi il faut que j'enlève mon armure sinon il va s'passer quelque chose d'atroce",
     "episode": {
       "title": "Basidiomycètes",
       "number": 31,
@@ -3072,7 +3072,7 @@
   {
     "character": "Galessin",
     "file": "parle_de_travers_cureton.mp3",
-    "title": "Moi il me semble qu'il nous parle bien de travers, le cureton, aujourd'hui !",
+    "quote": "Moi il me semble qu'il nous parle bien de travers, le cureton, aujourd'hui !",
     "episode": {
       "title": "Enluminures",
       "number": 51,
@@ -3082,7 +3082,7 @@
   {
     "character": "Le tavernier",
     "file": "moi_jai_toujours_dit.mp3",
-    "title": "Moi j'ai toujours dit",
+    "quote": "Moi j'ai toujours dit",
     "episode": {
       "title": "La Baraka",
       "number": 67,
@@ -3092,7 +3092,7 @@
   {
     "character": "Le tavernier",
     "file": "moi_jai_toujours_dit2.mp3",
-    "title": "Moi j'ai toujours dit 2",
+    "quote": "Moi j'ai toujours dit 2",
     "episode": {
       "title": "La Baraka",
       "number": 67,
@@ -3102,7 +3102,7 @@
   {
     "character": "Kadoc",
     "file": "coup_de_pied_aux_poules.mp3",
-    "title": "Moi j'en ai marre de toujours donner des coups de pied aux poules",
+    "quote": "Moi j'en ai marre de toujours donner des coups de pied aux poules",
     "episode": {
       "title": "Les Chiens de Guerre",
       "number": 48,
@@ -3112,7 +3112,7 @@
   {
     "character": "Perceval",
     "file": "moi_je_serais_vous_je_vous_ecouterais.mp3",
-    "title": "Moi j'serais vous, j'vous écouterais",
+    "quote": "Moi j'serais vous, j'vous écouterais",
     "episode": {
       "title": "Les Exploités",
       "number": 36,
@@ -3122,7 +3122,7 @@
   {
     "character": "Guethenoc",
     "file": "pique_diagonale.mp3",
-    "title": "Moi je bondis comme ça, là. Après je vous arrive dessus en piqué diagonal. Et là c'est l'hymne à la cruauté, attention hein. Un autel dressé au culte de la barbarie.",
+    "quote": "Moi je bondis comme ça, là. Après je vous arrive dessus en piqué diagonal. Et là c'est l'hymne à la cruauté, attention hein. Un autel dressé au culte de la barbarie.",
     "episode": {
       "title": "Feue La Poule de Guethenoc",
       "number": 36,
@@ -3132,7 +3132,7 @@
   {
     "character": "Karadoc",
     "file": "mon_frere_y_peut_pas_aller_a_l_ecole.mp3",
-    "title": "Mon frère y peut pas aller à l'école. Quand on lui explique un machin technique, il s'évanouit.",
+    "quote": "Mon frère y peut pas aller à l'école. Quand on lui explique un machin technique, il s'évanouit.",
     "episode": {
       "title": "O'Brother",
       "number": 41,
@@ -3142,7 +3142,7 @@
   {
     "character": "Kadoc",
     "file": "mordu.mp3",
-    "title": "MORDU",
+    "quote": "MORDU",
     "episode": {
       "title": "Le Jeu Du Caillou",
       "number": 60,
@@ -3152,7 +3152,7 @@
   {
     "character": "Perceval",
     "file": "nempeche_que_cest_moi_qui_avait_propose.mp3",
-    "title": "N'empêche que c'est moi qui avait proposé",
+    "quote": "N'empêche que c'est moi qui avait proposé",
     "episode": {
       "title": "Arthur et les Ténèbres",
       "number": 41,
@@ -3162,7 +3162,7 @@
   {
     "character": "Perceval",
     "file": "nan_la_sans_deconner_cest_zero.mp3",
-    "title": "Nan là sans déconner, c’est zéro",
+    "quote": "Nan là sans déconner, c’est zéro",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -3172,7 +3172,7 @@
   {
     "character": "Arthur",
     "file": "nan_mais_c_est_pas_possible_elle_me_foutra_pas_la_paix.mp3",
-    "title": "Nan mais c'est pas possible elle me foutra pas la paix !",
+    "quote": "Nan mais c'est pas possible elle me foutra pas la paix !",
     "episode": {
       "title": "Guenièvre et l'Orage",
       "number": 74,
@@ -3182,7 +3182,7 @@
   {
     "character": "Merlin",
     "file": "laissez_le_a_lair.mp3",
-    "title": "Nan mais faut pas toucher ça laissez-le à l'air ça va passer",
+    "quote": "Nan mais faut pas toucher ça laissez-le à l'air ça va passer",
     "episode": {
       "title": "L'Imposteur",
       "number": 32,
@@ -3192,7 +3192,7 @@
   {
     "character": "Arthur",
     "file": "kaamelott_cest_pas_une_cooperative_bovine.mp3",
-    "title": "Nan mais Kaamelott c'est pas une coopérative bovine ! On a pas de vaches !",
+    "quote": "Nan mais Kaamelott c'est pas une coopérative bovine ! On a pas de vaches !",
     "episode": {
       "title": "Feue La Vache De Roparzh",
       "number": 69,
@@ -3202,7 +3202,7 @@
   {
     "character": "Arthur",
     "file": "vous_balader_avec_une_cuillere_a_soupe_ca_changerait_rien.mp3",
-    "title": "Nan mais on s'en fout, c'est pas une question d'armure ou d'épée, vous pourriez vous balader avec une cuillère à soupe ça changerait rien ! L'adoubement c'est une CONDITION pour être chevalier !",
+    "quote": "Nan mais on s'en fout, c'est pas une question d'armure ou d'épée, vous pourriez vous balader avec une cuillère à soupe ça changerait rien ! L'adoubement c'est une CONDITION pour être chevalier !",
     "episode": {
       "title": "L'Adoubement",
       "number": 40,
@@ -3212,7 +3212,7 @@
   {
     "character": "Lancelot",
     "file": "vraiment_impressionnant.mp3",
-    "title": "Nan mais quand on est sur place c'est vraiment impressionnant",
+    "quote": "Nan mais quand on est sur place c'est vraiment impressionnant",
     "episode": {
       "title": "L'Imposteur",
       "number": 32,
@@ -3222,7 +3222,7 @@
   {
     "character": "Loth",
     "file": "tsoin-tsoin.mp3",
-    "title": "Nan... mais pas vous ! Vous, vous pouvez rester tsoin-tsoin comme d'habitude.",
+    "quote": "Nan... mais pas vous ! Vous, vous pouvez rester tsoin-tsoin comme d'habitude.",
     "episode": {
       "title": "Lacrimosa",
       "number": 8,
@@ -3232,7 +3232,7 @@
   {
     "character": "Dame Séli",
     "file": "restez_pas_plante_la_comme_un_cepe.mp3",
-    "title": "Ne restez pas planté là comme un cèpe, pointez-vous !",
+    "quote": "Ne restez pas planté là comme un cèpe, pointez-vous !",
     "episode": {
       "title": "Séli et les Rongeurs",
       "number": 25,
@@ -3242,7 +3242,7 @@
   {
     "character": "Le Répurgateur",
     "file": "ne_te_mets_pas_en_dehors_du_chemin_de_la_redemption.mp3",
-    "title": "Ne te mets pas en dehors du chemin de la rédemption, Satan !",
+    "quote": "Ne te mets pas en dehors du chemin de la rédemption, Satan !",
     "episode": {
       "title": "L'Absolution",
       "number": 19,
@@ -3252,7 +3252,7 @@
   {
     "character": "Venec",
     "file": "ni_vu_ni_connu.mp3",
-    "title": "Ni vu, ni connu",
+    "quote": "Ni vu, ni connu",
     "episode": {
       "title": "Les Esclaves",
       "number": 88,
@@ -3262,7 +3262,7 @@
   {
     "character": "Perceval",
     "file": "scorpion_entoure_par_le_feu.mp3",
-    "title": "Non ! Il faut faire comme avec les scorpions qui se suicident quand ils sont entourés par le feu ! Faut faire un feu en forme de cercle autour d’eux, comme ça ils se suicident, pendant que nous on fait l’tour, et on lance de la caillasse de l’autre côté, pour brouiller. Non ?",
+    "quote": "Non ! Il faut faire comme avec les scorpions qui se suicident quand ils sont entourés par le feu ! Faut faire un feu en forme de cercle autour d’eux, comme ça ils se suicident, pendant que nous on fait l’tour, et on lance de la caillasse de l’autre côté, pour brouiller. Non ?",
     "episode": {
       "title": "Heat",
       "number": 1,
@@ -3272,7 +3272,7 @@
   {
     "character": "Arthur",
     "file": "allez_boire_un_coup.mp3",
-    "title": "Non mais allez boire un coup, je vous assure, ça ira mieux",
+    "quote": "Non mais allez boire un coup, je vous assure, ça ira mieux",
     "episode": {
       "title": "Le Sacrifice",
       "number": 25,
@@ -3282,7 +3282,7 @@
   {
     "character": "Arthur",
     "file": "cest_prodigieux.mp3",
-    "title": "Non mais c'est incroyable. J'ai l'impression de bouffer de la terre avec de la bouse et du gravier, ça sent le poulailler, mais c'est du céleri et des oignons, c'est prodigieux.",
+    "quote": "Non mais c'est incroyable. J'ai l'impression de bouffer de la terre avec de la bouse et du gravier, ça sent le poulailler, mais c'est du céleri et des oignons, c'est prodigieux.",
     "episode": {
       "title": "La Fête du Printemps",
       "number": 42,
@@ -3292,7 +3292,7 @@
   {
     "character": "Léodagan",
     "file": "vous_admettrez_que_vous_etes_hors_normes.mp3",
-    "title": "Non mais il y a des fois, vous admettrez que vous êtes hors-norme.",
+    "quote": "Non mais il y a des fois, vous admettrez que vous êtes hors-norme.",
     "episode": {
       "title": "Séli et les rongeurs",
       "number": 25,
@@ -3302,7 +3302,7 @@
   {
     "character": "Léodagan",
     "file": "il_ne_comprennent_jamais_le_code.mp3",
-    "title": "Non mais ils comprennent jamais le code",
+    "quote": "Non mais ils comprennent jamais le code",
     "episode": {
       "title": "Patience dans la Plaine",
       "number": 44,
@@ -3312,7 +3312,7 @@
   {
     "character": "La Duchesse d'Aquitaine",
     "file": "fiotte-tatie.mp3",
-    "title": "Non mais je crois que c'est plus simple que ça : vous êtes une fiotte. J'ai épousé une grosse tatie voilà... mais quand on le formule ça pose pas de problème en fait.",
+    "quote": "Non mais je crois que c'est plus simple que ça : vous êtes une fiotte. J'ai épousé une grosse tatie voilà... mais quand on le formule ça pose pas de problème en fait.",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -3322,7 +3322,7 @@
   {
     "character": "Arthur",
     "file": "non_mais_je_sens_bien_que_vous_essayer_de_me_dire_quelque_chose.mp3",
-    "title": "Non mais je sens bien que vous essayer de me dire quelque chose, mais c'est de vous la phrase ou vous l'avez entendu ça ? \"colifiché\" par exemple, qu'est-ce que c'est pour vous ? comment ça, comment vous vous le représentez, \"colifiché\" ?",
+    "quote": "Non mais je sens bien que vous essayer de me dire quelque chose, mais c'est de vous la phrase ou vous l'avez entendu ça ? \"colifiché\" par exemple, qu'est-ce que c'est pour vous ? comment ça, comment vous vous le représentez, \"colifiché\" ?",
     "episode": {
       "title": "Tel un Chevalier",
       "number": 89,
@@ -3332,7 +3332,7 @@
   {
     "character": "Léodagan",
     "file": "vous_voulez_que_je_vous_degage_la_nuque_a_la_serpette.mp3",
-    "title": "Non mais vous surchauffez pas un peu du citron, non ?! Vous voulez que j'vous dégage la nuque à la serpette ?",
+    "quote": "Non mais vous surchauffez pas un peu du citron, non ?! Vous voulez que j'vous dégage la nuque à la serpette ?",
     "episode": {
       "title": "La Chambre",
       "number": 10,
@@ -3342,7 +3342,7 @@
   {
     "character": "Perceval",
     "file": "jvous_fait_confiance.mp3",
-    "title": "Non non non, j'vous fais confiance",
+    "quote": "Non non non, j'vous fais confiance",
     "episode": {
       "title": "Le Code de Chevalerie",
       "number": 46,
@@ -3352,7 +3352,7 @@
   {
     "character": "Perceval",
     "file": "non_psychologique_c_est_tout_ce_qui_est_a_la_campagne.mp3",
-    "title": "Non psychologique c'est tout ce qui est à la campagne non ?",
+    "quote": "Non psychologique c'est tout ce qui est à la campagne non ?",
     "episode": {
       "title": "Unagi",
       "number": 93,
@@ -3362,7 +3362,7 @@
   {
     "character": "Arthur",
     "file": "sans_deconner.mp3",
-    "title": "Non sans déconner ?",
+    "quote": "Non sans déconner ?",
     "episode": {
       "title": "Les Volontaires",
       "number": 80,
@@ -3372,7 +3372,7 @@
   {
     "character": "Arthur",
     "file": "gerber-mourir.mp3",
-    "title": "Non, la seule chose que vous risquez c'est de gerber et éventuellement de mourir.",
+    "quote": "Non, la seule chose que vous risquez c'est de gerber et éventuellement de mourir.",
     "episode": {
       "title": "Les Fruits d’hiver",
       "number": 16,
@@ -3382,7 +3382,7 @@
   {
     "character": "Arthur",
     "file": "arretez_de_parler_aux_gens.mp3",
-    "title": "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer de dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c'que c'est. Moi quand vous faites ça, ça me fout une angoisse... j'pourrais vous tuer, j'crois. De chagrin, hein ! J'vous jure c'est pas bien. Il faut plus que vous parliez avec des gens.",
+    "quote": "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer de dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c'que c'est. Moi quand vous faites ça, ça me fout une angoisse... j'pourrais vous tuer, j'crois. De chagrin, hein ! J'vous jure c'est pas bien. Il faut plus que vous parliez avec des gens.",
     "episode": {
       "title": "Tel un Chevalier",
       "number": 89,
@@ -3392,7 +3392,7 @@
   {
     "character": "Loth",
     "file": "peigne_zizi.mp3",
-    "title": "Non, pour nous, c'est un peigne zizi, voilà",
+    "quote": "Non, pour nous, c'est un peigne zizi, voilà",
     "episode": {
       "title": "Dagonet et le Cadastre",
       "number": 8,
@@ -3402,7 +3402,7 @@
   {
     "character": "Arthur",
     "file": "quand_je_comprends_pas_je_reponds_pas.mp3",
-    "title": "Non, quand je comprends pas, je réponds pas.",
+    "quote": "Non, quand je comprends pas, je réponds pas.",
     "episode": {
       "title": "Le Vulgarisateur",
       "number": 81,
@@ -3412,7 +3412,7 @@
   {
     "character": "Arthur",
     "file": "non_taisez_vous.mp3",
-    "title": "Non, taisez-vous. Pfff taisez-vous. Taisez vous parce que là ça… pfiut là ça chut vous voyez… voilà…",
+    "quote": "Non, taisez-vous. Pfff taisez-vous. Taisez vous parce que là ça… pfiut là ça chut vous voyez… voilà…",
     "episode": {
       "title": "Le Sixième Sens",
       "number": 12,
@@ -3422,7 +3422,7 @@
   {
     "character": "Gauvain",
     "file": "Les-petits-pedestres.mp3",
-    "title": "Nous sommes jeunes, nous marchons à pieds... J’opterai donc pour un surnom en rapport : \"les Petits Pédestres\".",
+    "quote": "Nous sommes jeunes, nous marchons à pieds... J’opterai donc pour un surnom en rapport : \"les Petits Pédestres\".",
     "episode": {
       "title": "Le Grand Départ",
       "number": 39,
@@ -3432,7 +3432,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "nuo_pusso_volo.mp3",
-    "title": "Nuo pusso volo, tannipo mayo. Uon pusso volo tandullo tullo. Tannasso ! Tannamalasso ! Tannasso ! Les oiseaux petits.",
+    "quote": "Nuo pusso volo, tannipo mayo. Uon pusso volo tandullo tullo. Tannasso ! Tannamalasso ! Tannasso ! Les oiseaux petits.",
     "episode": {
       "title": "Le Dialogue de Paix II",
       "number": 42,
@@ -3442,7 +3442,7 @@
   {
     "character": "Merlin",
     "file": "oh_cest_la_vacherie_ca.mp3",
-    "title": "Oh c'est la vacherie ça !",
+    "quote": "Oh c'est la vacherie ça !",
     "episode": {
       "title": "Merlin et les Loups",
       "number": 38,
@@ -3452,7 +3452,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "oh_ca_fait_rien.mp3",
-    "title": "Oh ça fait rien",
+    "quote": "Oh ça fait rien",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -3462,7 +3462,7 @@
   {
     "character": "Léodagan",
     "file": "oh_et_puis_j_en_ai_marre.mp3",
-    "title": "Oh et puis j’en ai marre ! EH OH, ÇA VA PAS BIENTÔT FINIR NON ?",
+    "quote": "Oh et puis j’en ai marre ! EH OH, ÇA VA PAS BIENTÔT FINIR NON ?",
     "episode": {
       "title": "Le Oud",
       "number": 45,
@@ -3472,7 +3472,7 @@
   {
     "character": "Léodagan",
     "file": "il_est_coince_ce_con_la.mp3",
-    "title": "Oh hé, merde hé ! C'est pas vrai, il est coincé ce con-là !",
+    "quote": "Oh hé, merde hé ! C'est pas vrai, il est coincé ce con-là !",
     "episode": {
       "title": "L'Enragé",
       "number": 81,
@@ -3482,7 +3482,7 @@
   {
     "character": "Lancelot",
     "file": "oh_la_vache.mp3",
-    "title": "Oh la vache !",
+    "quote": "Oh la vache !",
     "episode": {
       "title": "De retour de Judée",
       "number": 27,
@@ -3492,7 +3492,7 @@
   {
     "character": "Arthur",
     "file": "oh_putain_oui.mp3",
-    "title": "Oh putain oui !",
+    "quote": "Oh putain oui !",
     "episode": {
       "title": "Dîner dansant",
       "number": 11,
@@ -3502,7 +3502,7 @@
   {
     "character": "Arthur",
     "file": "ecartez-vous.mp3",
-    "title": "OK, écartez-vous, j'vais gerber",
+    "quote": "OK, écartez-vous, j'vais gerber",
     "episode": {
       "title": "Le Trois de cœur",
       "number": 30,
@@ -3512,7 +3512,7 @@
   {
     "character": "Arthur",
     "file": "ok_on_va_arreter_le_tire_avec_les_defis.mp3",
-    "title": "Ok, on va arrêter le tir avec les défis.",
+    "quote": "Ok, on va arrêter le tir avec les défis.",
     "episode": {
       "title": "Les Défis de Merlin",
       "number": 15,
@@ -3522,7 +3522,7 @@
   {
     "character": "Karadoc",
     "file": "politique_de_l_autruche.mp3",
-    "title": "On dit la politique de l'autruche, avant je comprenais pas. Mais maintenant que j'en ai vu une d'autruche, c'est bon ! Une politique qui court vite, une politique qui fait des gros œufs, c'est tout !",
+    "quote": "On dit la politique de l'autruche, avant je comprenais pas. Mais maintenant que j'en ai vu une d'autruche, c'est bon ! Une politique qui court vite, une politique qui fait des gros œufs, c'est tout !",
     "episode": {
       "title": "La cassette",
       "number": 21,
@@ -3532,7 +3532,7 @@
   {
     "character": "Perceval",
     "file": "on_en_a_gros.mp3",
-    "title": "ON EN A GROS !",
+    "quote": "ON EN A GROS !",
     "episode": {
       "title": "Les Exploités",
       "number": 36,
@@ -3542,7 +3542,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "on_est_forts.mp3",
-    "title": "On est forts ! ... En pommes.",
+    "quote": "On est forts ! ... En pommes.",
     "episode": {
       "title": "Le Dialogue de Paix II",
       "number": 42,
@@ -3552,7 +3552,7 @@
   {
     "character": "Kadoc",
     "file": "mettre_du_beurre_au_fond_du_plat.mp3",
-    "title": "On met du beurre dans l'fond du plat pour pas qu'le gratin colle",
+    "quote": "On met du beurre dans l'fond du plat pour pas qu'le gratin colle",
     "episode": {
       "title": "O'Brother",
       "number": 41,
@@ -3562,7 +3562,7 @@
   {
     "character": "Léodagan",
     "file": "on_plaisante_on_plaisante.mp3",
-    "title": "On plaisante, on plaisante...",
+    "quote": "On plaisante, on plaisante...",
     "episode": {
       "title": "La Tarte aux Myrtilles",
       "number": 2,
@@ -3572,7 +3572,7 @@
   {
     "character": "Yvain",
     "file": "Les-petits-pedestres-dont-un-au-lion.mp3",
-    "title": "On pourrait pas plutôt dire : \"Les Petits Pédestres dont un au lion ?\"",
+    "quote": "On pourrait pas plutôt dire : \"Les Petits Pédestres dont un au lion ?\"",
     "episode": {
       "title": "Le Grand Départ",
       "number": 39,
@@ -3582,7 +3582,7 @@
   {
     "character": "Léodagan",
     "file": "on_essaie_de_catapulter_un_danseur.mp3",
-    "title": "Ou alors on essaie d'catapulter un danseur",
+    "quote": "Ou alors on essaie d'catapulter un danseur",
     "episode": {
       "title": "Les festivités",
       "number": 60,
@@ -3592,7 +3592,7 @@
   {
     "character": "Appius Manilius",
     "file": "cest_bien_quon_reste_un_peu_dehors.mp3",
-    "title": "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air",
+    "quote": "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air",
     "episode": {
       "title": "Arturus Rex",
       "number": 7,
@@ -3602,7 +3602,7 @@
   {
     "character": "Perceval",
     "file": "cest_pas_faux2.mp3",
-    "title": "Ouais c'est pas faux",
+    "quote": "Ouais c'est pas faux",
     "episode": {
       "title": "La Botte secrète",
       "number": 28,
@@ -3612,7 +3612,7 @@
   {
     "character": "Yvain",
     "file": "ouais_cest_mortel_ouais.mp3",
-    "title": "Ouais, c'est mortel, ouais",
+    "quote": "Ouais, c'est mortel, ouais",
     "episode": {
       "title": "Drakkars !",
       "number": 49,
@@ -3622,7 +3622,7 @@
   {
     "character": "Calogrenant",
     "file": "ouais_ca_aussi.mp3",
-    "title": "Ouais, Ouais… Ouais ça aussi",
+    "quote": "Ouais, Ouais… Ouais ça aussi",
     "episode": {
       "title": "Arthur et les Ténèbres",
       "number": 41,
@@ -3632,7 +3632,7 @@
   {
     "character": "Guenièvre",
     "file": "ca_va_un_peu_trop_vite_pour_moi.mp3",
-    "title": "Ouh, ça va un peu trop vite pour moi",
+    "quote": "Ouh, ça va un peu trop vite pour moi",
     "episode": {
       "title": "Le Négociateur",
       "number": 10,
@@ -3642,7 +3642,7 @@
   {
     "character": "Guenièvre",
     "file": "oui.mp3",
-    "title": "Oui ?",
+    "quote": "Oui ?",
     "episode": {
       "title": "Raison Et Sentiments",
       "number": 3,
@@ -3652,7 +3652,7 @@
   {
     "character": "Perceval",
     "file": "oui_enfin_je_me_comprends.mp3",
-    "title": "Oui enfin... j'me comprends.",
+    "quote": "Oui enfin... j'me comprends.",
     "episode": {
       "title": "La Fureur du Dragon",
       "number": 91,
@@ -3662,7 +3662,7 @@
   {
     "character": "Caius",
     "file": "stand_de_crepes.mp3",
-    "title": "Oui mais je bosse le jour moi. J'suis dans l'armée, j'tiens pas un stand de crêpes.",
+    "quote": "Oui mais je bosse le jour moi. J'suis dans l'armée, j'tiens pas un stand de crêpes.",
     "episode": {
       "title": "Le Déserteur",
       "number": 7,
@@ -3672,7 +3672,7 @@
   {
     "character": "Arthur",
     "file": "oui_oh_ca_va_je_connais_le_couplet_on_est_fatigue_on_est_fatigue_vous_me_le_cancane_depuis_midi.mp3",
-    "title": "Oui oh ça va, ça va, j'connais le couplet : \"On est fatigué, on est fatigué\", vous me le cancanez depuis midi.",
+    "quote": "Oui oh ça va, ça va, j'connais le couplet : \"On est fatigué, on est fatigué\", vous me le cancanez depuis midi.",
     "episode": {
       "title": "Vox Populi",
       "number": 92,
@@ -3682,7 +3682,7 @@
   {
     "character": "Léodagan",
     "file": "enquille.mp3",
-    "title": "Oui, bon allez ! Enquille !",
+    "quote": "Oui, bon allez ! Enquille !",
     "episode": {
       "title": "Des Nouvelles du Monde",
       "number": 7,
@@ -3692,7 +3692,7 @@
   {
     "character": "Arthur",
     "file": "oui_et_ben_moi_je_vous_donne_lordre_de_lui_preter_votre_corne_parce_que_quand_on_est_gentil_on_prete.mp3",
-    "title": "Oui, et ben moi je vous donne l'ordre de lui prêter votre corne, parce que quand on est gentil, on prête !",
+    "quote": "Oui, et ben moi je vous donne l'ordre de lui prêter votre corne, parce que quand on est gentil, on prête !",
     "episode": {
       "title": "Les Tacticiens (2ème Partie)",
       "number": 48,
@@ -3702,7 +3702,7 @@
   {
     "character": "Loth",
     "file": "on_fera_tintin_pour_le_clafoutis.mp3",
-    "title": "Oui. Alors moi je pourrais vous dire que... Si on cueille pas les cerises quand elles sont sur l'arbre, on fera tintin pour le clafoutis. Mais on sera pas plus avancés.",
+    "quote": "Oui. Alors moi je pourrais vous dire que... Si on cueille pas les cerises quand elles sont sur l'arbre, on fera tintin pour le clafoutis. Mais on sera pas plus avancés.",
     "episode": {
       "title": "Nuptiae",
       "number": 6,
@@ -3712,7 +3712,7 @@
   {
     "character": "Galessin",
     "file": "oui_ben_non.mp3",
-    "title": "Oui... Ben non !",
+    "quote": "Oui... Ben non !",
     "episode": {
       "title": "Dagonet et le Cadastre",
       "number": 8,
@@ -3722,7 +3722,7 @@
   {
     "character": "Léodagan",
     "file": "oui_ou_une_fissure_a_colmater_dans_un_muret.mp3",
-    "title": "Oui… Ou une fissure à colmater dans un muret !",
+    "quote": "Oui… Ou une fissure à colmater dans un muret !",
     "episode": {
       "title": "La Tarte aux Myrtilles",
       "number": 2,
@@ -3732,7 +3732,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "ptite_pucelle.mp3",
-    "title": "P'tite pucelle",
+    "quote": "P'tite pucelle",
     "episode": {
       "title": "Le Maître d'armes",
       "number": 9,
@@ -3742,7 +3742,7 @@
   {
     "character": "Arthur",
     "file": "ah_parce_que_c_est_la_seule_alternative_que_vous_me_proposez.mp3",
-    "title": "Parce que c'est la seule alternative que vous me proposez ! Rien branler de la journée ou des concours de pets ?!",
+    "quote": "Parce que c'est la seule alternative que vous me proposez ! Rien branler de la journée ou des concours de pets ?!",
     "episode": {
       "title": "Le Cas Yvain",
       "number": 39,
@@ -3752,7 +3752,7 @@
   {
     "character": "Arthur",
     "file": "parce_que_la_quite_a_se_faire_reperer_on_prendrait_moins_de_risque_a_faire_venir_un_orchestre.mp3",
-    "title": "Parce que là quitte à se faire repérer, on prendrait moins de risque à faire venir un orchestre.",
+    "quote": "Parce que là quitte à se faire repérer, on prendrait moins de risque à faire venir un orchestre.",
     "episode": {
       "title": "L'Éclaireur",
       "number": 94,
@@ -3762,7 +3762,7 @@
   {
     "character": "Loth",
     "file": "votre_existence_est_merdique.mp3",
-    "title": "Parce que votre existence est merdique mon pauvre ami, vous avez l'œil qui brille à chaque fois qu'un oiseau pète, c'est triste à voir. Ça fait des années que vous menez un train de vie de noix de Saint-Jacques, alors évidemment, un message qui annonce la visite d'un imbécile porteur de bonnes nouvelles, c'est déjà un petit festival pour vous ! J'suis sûr que vous vous êtes peigné pour l'occasion !",
+    "quote": "Parce que votre existence est merdique mon pauvre ami, vous avez l'œil qui brille à chaque fois qu'un oiseau pète, c'est triste à voir. Ça fait des années que vous menez un train de vie de noix de Saint-Jacques, alors évidemment, un message qui annonce la visite d'un imbécile porteur de bonnes nouvelles, c'est déjà un petit festival pour vous ! J'suis sûr que vous vous êtes peigné pour l'occasion !",
     "episode": {
       "title": "Les Dauphins",
       "number": 13,
@@ -3772,7 +3772,7 @@
   {
     "character": "Kadoc",
     "file": "pas_du_tout_les_lapins_les_lapins_c_est_gentil.mp3",
-    "title": "Pas du tout, les lapins, les lapins c'est gentil",
+    "quote": "Pas du tout, les lapins, les lapins c'est gentil",
     "episode": {
       "title": "Les Suppléants",
       "number": 24,
@@ -3782,7 +3782,7 @@
   {
     "character": "Arthur",
     "file": "pas_foutu_de_savoir_son_nom.mp3",
-    "title": "Pas foutu d'savoir son nom !",
+    "quote": "Pas foutu d'savoir son nom !",
     "episode": {
       "title": "Le Chevalier Mystère",
       "number": 4,
@@ -3792,7 +3792,7 @@
   {
     "character": "Dame Séli",
     "file": "tout_dans_le_furtif.mp3",
-    "title": "Pas un bruit, pas un mouvement, tout dans l'furtif. Vous avez glissé du pageot comme un pet sur une plaque de verglas !",
+    "quote": "Pas un bruit, pas un mouvement, tout dans l'furtif. Vous avez glissé du pageot comme un pet sur une plaque de verglas !",
     "episode": {
       "title": "La cassette II",
       "number": 52,
@@ -3802,7 +3802,7 @@
   {
     "character": "Karadoc",
     "file": "pauvre_conne.mp3",
-    "title": "Pauvre conne !",
+    "quote": "Pauvre conne !",
     "episode": {
       "title": "La Restriction",
       "number": 92,
@@ -3812,7 +3812,7 @@
   {
     "character": "Perceval",
     "file": "pays_de_galles_independant.mp3",
-    "title": "PAYS DE GALLES INDÉPENDANT",
+    "quote": "PAYS DE GALLES INDÉPENDANT",
     "episode": {
       "title": "L'Ivresse",
       "number": 31,
@@ -3822,7 +3822,7 @@
   {
     "character": "Perceval",
     "file": "pfff_c_est_pour_ca_que_je_pane_rien_aux_livres_moi_ca_veut_pas_dire_ce_qu_il_y_a_marque.mp3",
-    "title": "Pfff ! C'est pour ça qu'j'pane rien aux livres moi, ça veut pas dire ce qu'il y a marqué.",
+    "quote": "Pfff ! C'est pour ça qu'j'pane rien aux livres moi, ça veut pas dire ce qu'il y a marqué.",
     "episode": {
       "title": "Les Fesses de Guenièvre",
       "number": 72,
@@ -3832,7 +3832,7 @@
   {
     "character": "L'évêque Boniface",
     "file": "plait_il.mp3",
-    "title": "Plaît-il ?",
+    "quote": "Plaît-il ?",
     "episode": {
       "title": "Compagnons de chambrée",
       "number": 33,
@@ -3842,7 +3842,7 @@
   {
     "character": "Kadoc",
     "file": "pour_savoir_si_il_va_y_avoir_du_vent.mp3",
-    "title": "Pour savoir si il va y avoir du vent il faut mettre son doigt dans le cul du coq",
+    "quote": "Pour savoir si il va y avoir du vent il faut mettre son doigt dans le cul du coq",
     "episode": {
       "title": "O'Brother",
       "number": 41,
@@ -3852,7 +3852,7 @@
   {
     "character": "Attila",
     "file": "pourquoi_pas2.mp3",
-    "title": "Pourquoi pas !?",
+    "quote": "Pourquoi pas !?",
     "episode": {
       "title": "Le Fléau de Dieu",
       "number": 5,
@@ -3862,7 +3862,7 @@
   {
     "character": "Attila",
     "file": "pourquoi_pas1.mp3",
-    "title": "POURQUOI PAS ?",
+    "quote": "POURQUOI PAS ?",
     "episode": {
       "title": "Le Fléau de Dieu",
       "number": 5,
@@ -3872,7 +3872,7 @@
   {
     "character": "Guethenoc",
     "file": "pourquoi_qu_on_gueule.mp3",
-    "title": "Pourquoi, hein, qu'on gueule ?",
+    "quote": "Pourquoi, hein, qu'on gueule ?",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -3882,7 +3882,7 @@
   {
     "character": "Arthur",
     "file": "ptetre_une_connerie.mp3",
-    "title": "Ptet fait une connerie mo",
+    "quote": "Ptet fait une connerie mo",
     "episode": {
       "title": "Le Sacrifice",
       "number": 25,
@@ -3892,7 +3892,7 @@
   {
     "character": "Arthur",
     "file": "putain_faut_vraiment_qu_on_se_groulle.mp3",
-    "title": "Putain faut vraiment qu'on s'grouille !",
+    "quote": "Putain faut vraiment qu'on s'grouille !",
     "episode": {
       "title": "Merlin et les Loups",
       "number": 38,
@@ -3902,7 +3902,7 @@
   {
     "character": "Merlin",
     "file": "putain_il_est_fort_ce_con.mp3",
-    "title": "Putain il est fort ce con",
+    "quote": "Putain il est fort ce con",
     "episode": {
       "title": "Les Défis de Merlin",
       "number": 15,
@@ -3912,7 +3912,7 @@
   {
     "character": "Merlin",
     "file": "quest_ce_qui_est_petit_et_marron.mp3",
-    "title": "Qu'est ce qui est petit et marron ? Un marron",
+    "quote": "Qu'est ce qui est petit et marron ? Un marron",
     "episode": {
       "title": "Les Défis de Merlin",
       "number": 15,
@@ -3922,7 +3922,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "qu-est_ce_dire_que_ceci.mp3",
-    "title": "Qu'est-ce à dire que ceci ?",
+    "quote": "Qu'est-ce à dire que ceci ?",
     "episode": {
       "title": "Le Dialogue de Paix II",
       "number": 42,
@@ -3932,7 +3932,7 @@
   {
     "character": "Arthur",
     "file": "sourire_comme_des_glands.mp3",
-    "title": "Qu'est-ce que vous avez à sourire comme des glands ?",
+    "quote": "Qu'est-ce que vous avez à sourire comme des glands ?",
     "episode": {
       "title": "Basidiomycètes",
       "number": 31,
@@ -3942,7 +3942,7 @@
   {
     "character": "Arthur",
     "file": "qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3",
-    "title": "Qu'est-ce que vous voulez savoir ? Allez, vous vous magnez l'tronc mainenant ! Vous m'dites c'que vous voulez et vous faites un effort pour que j'pane au moins le sens de votre phrase ! Je commence à en avoir plein le dos et d'choper des maux de tête à répétition à force de jamais piger un broc de c'que vous racontez ! Alors vous reprenez d'puis l'début, avec une tournure simple et directe ou vous ramassez une tarte, c'est clair ça ?!",
+    "quote": "Qu'est-ce que vous voulez savoir ? Allez, vous vous magnez l'tronc mainenant ! Vous m'dites c'que vous voulez et vous faites un effort pour que j'pane au moins le sens de votre phrase ! Je commence à en avoir plein le dos et d'choper des maux de tête à répétition à force de jamais piger un broc de c'que vous racontez ! Alors vous reprenez d'puis l'début, avec une tournure simple et directe ou vous ramassez une tarte, c'est clair ça ?!",
     "episode": {
       "title": "La Retraite",
       "number": 99,
@@ -3952,7 +3952,7 @@
   {
     "character": "Guethenoc",
     "file": "quand_on_gueule_sans_savoir_pourquoi.mp3",
-    "title": "Quand on gueule sans savoir pourquoi, ça facilite pas les négociations derrière, hein, bon",
+    "quote": "Quand on gueule sans savoir pourquoi, ça facilite pas les négociations derrière, hein, bon",
     "episode": {
       "title": "La Révolte III",
       "number": 31,
@@ -3962,7 +3962,7 @@
   {
     "character": "Perceval",
     "file": "faut-y-aller-a-la-zob.mp3",
-    "title": "Quand on n'a pas de technique, faut y aller à la zob",
+    "quote": "Quand on n'a pas de technique, faut y aller à la zob",
     "episode": {
       "title": "Morituri",
       "number": 8,
@@ -3972,7 +3972,7 @@
   {
     "character": "Léodagan",
     "file": "quand_on_se_fache.mp3",
-    "title": "Quand on se fâche, il y a toujours un résultat",
+    "quote": "Quand on se fâche, il y a toujours un résultat",
     "episode": {
       "title": "Le Oud",
       "number": 45,
@@ -3982,7 +3982,7 @@
   {
     "character": "Loth",
     "file": "sur_de_son_coup.mp3",
-    "title": "Quand on veut être sûr de son coup, Seigneur Dagonet… on plante des navets. On ne pratique pas le putsch.",
+    "quote": "Quand on veut être sûr de son coup, Seigneur Dagonet… on plante des navets. On ne pratique pas le putsch.",
     "episode": {
       "title": "Les Repentants",
       "number": 1,
@@ -3992,7 +3992,7 @@
   {
     "character": "Père Blaise",
     "file": "quies.mp3",
-    "title": "Quies… (ancien Celte)",
+    "quote": "Quies… (ancien Celte)",
     "episode": {
       "title": "Le Code de Chevalerie",
       "number": 46,
@@ -4002,7 +4002,7 @@
   {
     "character": "Arthur",
     "file": "rangez_moi_ca_debile_la_table_ronde_c_est_pas_une_fete_de_l_artisanat.mp3",
-    "title": "Rangez-moi ça débile. La table ronde c'est pas une fête de l'artisanat",
+    "quote": "Rangez-moi ça débile. La table ronde c'est pas une fête de l'artisanat",
     "episode": {
       "title": "Le Retour de Judée",
       "number": 27,
@@ -4012,7 +4012,7 @@
   {
     "character": "Belt",
     "file": "regardez_moi_ce_petit_navet.mp3",
-    "title": "Regardez moi ce petit navet ! A quelle heure on doit se lever nous le matin ? On nous en colle jusque là, ras la gueule ras la gueule ras la gueule ! Et un jour qu'est ce qu'il va se passer ? Patatrac !",
+    "quote": "Regardez moi ce petit navet ! A quelle heure on doit se lever nous le matin ? On nous en colle jusque là, ras la gueule ras la gueule ras la gueule ! Et un jour qu'est ce qu'il va se passer ? Patatrac !",
     "episode": {
       "title": "Arturus Rex",
       "number": 7,
@@ -4022,7 +4022,7 @@
   {
     "character": "Belt",
     "file": "regardez_moi_cette_meule.mp3",
-    "title": "Regardez-moi cette meule ! J'ai affiné cette saloperie de frometon pendant des mois et des mois, résultat, il est dégueulasse. Pourquoi ? Parce que je suis nul en fromage ! Merde !",
+    "quote": "Regardez-moi cette meule ! J'ai affiné cette saloperie de frometon pendant des mois et des mois, résultat, il est dégueulasse. Pourquoi ? Parce que je suis nul en fromage ! Merde !",
     "episode": {
       "title": "Arturus Rex",
       "number": 7,
@@ -4032,7 +4032,7 @@
   {
     "character": "Venec",
     "file": "Ren_dez_vous_a_la_ta_verne_incognito.mp3",
-    "title": "Ren...dez...vous... ce soir... à la ta-verne ! Et incognito !",
+    "quote": "Ren...dez...vous... ce soir... à la ta-verne ! Et incognito !",
     "episode": {
       "title": "Le Professionnel",
       "number": 95,
@@ -4042,7 +4042,7 @@
   {
     "character": "Arthur",
     "file": "rien_a_carrer.mp3",
-    "title": "Rien à carrer !",
+    "quote": "Rien à carrer !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -4052,7 +4052,7 @@
   {
     "character": "Narces",
     "file": "rooo_bon_alors_on_fait_venir_les_poulettes_ou_quoi.mp3",
-    "title": "ROOO ! Bon, alors, on fait venir les poulettes ou quoi ?",
+    "quote": "ROOO ! Bon, alors, on fait venir les poulettes ou quoi ?",
     "episode": {
       "title": "Eunuques et Chaud lapins",
       "number": 75,
@@ -4062,7 +4062,7 @@
   {
     "character": "Venec",
     "file": "federer_mes_couilles.mp3",
-    "title": "S'ils arrivent et qu'y a pas d'femmes, vous allez fédérer mes couilles",
+    "quote": "S'ils arrivent et qu'y a pas d'femmes, vous allez fédérer mes couilles",
     "episode": {
       "title": "Le Banquet des Chefs",
       "number": 16,
@@ -4072,7 +4072,7 @@
   {
     "character": "Perceval",
     "file": "sils_sont_equidistants_on_peut_reperer_le_dragon.mp3",
-    "title": "S'ils sont équidistants en même temps que nous, on peut repérer le dragon par rapport à une certaine distance",
+    "quote": "S'ils sont équidistants en même temps que nous, on peut repérer le dragon par rapport à une certaine distance",
     "episode": {
       "title": "La Fureur du Dragon",
       "number": 91,
@@ -4082,7 +4082,7 @@
   {
     "character": "Karadoc",
     "file": "sans_blague_ya_pas_dla_gourdasse.mp3",
-    "title": "Sans blague, y'a pas d'la gourdasse !",
+    "quote": "Sans blague, y'a pas d'la gourdasse !",
     "episode": {
       "title": "La Baraka",
       "number": 67,
@@ -4092,7 +4092,7 @@
   {
     "character": "Azénor",
     "file": "sans_etre_totalement_repoussant_il_n_y_a_pas_de_quoi_bousculer_une_charette.mp3",
-    "title": "Sans être totalement repoussant il n'y a pas de quoi non plus bousculer une charrette.",
+    "quote": "Sans être totalement repoussant il n'y a pas de quoi non plus bousculer une charrette.",
     "episode": {
       "title": "Azénor",
       "number": 48,
@@ -4102,7 +4102,7 @@
   {
     "character": "Léodagan",
     "file": "difference_concrete_avec_des_briques.mp3",
-    "title": "Sans vouloir la ramener, la seule différence concrète avec des briques, c'est que vous appelez ça des tartes !",
+    "quote": "Sans vouloir la ramener, la seule différence concrète avec des briques, c'est que vous appelez ça des tartes !",
     "episode": {
       "title": "Les Tartes aux Myrtilles",
       "number": 2,
@@ -4112,7 +4112,7 @@
   {
     "character": "Perceval",
     "file": "ca_change_tout.mp3",
-    "title": "Selon comme on est tourné, ça change tout",
+    "quote": "Selon comme on est tourné, ça change tout",
     "episode": {
       "title": "Ambidextrie",
       "number": 35,
@@ -4122,7 +4122,7 @@
   {
     "character": "Le Duc d'Aquitaine",
     "file": "tete-roupiller-couloir.mp3",
-    "title": "Si c'est ma tête qui vous revient pas vous pouvez toujours aller roupiller dans le couloir !",
+    "quote": "Si c'est ma tête qui vous revient pas vous pouvez toujours aller roupiller dans le couloir !",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -4132,7 +4132,7 @@
   {
     "character": "Arthur",
     "file": "lache_une_caisse.mp3",
-    "title": "Si il lache une caisse ça le fait ou pas ?",
+    "quote": "Si il lache une caisse ça le fait ou pas ?",
     "episode": {
       "title": "La Délégation Maure",
       "number": 12,
@@ -4142,7 +4142,7 @@
   {
     "character": "Léodagan",
     "file": "si_j_etais_tombe_sur_un_faisant.mp3",
-    "title": "Si j'étais tombé sur un faisan je serais pas en train de me la péter comme ça.",
+    "quote": "Si j'étais tombé sur un faisan je serais pas en train de me la péter comme ça.",
     "episode": {
       "title": "Un Bruit dans la Nuit",
       "number": 61,
@@ -4152,7 +4152,7 @@
   {
     "character": "La Duchesse d'Aquitaine",
     "file": "pires-trucs-reparation.mp3",
-    "title": "Si on lui met là une chaise dans le coin là bas... ou non mieux, ici, on l'asseoit là, pendant qu'on fait les pires trucs, il demandera pas réparation. C'est un style, voyez ?",
+    "quote": "Si on lui met là une chaise dans le coin là bas... ou non mieux, ici, on l'asseoit là, pendant qu'on fait les pires trucs, il demandera pas réparation. C'est un style, voyez ?",
     "episode": {
       "title": "Les Nocturnales",
       "number": 19,
@@ -4162,7 +4162,7 @@
   {
     "character": "Arthur",
     "file": "fer-a-cheval.mp3",
-    "title": "Si vous dites fer à cheval, je vous colle aux travaux forcés pendant 6 mois.",
+    "quote": "Si vous dites fer à cheval, je vous colle aux travaux forcés pendant 6 mois.",
     "episode": {
       "title": "La Délégation Maure",
       "number": 12,
@@ -4172,7 +4172,7 @@
   {
     "character": "Venec",
     "file": "si_vous_etes_vendeur.mp3",
-    "title": "Si vous êtes vendeur, j'vous fais une proposition aux oignons",
+    "quote": "Si vous êtes vendeur, j'vous fais une proposition aux oignons",
     "episode": {
       "title": "Raison d'argent",
       "number": 36,
@@ -4182,7 +4182,7 @@
   {
     "character": "Gauvain",
     "file": "simple_deduction_mon_oncle.mp3",
-    "title": "Simple déduction mon oncle",
+    "quote": "Simple déduction mon oncle",
     "episode": {
       "title": "Le Choix de Gauvain",
       "number": 78,
@@ -4192,7 +4192,7 @@
   {
     "character": "Léodagan",
     "file": "sinon_ce_que_je_peux_vous_proposer_on_attache_le_condamne.mp3",
-    "title": "Sinon c'que j'peux vous proposer : on attache le condamné, et on le balance sur un nid d'frelons. C'est propre c'est sain. C'est rien qu'du naturel.",
+    "quote": "Sinon c'que j'peux vous proposer : on attache le condamné, et on le balance sur un nid d'frelons. C'est propre c'est sain. C'est rien qu'du naturel.",
     "episode": {
       "title": "Létal",
       "number": 47,
@@ -4202,7 +4202,7 @@
   {
     "character": "Urgan",
     "file": "sire-je-ne-suis-pas-homme.mp3",
-    "title": "Sire, sachez déjà que je ne suis pas homme à me méprendre sur le gaillard d'en face. Mon petit doigt me dit que vous n'en êtes pas la moitié d'un.",
+    "quote": "Sire, sachez déjà que je ne suis pas homme à me méprendre sur le gaillard d'en face. Mon petit doigt me dit que vous n'en êtes pas la moitié d'un.",
     "episode": {
       "title": "Le professionnel",
       "number": 23,
@@ -4212,7 +4212,7 @@
   {
     "character": "Le Maître d'armes",
     "file": "sire_vous_me_flattez.mp3",
-    "title": "Sire, vous me flattez…",
+    "quote": "Sire, vous me flattez…",
     "episode": {
       "title": "Le Paladin",
       "number": 70,
@@ -4222,7 +4222,7 @@
   {
     "character": "Perceval",
     "file": "toujours_se_plaindre_pequenauds.mp3",
-    "title": "Sont toujours en train de se plaindre ces péquenauds",
+    "quote": "Sont toujours en train de se plaindre ces péquenauds",
     "episode": {
       "title": "La Coccinelle de Madenn",
       "number": 43,
@@ -4232,7 +4232,7 @@
   {
     "character": "Arthur",
     "file": "sortez-vous_les_doigts_du_cul.mp3",
-    "title": "SORTEZ-VOUS LES DOIGTS DU CUL",
+    "quote": "SORTEZ-VOUS LES DOIGTS DU CUL",
     "episode": {
       "title": "Codes et Stratégies",
       "number": 8,
@@ -4242,7 +4242,7 @@
   {
     "character": "Léodagan",
     "file": "Soyez-souple-un-peu.mp3",
-    "title": "Soyez souple un peu",
+    "quote": "Soyez souple un peu",
     "episode": {
       "title": "Le Grand Départ",
       "number": 39,
@@ -4252,7 +4252,7 @@
   {
     "character": "Yvain",
     "file": "bonjour_la_pedagogie.mp3",
-    "title": "Super, bonjour la pédagogie",
+    "quote": "Super, bonjour la pédagogie",
     "episode": {
       "title": "Le Cas Yvain",
       "number": 39,
@@ -4262,7 +4262,7 @@
   {
     "character": "Léodagan",
     "file": "gigoter_des_miches_ca_donne_faim.mp3",
-    "title": "Surtout que gigoter des miches, ça donne faim…",
+    "quote": "Surtout que gigoter des miches, ça donne faim…",
     "episode": {
       "title": "Les festivités",
       "number": 60,
@@ -4272,7 +4272,7 @@
   {
     "character": "Le Répurgateur",
     "file": "tais_toi_ta_gueule_tais_toi.mp3",
-    "title": "Tais toi ! Ta gueule ! Tais toi !",
+    "quote": "Tais toi ! Ta gueule ! Tais toi !",
     "episode": {
       "title": "L'Expurgation de Merlin",
       "number": 79,
@@ -4282,7 +4282,7 @@
   {
     "character": "Kadoc",
     "file": "tatan_elle_fait_des_flans.mp3",
-    "title": "Tatan, elle fait des flans",
+    "quote": "Tatan, elle fait des flans",
     "episode": {
       "title": "Le Jeu Du Caillou",
       "number": 60,
@@ -4292,7 +4292,7 @@
   {
     "character": "Titus Nipius Glaucia",
     "file": "tu_la_fermes_definitivement.mp3",
-    "title": "Toi tu fermes ta gueule. Tu la fermes définitivement, tu fermes ta gueule définitivement !",
+    "quote": "Toi tu fermes ta gueule. Tu la fermes définitivement, tu fermes ta gueule définitivement !",
     "episode": {
       "title": "Arturi Inquisitio",
       "number": 4,
@@ -4302,7 +4302,7 @@
   {
     "character": "Perceval",
     "file": "crame_ta_famille.mp3",
-    "title": "Toi, un jour, je te crame ta famille, toi",
+    "quote": "Toi, un jour, je te crame ta famille, toi",
     "episode": {
       "title": "Ambidextrie",
       "number": 35,
@@ -4312,7 +4312,7 @@
   {
     "character": "Arthur",
     "file": "tout_le_monde_s_en_branle_moi_le_premier.mp3",
-    "title": "Tout le monde s'en branle, moi le premier !",
+    "quote": "Tout le monde s'en branle, moi le premier !",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -4322,7 +4322,7 @@
   {
     "character": "Le Roi Burgonde",
     "file": "tres_bien.mp3",
-    "title": "Très bien",
+    "quote": "Très bien",
     "episode": {
       "title": "Le Dialogue de Paix",
       "number": 44,
@@ -4332,7 +4332,7 @@
   {
     "character": "Kay",
     "file": "petite_corne.mp3",
-    "title": "TRUUU-uuuut !",
+    "quote": "TRUUU-uuuut !",
     "episode": {
       "title": "Codes et Stratégies",
       "number": 8,
@@ -4342,7 +4342,7 @@
   {
     "character": "Le Répurgateur",
     "file": "les-femmes-jaime-pas-ca-c'est-de-la-saloperie.mp3",
-    "title": "Tu sais moi pour moi les femmes j'aime pas ça c'est de la saloperie",
+    "quote": "Tu sais moi pour moi les femmes j'aime pas ça c'est de la saloperie",
     "episode": {
       "title": "Monogame",
       "number": 14,
@@ -4352,7 +4352,7 @@
   {
     "character": "Arthur",
     "file": "un_jour_je_vais_lui_fumer_sa_gueule_a_ce_connard.mp3",
-    "title": "Un jour j'vais lui fumer sa gueule à c'connard.",
+    "quote": "Un jour j'vais lui fumer sa gueule à c'connard.",
     "episode": {
       "title": "Décibels Nocturnes",
       "number": 82,
@@ -4362,7 +4362,7 @@
   {
     "character": "Léodagan",
     "file": "un_plan_d_attaque_minute_au_poil_de_fion.mp3",
-    "title": "Un plan d'attaque minuté au poil de fion, le double d'effectif de ceux d'en face ! Manque de bol, les Seigneurs Perceval et Karadoc s'en mèlent et on rentre chez nous comme des clodos. Avec la chiasse en prime ! Qu'est-ce qu'ils sont cons !",
+    "quote": "Un plan d'attaque minuté au poil de fion, le double d'effectif de ceux d'en face ! Manque de bol, les Seigneurs Perceval et Karadoc s'en mèlent et on rentre chez nous comme des clodos. Avec la chiasse en prime ! Qu'est-ce qu'ils sont cons !",
     "episode": {
       "title": "Basidiomycètes",
       "number": 31,
@@ -4372,7 +4372,7 @@
   {
     "character": "Perceval",
     "file": "une_fois_a_une_execution_je_m_approche_d_une_fille.mp3",
-    "title": "Une fois à une exécution j'm'approche d'une fille, pour rigoler j'lui fait \"vous êtes de la famille du pendu ?\". C'était sa soeur. Bonjour l'approche.",
+    "quote": "Une fois à une exécution j'm'approche d'une fille, pour rigoler j'lui fait \"vous êtes de la famille du pendu ?\". C'était sa soeur. Bonjour l'approche.",
     "episode": {
       "title": "La Coccinelle de Madenn",
       "number": 43,
@@ -4382,7 +4382,7 @@
   {
     "character": "Perceval",
     "file": "voila_cest_pro.mp3",
-    "title": "Voilà, là c'est pro !",
+    "quote": "Voilà, là c'est pro !",
     "episode": {
       "title": "Ambidextrie",
       "number": 35,
@@ -4392,7 +4392,7 @@
   {
     "character": "Arthur",
     "file": "voila_passez_moi_la_canne_a_peche.mp3",
-    "title": "Voilà, passez moi la… canne à pêche.",
+    "quote": "Voilà, passez moi la… canne à pêche.",
     "episode": {
       "title": "La Faute (2ème Partie)",
       "number": 9,
@@ -4402,7 +4402,7 @@
   {
     "character": "Arthur",
     "file": "vous_allez_fermer_vos_mouilles_oui.mp3",
-    "title": "VOUS ALLEZ FERMER VOS MOUILLES OUI ?",
+    "quote": "VOUS ALLEZ FERMER VOS MOUILLES OUI ?",
     "episode": {
       "title": "Le Sixième Sens",
       "number": 12,
@@ -4412,7 +4412,7 @@
   {
     "character": "Arthur",
     "file": "vous_allez_me_foutre_le_camp_espece_de_con.mp3",
-    "title": "Vous allez me foutre le camp espèce de con !?",
+    "quote": "Vous allez me foutre le camp espèce de con !?",
     "episode": {
       "title": "Le Tourment",
       "number": 98,
@@ -4422,7 +4422,7 @@
   {
     "character": "Lancelot",
     "file": "vous_allez_me_lacher_les_noyaux_oui.mp3",
-    "title": "Vous allez me lâcher les noyaux, oui ?!",
+    "quote": "Vous allez me lâcher les noyaux, oui ?!",
     "episode": {
       "title": "Raison et Sentiments",
       "number": 3,
@@ -4432,7 +4432,7 @@
   {
     "character": "Guenièvre",
     "file": "avez_de_la_chance.mp3",
-    "title": "Vous avez de la chance hein",
+    "quote": "Vous avez de la chance hein",
     "episode": {
       "title": "Le Cas yvain",
       "number": 39,
@@ -4442,7 +4442,7 @@
   {
     "character": "Arthur",
     "file": "vous_avez_pas_limpression_que_je_suis_dans_une_baignoire.mp3",
-    "title": "Vous avez pas l'impression que je suis dans une baignoire ?",
+    "quote": "Vous avez pas l'impression que je suis dans une baignoire ?",
     "episode": {
       "title": "La Chambre",
       "number": 10,
@@ -4452,7 +4452,7 @@
   {
     "character": "Guenièvre",
     "file": "vous_comprenez_le_principe.mp3",
-    "title": "Vous comprenez le principe ?",
+    "quote": "Vous comprenez le principe ?",
     "episode": {
       "title": "Raison et Sentiments",
       "number": 3,
@@ -4462,7 +4462,7 @@
   {
     "character": "Demetra",
     "file": "vous_deconnez.mp3",
-    "title": "Vous déconnez !?",
+    "quote": "Vous déconnez !?",
     "episode": {
       "title": "Le Trois de cœur",
       "number": 30,
@@ -4472,7 +4472,7 @@
   {
     "character": "Arthur",
     "file": "vous_devriez_commencer_par_organiser_le_merdier_que_vous_avez_la_dedans.mp3",
-    "title": "Vous devriez déjà commencer par organiser le merdier que vous avez la dedans !",
+    "quote": "Vous devriez déjà commencer par organiser le merdier que vous avez la dedans !",
     "episode": {
       "title": "La Retraite",
       "number": 99,
@@ -4482,7 +4482,7 @@
   {
     "character": "Bohort",
     "file": "vous_etes_des_damnes.mp3",
-    "title": "VOUS ÊTES DES DAMNÉS !",
+    "quote": "VOUS ÊTES DES DAMNÉS !",
     "episode": {
       "title": "The Game",
       "number": 54,
@@ -4492,7 +4492,7 @@
   {
     "character": "Léodagan",
     "file": "la_monstruosite.mp3",
-    "title": "Vous êtes marié comme moi vous savez qu'la monstruosité peut prendre des formes très diverses...",
+    "quote": "Vous êtes marié comme moi vous savez qu'la monstruosité peut prendre des formes très diverses...",
     "episode": {
       "title": "L'Escorte",
       "number": 88,
@@ -4502,7 +4502,7 @@
   {
     "character": "Bohort",
     "file": "malademental.mp3",
-    "title": "Vous êtes un grand malade mental !",
+    "quote": "Vous êtes un grand malade mental !",
     "episode": {
       "title": "Les Classes de Bohort",
       "number": 14,
@@ -4512,7 +4512,7 @@
   {
     "character": "Anna",
     "file": "vous-etes-une-gigantesque-tarlouze.mp3",
-    "title": "Vous êtes une gigantesque tarlouze",
+    "quote": "Vous êtes une gigantesque tarlouze",
     "episode": {
       "title": "La Supplique",
       "number": 30,
@@ -4522,7 +4522,7 @@
   {
     "character": "Yvain",
     "file": "vous_laissez_pas_embobiner_ils_cherchent_a_vous_rembobiner.mp3",
-    "title": "Vous laissez pas embobiner... Ils cherchent à vous rembobiner !",
+    "quote": "Vous laissez pas embobiner... Ils cherchent à vous rembobiner !",
     "episode": {
       "title": "Le Choix de Gauvain",
       "number": 78,
@@ -4532,7 +4532,7 @@
   {
     "character": "Arthur",
     "file": "bateau-nage.mp3",
-    "title": "Vous lui dites : OK, d'accord heu... vous partez quand vous voulez. Et dans un second temps, quand elle se demande ce qu'il se passe, vous enchaînez : seulement comme c'est moi qui prend le bateau vous rentrez à la nage.",
+    "quote": "Vous lui dites : OK, d'accord heu... vous partez quand vous voulez. Et dans un second temps, quand elle se demande ce qu'il se passe, vous enchaînez : seulement comme c'est moi qui prend le bateau vous rentrez à la nage.",
     "episode": {
       "title": "Le Forfait",
       "number": 23,
@@ -4542,7 +4542,7 @@
   {
     "character": "Karadoc",
     "file": "vous_nous_utilisez_bon_gre_mal_gre_pour_arriver_sur_la_fin.mp3",
-    "title": "Vous nous utilisez bon gré, mal gré, pour arriver sur la fin",
+    "quote": "Vous nous utilisez bon gré, mal gré, pour arriver sur la fin",
     "episode": {
       "title": "Les Exploités",
       "number": 36,
@@ -4552,7 +4552,7 @@
   {
     "character": "Loth",
     "file": "ici_chez_les_salopards.mp3",
-    "title": "Vous pouvez parler en toute franchise : pour faire court, vous êtes ici chez les salopards, hein, c'est admis. On n'a pas des idées bien jojo, et on a pas peur de le dire. On fomente, on rénégate, on laisse libre cours à notre fantaisie",
+    "quote": "Vous pouvez parler en toute franchise : pour faire court, vous êtes ici chez les salopards, hein, c'est admis. On n'a pas des idées bien jojo, et on a pas peur de le dire. On fomente, on rénégate, on laisse libre cours à notre fantaisie",
     "episode": {
       "title": "Dagonet et le Cadastre",
       "number": 8,
@@ -4562,7 +4562,7 @@
   {
     "character": "Léodagan",
     "file": "vous_rigolez_jespere.mp3",
-    "title": "Vous rigolez, j'espère !",
+    "quote": "Vous rigolez, j'espère !",
     "episode": {
       "title": "La Grotte de Padraig",
       "number": 34,
@@ -4572,7 +4572,7 @@
   {
     "character": "Léodagan",
     "file": "tropgentil.mp3",
-    "title": "Vous savez ce que c'est mon problème ? Trop gentil !",
+    "quote": "Vous savez ce que c'est mon problème ? Trop gentil !",
     "episode": {
       "title": "Le Complot",
       "number": 47,
@@ -4582,7 +4582,7 @@
   {
     "character": "Perceval",
     "file": "wooouuuhouhouhou_c_est_mortel.mp3",
-    "title": "Wooouuuhouhouhou !!! C'est mortel !",
+    "quote": "Wooouuuhouhouhou !!! C'est mortel !",
     "episode": {
       "title": "L'étudiant",
       "number": 95,
@@ -4592,7 +4592,7 @@
   {
     "character": "Bohort",
     "file": "ya_pas_de_mal.mp3",
-    "title": "Y'a pas d'mal",
+    "quote": "Y'a pas d'mal",
     "episode": {
       "title": "La Quinte Juste",
       "number": 55,
@@ -4602,7 +4602,7 @@
   {
     "character": "Léodagan",
     "file": "ya_pas_un_pigeon_pour_envoyer_un_message.mp3",
-    "title": "Ya pas UN pigeon pour envoyer un message ?",
+    "quote": "Ya pas UN pigeon pour envoyer un message ?",
     "episode": {
       "title": "Drakkars !",
       "number": 49,
@@ -4612,7 +4612,7 @@
   {
     "character": "Arthur",
     "file": "zut_la.mp3",
-    "title": "Zut ! Là.",
+    "quote": "Zut ! Là.",
     "episode": {
       "title": "Le Signe",
       "number": 17,

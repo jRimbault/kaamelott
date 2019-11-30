@@ -6,7 +6,7 @@ import { sort } from 'utils'
 
 async function main() {
   const sounds = await (await fetch<Sound[]>('sounds/sounds.json')).json()
-  const list = buildHtmlList(sort(sounds, s => s.title))
+  const list = buildHtmlList(sort(sounds, s => s.quote))
   document.body.appendChild(list)
   initFilter()
 }

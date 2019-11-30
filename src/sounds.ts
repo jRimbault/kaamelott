@@ -6,7 +6,7 @@ export interface Sound {
     readonly title: string
   }
   readonly file: string
-  readonly title: string
+  readonly quote: string
 }
 
 function fakeDecimalToRoman(n: number): string {

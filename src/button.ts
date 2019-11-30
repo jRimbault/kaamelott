@@ -21,9 +21,9 @@ function buildPlayButton(sound: Sound): NodeDefinition {
           'a',
           {
             classList: ['btn', 'btn-play'],
-            textContent: sound.title,
+            textContent: sound.quote,
             attributes: {
-              title: [sound.title, sound.character, getEpisode(sound)].join('\n'),
+              title: [sound.quote, sound.character, getEpisode(sound)].join('\n'),
             },
           },
         ],
