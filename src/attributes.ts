@@ -7,7 +7,9 @@ export enum Data {
   title = 'data-title',
 }
 
-export function getAttributes(node: HTMLLIElement): { [k in keyof Omit<Sound, 'file'>]: string }
+export function getAttributes(
+  node: HTMLLIElement,
+): { [k in keyof Omit<Sound, 'file'>]: string }
 export function getAttributes(node: HTMLLIElement, field: Data): string
 export function getAttributes(node: HTMLLIElement, field?: Data) {
   if (field !== undefined) {

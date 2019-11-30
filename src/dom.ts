@@ -39,7 +39,7 @@ export function createNode<Tag extends keyof HTMLElementTagNameMap>(
   return node
 }
 
-export function debounce<E extends Event, F extends ($event: E) => any>(
+export function debounce<E extends Event, F extends ($event: E) => unknown>(
   eventHandler: F,
   milliseconds = 500,
 ): ($event: E) => Promise<ReturnType<F>> {
@@ -49,7 +49,10 @@ export function debounce<E extends Event, F extends ($event: E) => any>(
       if (timer !== undefined) {
         clearTimeout(timer)
       }
-      timer = setTimeout(() => resolve(eventHandler($event)), milliseconds)
+      timer = setTimeout(
+        () => resolve(eventHandler($event) as ReturnType<F>),
+        milliseconds,
+      )
     })
   }
 }

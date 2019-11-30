@@ -31,7 +31,6 @@ function filterOnKeyUp(
 }
 
 function filterBuilder(filters: { [k in string]?: RegExp }) {
-
   const shortcuts: { [k in string]?: Data } = {
     c: Data.character,
     e: Data.episode,
@@ -68,7 +67,8 @@ const cache: { [k in Data]: { [k in string]?: RegExp } } = {
 }
 
 function searchField(value: string, field: Data) {
-  const pattern = cache[field][value] ?? (cache[field][value] = new RegExp(value, 'g'))
+  const pattern =
+    cache[field][value] ?? (cache[field][value] = new RegExp(value, 'g'))
   return (node: HTMLLIElement) => {
     return pattern.test(getAttributes(node, field))
   }
