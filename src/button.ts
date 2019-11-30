@@ -1,6 +1,6 @@
 import { setAttributes } from 'attributes'
 import { NodeDefinition } from 'dom'
-import { Sound } from 'sounds'
+import { Sound, getEpisode } from 'sounds'
 
 export function buildListItem(sound: Sound): NodeDefinition {
   return [
@@ -23,7 +23,7 @@ function buildPlayButton(sound: Sound): NodeDefinition {
             classList: ['btn', 'btn-play'],
             textContent: sound.title,
             attributes: {
-              title: [sound.title, sound.character, sound.episode].join('\n'),
+              title: [sound.title, sound.character, getEpisode(sound)].join('\n'),
             },
           },
         ],

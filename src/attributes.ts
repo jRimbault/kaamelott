@@ -1,4 +1,4 @@
-import { Sound } from 'sounds'
+import { Sound, getEpisode } from 'sounds'
 import { normalizeDiacritics } from 'utils'
 
 export enum Data {
@@ -25,6 +25,6 @@ export function setAttributes(sound: Sound) {
   return {
     [Data.title]: normalizeDiacritics(sound.title),
     [Data.character]: normalizeDiacritics(sound.character),
-    [Data.episode]: normalizeDiacritics(sound.episode),
+    [Data.episode]: normalizeDiacritics(getEpisode(sound)),
   } as const
 }
