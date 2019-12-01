@@ -1,10 +1,10 @@
 import { getAttributes, Data } from 'attributes'
-import { debounce, NodeDefinition, createNode } from 'dom'
-import { normalizeDiacritics, partition, sort } from 'utils'
-import { Sound } from 'sounds'
-import { buildListItem } from 'layout'
+import { debounce, createNode } from 'dom'
+import { normalizeDiacritics } from 'utils'
+import { Sound, fakeDecimalToRoman } from 'sounds'
+import { replaceList, filteredList } from 'layout'
 
-export function initFilter(sounds: Sound[]) {
+export function initFilters(sounds: Sound[]) {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
   if (!input) return
   input.setAttribute(
@@ -19,40 +19,30 @@ export function initFilter(sounds: Sound[]) {
     ].join('\n'),
   )
   input.addEventListener('keyup', debounce(filterOnKeyUp(input)))
-  attributeFilter(sounds, '#book-filter', s => s.episode.book.toString())
+  attributeFilter(
+    sounds,
+    '#book-filter',
+    s => s.episode.book,
+    s => 'Livre ' + fakeDecimalToRoman(parseInt(s)),
+    s => s.episode.number,
+  )
   attributeFilter(sounds, '#character-filter', s => s.character)
 }
 
 function attributeFilter(
   sounds: Sound[],
   buttonId: string,
-  get: (s: Sound) => string,
+  get: (s: Sound) => string | number,
+  title?: (s: string) => string,
+  internalSort?: ((s: Sound) => string) | ((s: Sound) => number),
 ) {
   const filter = document.querySelector<HTMLButtonElement>('button' + buttonId)
   if (!filter) return
-  filter.addEventListener('click', async () => {
-    const groups = partition(sounds, get)
-    const defs: NodeDefinition[] = []
-    const sortedGroupsKeys = sort(Object.keys(groups), b => b)
-    for (const groupKey of sortedGroupsKeys) {
-      const target = groups[groupKey]
-      if (target) {
-        defs.push(
-          ['h2', { textContent: groupKey }],
-          [
-            'ul',
-            {
-              children: sort(target, t => t.episode.number).map(buildListItem),
-            },
-          ],
-        )
-      }
-    }
-    const list = createNode('div', { id: 'list', children: defs })
-    const div = document.querySelector('#list')
-    if (!div) return
-    div.replaceWith(list)
+  const list = createNode('div', {
+    id: 'list',
+    children: filteredList(sounds, get, title, internalSort),
   })
+  filter.addEventListener('click', () => replaceList(list))
 }
 
 enum DisplayState {

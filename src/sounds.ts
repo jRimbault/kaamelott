@@ -9,7 +9,7 @@ export interface Sound {
   readonly quote: string
 }
 
-function fakeDecimalToRoman(n: number): string {
+export function fakeDecimalToRoman(n: number): string {
   return ['I', 'II', 'III', 'IV', 'V', 'VI'][n - 1]
 }
 
