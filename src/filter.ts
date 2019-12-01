@@ -19,14 +19,18 @@ export function initFilters(sounds: Sound[]) {
     ].join('\n'),
   )
   input.addEventListener('keyup', debounce(filterOnKeyUp(input)))
-  attributeFilter(
-    sounds,
-    '#book-filter',
-    s => s.episode.book,
-    s => 'Livre ' + fakeDecimalToRoman(parseInt(s)),
-    s => s.episode.number,
-  )
-  attributeFilter(sounds, '#character-filter', s => s.character)
+  setTimeout(() => {
+    attributeFilter(
+      sounds,
+      '#book-filter',
+      s => s.episode.book,
+      s => 'Livre ' + fakeDecimalToRoman(parseInt(s)),
+      s => s.episode.number,
+    )
+  }, 0)
+  setTimeout(() => {
+    attributeFilter(sounds, '#character-filter', s => s.character)
+  }, 0)
 }
 
 function attributeFilter(
