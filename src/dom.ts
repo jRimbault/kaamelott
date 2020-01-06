@@ -32,12 +32,16 @@ export function createNode<Tag extends keyof HTMLElementTagNameMap>(
   if (options.id) {
     node.id = options.id
   }
-  addClasses(node, options.classList)
-  addContent(node, options.textContent)
-  addAttributes(node, options.attributes)
-  addChildren(node, options.children)
-  addListeners(node, options.listeners)
-  return node
+  return addListeners(
+    addChildren(
+      addAttributes(
+        addContent(addClasses(node, options.classList), options.textContent),
+        options.attributes,
+      ),
+      options.children,
+    ),
+    options.listeners,
+  )
 }
 
 export function debounce<E extends Event, F extends ($event: E) => unknown>(
@@ -60,7 +64,10 @@ export function debounce<E extends Event, F extends ($event: E) => unknown>(
 
 type Entry = [EventNames, EventHandler<EventNames> | undefined]
 
-function addListeners(node: HTMLElement, listeners?: NodeOptions['listeners']) {
+function addListeners<E extends HTMLElement>(
+  node: E,
+  listeners?: NodeOptions['listeners'],
+): E {
   if (listeners) {
     for (const [name, handler] of Object.entries(listeners) as Entry[]) {
       if (handler) {
@@ -68,9 +75,13 @@ function addListeners(node: HTMLElement, listeners?: NodeOptions['listeners']) {
       }
     }
   }
+  return node
 }
 
-function addChildren(node: HTMLElement, children: NodeOptions['children']) {
+function addChildren<E extends HTMLElement>(
+  node: E,
+  children: NodeOptions['children'],
+): E {
   if (children && children.length > 0) {
     for (const child of children) {
       if (child instanceof HTMLElement) {
@@ -80,23 +91,25 @@ function addChildren(node: HTMLElement, children: NodeOptions['children']) {
       }
     }
   }
+  return node
 }
 
-function addAttributes(
-  node: HTMLElement,
+function addAttributes<E extends HTMLElement>(
+  node: E,
   attributes: NodeOptions['attributes'],
-) {
+): E {
   if (attributes) {
     for (const [attributeName, value] of Object.entries(attributes)) {
       node.setAttribute(attributeName, value)
     }
   }
+  return node
 }
 
-function addContent(
-  node: HTMLElement,
+function addContent<E extends HTMLElement>(
+  node: E,
   textContent: NodeOptions['textContent'],
-) {
+): E {
   if (textContent) {
     if (typeof textContent === 'string') {
       node.textContent = textContent
@@ -104,9 +117,13 @@ function addContent(
       node.innerHTML = textContent.html
     }
   }
+  return node
 }
 
-function addClasses(node: HTMLElement, classList: NodeOptions['classList']) {
+function addClasses<E extends HTMLElement>(
+  node: E,
+  classList: NodeOptions['classList'],
+): E {
   if (classList) {
     if (typeof classList === 'string' && classList !== '') {
       node.classList.add(classList)
@@ -115,4 +132,5 @@ function addClasses(node: HTMLElement, classList: NodeOptions['classList']) {
       node.classList.add(...classList.filter(Boolean))
     }
   }
+  return node
 }
