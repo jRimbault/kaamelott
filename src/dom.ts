@@ -10,13 +10,14 @@ interface EventHandler<Event extends EventNames> {
 export type NodeDefinition =
   | readonly [keyof HTMLElementTagNameMap, NodeOptions]
   | readonly [keyof HTMLElementTagNameMap]
+  | HTMLElement
 
 export interface NodeOptions {
   readonly id?: string
   readonly classList?: string | readonly string[]
   readonly textContent?: string | { readonly html: string }
   readonly attributes?: { readonly [attributeName: string]: string }
-  readonly children?: readonly (HTMLElement | NodeDefinition)[]
+  readonly children?: readonly NodeDefinition[]
   readonly listeners?: { readonly [Event in EventNames]?: EventHandler<Event> }
 }
 
