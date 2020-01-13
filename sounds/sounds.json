@@ -120,7 +120,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "cest_pas_des_fleches.mp3",
     "quote": "Ah bah c'est pas des flèches",
     "episode": {
@@ -420,7 +420,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "alors_le_ratichon_on_a_un_ptit_creux.mp3",
     "quote": "Alors le ratichon, on a un p'tit creux ?",
     "episode": {
@@ -470,7 +470,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "arretez_immediatement_de_me_prendre_pour_une_truite.mp3",
     "quote": "Arrêtez immédiatement de m'prendre pour une truite !",
     "episode": {
@@ -1430,7 +1430,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "quest_ce_que_vous_attendez_pour_la_couper.mp3",
     "quote": "Eh ben, qu'est-ce que vous attendez pour la couper ? Qu'il fasse nuit ?",
     "episode": {
@@ -1550,7 +1550,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "ils_sortent_bien_de_quelques_part.mp3",
     "quote": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?",
     "episode": {
@@ -1620,7 +1620,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "une_claque_dans_le_museau_vous_repondez.mp3",
     "quote": "Et à une claque dans l'museau, vous répondez ?",
     "episode": {
@@ -1630,7 +1630,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "et_alors_faut_un_permis.mp3",
     "quote": "Et alors faut un permis ?",
     "episode": {
@@ -2550,7 +2550,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "la_bouffe_est_interdite.mp3",
     "quote": "La bouffe est interdite en dehors des heures des repas !",
     "episode": {
@@ -2720,7 +2720,7 @@
     }
   },
   {
-    "character": "Élias",
+    "character": "Elias de Kelliwic'h",
     "file": "mais_allez_chier_dans_une_fiolle.mp3",
     "quote": "Mais allez chier dans une fiole, on verra après",
     "episode": {
@@ -3230,7 +3230,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "restez_pas_plante_la_comme_un_cepe.mp3",
     "quote": "Ne restez pas planté là comme un cèpe, pointez-vous !",
     "episode": {
@@ -3790,7 +3790,7 @@
     }
   },
   {
-    "character": "Dame Séli",
+    "character": "Séli",
     "file": "tout_dans_le_furtif.mp3",
     "quote": "Pas un bruit, pas un mouvement, tout dans l'furtif. Vous avez glissé du pageot comme un pet sur une plaque de verglas !",
     "episode": {
