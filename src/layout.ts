@@ -3,10 +3,6 @@ import { NodeDefinition, createNode } from 'dom'
 import { Sound, getEpisode } from 'sounds'
 import { partition, sort } from 'utils'
 
-export function initialList(sounds: readonly Sound[]) {
-  replaceList(buildHtmlList(sounds))
-}
-
 export function filteredList(
   sounds: readonly Sound[],
   get: (s: Sound) => string | number,
@@ -42,7 +38,7 @@ export function replaceList(newList: HTMLDivElement) {
   div.replaceWith(newList)
 }
 
-function buildHtmlList(sounds: readonly Sound[]) {
+export function buildHtmlList(sounds: readonly Sound[]) {
   return createNode('div', {
     id: 'list',
     children: [['ul', { children: sounds.map(buildListItem) }]],

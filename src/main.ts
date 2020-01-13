@@ -1,5 +1,5 @@
 import { initFilters } from 'filter'
-import { initialList } from 'layout'
+import { buildHtmlList, replaceList } from 'layout'
 import { Sound } from 'sounds'
 import { sort } from 'utils'
 
@@ -8,13 +8,14 @@ async function main() {
     await (await fetch<Sound[]>('sounds/sounds.json')).json(),
     s => s.quote,
   )
-  initialList(sounds)
+  const defaultList = buildHtmlList(sounds)
+  replaceList(defaultList)
   initFilters(sounds)
   const resetButton = document.querySelector<HTMLButtonElement>(
     'button#reset-filter',
   )
   if (!resetButton) return
-  resetButton.addEventListener('click', () => initialList(sounds))
+  resetButton.addEventListener('click', () => replaceList(defaultList))
 }
 
 window.onload = () => main()
