@@ -19,6 +19,11 @@ export function initFilters(sounds: Sound[]) {
     ].join('\n'),
   )
   input.addEventListener('keyup', debounce(filterOnKeyUp(input)))
+  const defaultSearch = window.location.search.substring(1)
+  if (defaultSearch) {
+    filterOnKeyUp({ value: defaultSearch })()
+    input.value = defaultSearch
+  }
   setTimeout(() => {
     attributeFilter(
       sounds,
@@ -54,7 +59,11 @@ enum DisplayState {
   show = 'inline-block',
 }
 
-function filterOnKeyUp(input: HTMLInputElement) {
+interface FilterString {
+  value: string
+}
+
+function filterOnKeyUp(input: FilterString) {
   const buildFilter = filterBuilder({})
   return () => {
     const list = Array.from(document.querySelectorAll('li'))
