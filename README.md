@@ -12,9 +12,11 @@ Pour faire fonctionner le projet sur votre machine vous devez avoir une installa
 
 ```bash
 npm install
-npm run start:serve
-# pour construire le bundle js final
+npm run dev
+# pour construire le site statique (dossier dist/)
 npm run build
+# pour prévisualiser le build de production
+npm run preview
 ```
 
 Whoooohoooo woa c'est mortel !
