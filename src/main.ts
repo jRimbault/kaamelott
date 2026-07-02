@@ -1,4 +1,4 @@
-import { initFilters } from 'filter'
+import { initFilters, resetSearch, updateStatus } from 'filter'
 import { buildHtmlList, replaceList } from 'layout'
 import { Sound } from 'sounds'
 import { sort } from 'utils'
@@ -15,7 +15,11 @@ async function main() {
     'button#reset-filter',
   )
   if (!resetButton) return
-  resetButton.addEventListener('click', () => replaceList(defaultList))
+  resetButton.addEventListener('click', () => {
+    resetSearch()
+    replaceList(defaultList)
+    updateStatus()
+  })
 }
 
 window.onload = () => main()

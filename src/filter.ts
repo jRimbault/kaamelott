@@ -7,22 +7,25 @@ import { replaceList, filteredList } from 'layout'
 export function initFilters(sounds: Sound[]) {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
   if (!input) return
-  input.setAttribute(
-    'title',
-    [
-      'Recherche avancée :',
-      ' personnage : "c:personnage"',
-      ' citation : "q:citation"',
-      ' titre episode : "t:titre"',
-      ' livre : "b:3"',
-      ' episode : "n:16"',
-    ].join('\n'),
-  )
-  input.addEventListener('keyup', debounce(filterOnKeyUp(input)))
+  const runFilter = filterOnKeyUp(input)
+  input.addEventListener('keyup', debounce(runFilter))
+  const clear = document.querySelector<HTMLButtonElement>('#clear-search')
+  if (clear) {
+    clear.addEventListener('click', () => {
+      input.value = ''
+      runFilter()
+      input.focus()
+    })
+  }
+  // The advanced-search prefixes used to be discoverable only through a hover
+  // tooltip. Expose them as visible chips that scope the search instead.
+  initScopeChips(input, runFilter)
   const defaultSearch = window.location.search.substring(1)
   if (defaultSearch) {
-    filterOnKeyUp({ value: defaultSearch })()
     input.value = defaultSearch
+    runFilter()
+  } else {
+    updateStatus()
   }
   setTimeout(() => {
     attributeFilter(
@@ -51,7 +54,11 @@ function attributeFilter(
     id: 'list',
     children: filteredList(sounds, get, title, internalSort),
   })
-  filter.addEventListener('click', () => replaceList(list))
+  filter.addEventListener('click', () => {
+    resetSearch()
+    replaceList(list)
+    updateStatus()
+  })
 }
 
 enum DisplayState {
@@ -63,18 +70,115 @@ interface FilterString {
   value: string
 }
 
+// Active search scope, driven by the visible scope chips. Empty string means
+// "search every field"; otherwise it is a single-letter prefix (c, q, t, b, n)
+// understood by `filterBuilder`.
+let activeScope = ''
+
+// Wire the scope chips: clicking one restricts the search to a single field,
+// updates its example placeholder, and re-runs the current query.
+function initScopeChips(input: HTMLInputElement, runFilter: () => void) {
+  const chips = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('#search-scopes .scope-btn'),
+  )
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      activeScope = chip.dataset.scope ?? ''
+      for (const other of chips) {
+        other.classList.toggle('is-active', other === chip)
+        other.setAttribute('aria-pressed', String(other === chip))
+      }
+      const placeholder = chip.dataset.placeholder
+      if (placeholder) {
+        input.placeholder = placeholder
+      }
+      runFilter()
+      input.focus()
+    })
+  }
+}
+
 function filterOnKeyUp(input: FilterString) {
   const buildFilter = filterBuilder({})
   return () => {
     const list = Array.from(document.querySelectorAll('li'))
-    const filter = buildFilter(normalizeDiacritics(input.value))
+    const filter = buildFilter(normalizeDiacritics(scopedQuery(input.value)))
     for (const node of list) {
       node.style.display = DisplayState.show
       if (!filter(node)) {
         node.style.display = DisplayState.hide
       }
     }
+    updateStatus()
+    toggleClearButton(input.value)
   }
+}
+
+// Combine the free-text query with the active scope so the search engine (which
+// keys off a leading `x:` prefix) restricts matching to the chosen field.
+function scopedQuery(value: string): string {
+  if (activeScope === '' || value.length === 0) {
+    return value
+  }
+  return `${activeScope}:${value}`
+}
+
+// Reflect the outcome of the current filter in a live-updating status line so
+// users know how many replies match and get a clear message when none do.
+export function updateStatus() {
+  const status = document.querySelector<HTMLElement>('#filter-status')
+  if (!status) return
+  const items = Array.from(document.querySelectorAll('li'))
+  const total = items.length
+  const visible = items.filter(li => li.style.display !== DisplayState.hide)
+    .length
+  const query = currentQuery()
+  if (query.length === 0) {
+    status.textContent = `${total} ${plural(total, 'réplique')}`
+  } else if (visible === 0) {
+    status.textContent = `Aucune réplique trouvée pour « ${query} »`
+  } else {
+    const word = plural(visible, 'réplique')
+    status.textContent = `${visible} ${word} sur ${total}`
+  }
+}
+
+function currentQuery(): string {
+  const input = document.querySelector<HTMLInputElement>('input#searchbox')
+  return input ? input.value.trim() : ''
+}
+
+// Clear the text search so a freshly built (grouped or reset) list is not shown
+// alongside a stale query in the search box.
+export function resetSearch() {
+  const input = document.querySelector<HTMLInputElement>('input#searchbox')
+  if (input) {
+    input.value = ''
+  }
+  activeScope = ''
+  const chips = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('#search-scopes .scope-btn'),
+  )
+  for (const chip of chips) {
+    const isAll = (chip.dataset.scope ?? '') === ''
+    chip.classList.toggle('is-active', isAll)
+    chip.setAttribute('aria-pressed', String(isAll))
+    if (isAll && chip.dataset.placeholder && input) {
+      input.placeholder = chip.dataset.placeholder
+    }
+  }
+  toggleClearButton('')
+}
+
+function toggleClearButton(value: string) {
+  const clear = document.querySelector<HTMLButtonElement>('#clear-search')
+  if (clear) {
+    clear.hidden = value.length === 0
+  }
+}
+
+function plural(n: number, word: string): string {
+  return n > 1 ? `${word}s` : word
 }
 
 function filterBuilder(filters: { [k in string]?: RegExp }) {
