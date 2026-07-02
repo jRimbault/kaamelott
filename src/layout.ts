@@ -56,36 +56,40 @@ export function buildListItem(sound: Sound): NodeDefinition {
   ]
 }
 
+// The reply card is a flex row whose direct children are this play anchor
+// (which grows) and the share anchor. The anchor itself is a flex row of a
+// fixed play/stop icon and the quote, which wraps onto several lines rather
+// than being truncated.
 function buildPlayButton(sound: Sound): NodeDefinition {
   return [
-    'div',
+    'a',
     {
+      classList: ['btn', 'btn-play'],
       children: [
         [
-          'a',
+          'span',
           {
-            classList: ['btn', 'btn-play'],
-            textContent: sound.quote,
-            attributes: {
-              // Tooltip states the action, then the context (who / which
-              // episode). The player swaps to the stop title while playing.
-              'title': `Écouter — ${sound.character}, ${getEpisode(sound)}`,
-              'data-play-title': `Écouter — ${sound.character}, ${getEpisode(
-                sound,
-              )}`,
-              'data-stop-title': 'Arrêter la lecture',
-              // Make the play control reachable and operable without a mouse.
-              'role': 'button',
-              'tabindex': '0',
-              'aria-label': `Écouter la réplique : ${sound.quote}`,
-            },
-            listeners: {
-              click: { callback: onPlay(sound) },
-              keydown: { callback: onPlayKey(sound) },
-            },
+            classList: ['play-icon'],
+            attributes: { 'aria-hidden': 'true' },
           },
         ],
+        ['span', { classList: ['quote'], textContent: sound.quote }],
       ],
+      attributes: {
+        // Tooltip states the action, then the context (who / which episode).
+        // The player swaps to the stop title while playing.
+        'title': `Écouter — ${sound.character}, ${getEpisode(sound)}`,
+        'data-play-title': `Écouter — ${sound.character}, ${getEpisode(sound)}`,
+        'data-stop-title': 'Arrêter la lecture',
+        // Make the play control reachable and operable without a mouse.
+        'role': 'button',
+        'tabindex': '0',
+        'aria-label': `Écouter la réplique : ${sound.quote}`,
+      },
+      listeners: {
+        click: { callback: onPlay(sound) },
+        keydown: { callback: onPlayKey(sound) },
+      },
     },
   ]
 }

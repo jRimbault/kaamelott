@@ -20,26 +20,28 @@
     <h1><img src="img/logo.jpg" alt="logo"></h1>
     <h1>Kaamelott le Soundboard</h1>
   </header>
-  <div id="filter">
-    <div>
-      <input type="text" id="searchbox" placeholder="Ex. : Perceval" autocomplete="off" aria-label="Rechercher une réplique">
-      <button type="button" id="clear-search" class="btn" aria-label="Effacer la recherche" title="Effacer la recherche" hidden>&times;</button>
+  <div class="controls">
+    <div id="filter">
+      <div class="search-row">
+        <input type="text" id="searchbox" placeholder="Ex. : Perceval" autocomplete="off" aria-label="Rechercher une réplique">
+        <button type="button" id="clear-search" class="btn" aria-label="Effacer la recherche" title="Effacer la recherche" hidden>&times;</button>
+      </div>
+      <div id="search-scopes" role="group" aria-label="Restreindre la recherche à un champ">
+        <span class="scope-label">Rechercher dans&nbsp;:</span>
+        <button type="button" class="btn scope-btn is-active" data-scope="" data-placeholder="Ex. : Perceval" aria-pressed="true" title="Rechercher dans tous les champs">Tout</button>
+        <button type="button" class="btn scope-btn" data-scope="c" data-placeholder="Ex. : Perceval" aria-pressed="false" title="Rechercher uniquement par personnage">Personnage</button>
+        <button type="button" class="btn scope-btn" data-scope="q" data-placeholder="Ex. : c'est pas faux" aria-pressed="false" title="Rechercher uniquement dans les citations">Citation</button>
+        <button type="button" class="btn scope-btn" data-scope="t" data-placeholder="Ex. : Le Repas" aria-pressed="false" title="Rechercher uniquement par titre d'épisode">Épisode</button>
+        <button type="button" class="btn scope-btn" data-scope="b" data-placeholder="Ex. : 3" aria-pressed="false" title="Rechercher uniquement par numéro de livre">Livre</button>
+      </div>
     </div>
-    <div id="search-scopes" role="group" aria-label="Restreindre la recherche à un champ">
-      <span class="scope-label">Rechercher dans&nbsp;:</span>
-      <button type="button" class="btn scope-btn is-active" data-scope="" data-placeholder="Ex. : Perceval" aria-pressed="true" title="Rechercher dans tous les champs">Tout</button>
-      <button type="button" class="btn scope-btn" data-scope="c" data-placeholder="Ex. : Perceval" aria-pressed="false" title="Rechercher uniquement par personnage">Personnage</button>
-      <button type="button" class="btn scope-btn" data-scope="q" data-placeholder="Ex. : c'est pas faux" aria-pressed="false" title="Rechercher uniquement dans les citations">Citation</button>
-      <button type="button" class="btn scope-btn" data-scope="t" data-placeholder="Ex. : Le Repas" aria-pressed="false" title="Rechercher uniquement par titre d'épisode">Épisode</button>
-      <button type="button" class="btn scope-btn" data-scope="b" data-placeholder="Ex. : 3" aria-pressed="false" title="Rechercher uniquement par numéro de livre">Livre</button>
+    <div id="group-filters">
+      <button class="btn" id="character-filter" title="Regrouper les répliques par personnage">Filtre Personnages</button>
+      <button class="btn" id="book-filter" title="Regrouper les répliques par livre">Filtre Livres</button>
+      <button class="btn" id="reset-filter" title="Réinitialiser : liste alphabétique complète">A - Z</button>
     </div>
+    <p id="filter-status" aria-live="polite"></p>
   </div>
-  <div id="group-filters" style="text-align: center; margin-top: .7em;">
-    <button class="btn" id="character-filter" title="Regrouper les répliques par personnage">Filtre Personnages</button>
-    <button class="btn" id="book-filter" title="Regrouper les répliques par livre">Filtre Livres</button>
-    <button class="btn" id="reset-filter" title="Réinitialiser : liste alphabétique complète">A - Z</button>
-  </div>
-  <p id="filter-status" aria-live="polite"></p>
   <div id="list"></div>
 </body>
 

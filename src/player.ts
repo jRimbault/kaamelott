@@ -33,6 +33,14 @@ export function togglePlay(file: string, button: HTMLElement): void {
   audio.play().catch(done)
 }
 
+/**
+ * Stop any clip currently playing and clear its button state. Safe to call when
+ * nothing is playing. Used by the reset flow and the `Esc` keyboard shortcut.
+ */
+export function stopPlayback(): void {
+  stop()
+}
+
 function stop(): void {
   if (!current) return
   current.audio.pause()

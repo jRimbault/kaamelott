@@ -63,7 +63,9 @@ function attributeFilter(
 
 enum DisplayState {
   hide = 'none',
-  show = 'inline-block',
+  // Empty string removes the inline override so the stylesheet governs layout
+  // (the list is a CSS grid; a hard `inline-block` here would fight it).
+  show = '',
 }
 
 interface FilterString {
@@ -146,6 +148,16 @@ export function updateStatus() {
 function currentQuery(): string {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
   return input ? input.value.trim() : ''
+}
+
+// Re-show every reply in the current list. A rebuilt/reused list node can still
+// carry the inline `display:none` left by an earlier text filter, so the reset
+// and A-Z paths must clear it to actually restore the full list.
+export function showAllItems() {
+  const items = document.querySelectorAll<HTMLLIElement>('#list li')
+  for (const li of Array.from(items)) {
+    li.style.display = DisplayState.show
+  }
 }
 
 // Clear the text search so a freshly built (grouped or reset) list is not shown
