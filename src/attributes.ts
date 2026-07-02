@@ -1,5 +1,5 @@
-import { Sound } from 'sounds'
-import { normalizeDiacritics } from 'utils'
+import { Sound } from './sounds'
+import { normalizeDiacritics } from './utils'
 
 export enum Data {
   character = 'data-character',

@@ -2,3 +2,4 @@
 tsconfig.tsbuildinfo
 node_modules/
 bin/*.js
+dist/

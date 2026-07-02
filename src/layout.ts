@@ -1,8 +1,8 @@
-import { setAttributes } from 'attributes'
-import { NodeDefinition, createNode } from 'dom'
-import { togglePlay } from 'player'
-import { Sound, getEpisode } from 'sounds'
-import { partition, sort } from 'utils'
+import { setAttributes } from './attributes'
+import { NodeDefinition, createNode } from './dom'
+import { togglePlay } from './player'
+import { Sound, getEpisode } from './sounds'
+import { partition, sort } from './utils'
 
 export function filteredList(
   sounds: readonly Sound[],

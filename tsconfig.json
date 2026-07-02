@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "incremental": true,
     "target": "es2017",
-    "module": "commonjs",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "outDir": "js",
-    "baseUrl": "src",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
     "strict": true,
-    "sourceMap": true
-  }
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
+  },
+  "include": ["src", "@types"]
 }

@@ -1,7 +1,7 @@
-import { initFilters, resetSearch, updateStatus } from 'filter'
-import { buildHtmlList, replaceList } from 'layout'
-import { Sound } from 'sounds'
-import { sort } from 'utils'
+import { initFilters, resetSearch, updateStatus } from './filter'
+import { buildHtmlList, replaceList } from './layout'
+import { Sound } from './sounds'
+import { sort } from './utils'
 
 async function main() {
   const sounds = sort(

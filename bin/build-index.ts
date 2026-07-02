@@ -49,10 +49,16 @@ function readMeta(file: string): Sound {
   const values = {} as Record<typeof META_FIELDS[number], string>
   META_FIELDS.forEach((field, i) => {
     const line = lines[i]
+    // A field may carry a value ("field: value") or be intentionally empty for
+    // sounds whose episode/number/book is unknown ("field:", no trailing space).
+    if (line === `${field}:`) {
+      values[field] = ''
+      return
+    }
     const prefix = `${field}: `
     if (!line.startsWith(prefix)) {
       throw new Error(
-        `${metaPath}:${i + 1}: expected line to start with "${prefix}", got "${line}"`,
+        `${metaPath}:${i + 1}: expected line to start with "${field}:", got "${line}"`,
       )
     }
     values[field] = line.slice(prefix.length)
@@ -70,7 +76,13 @@ function readMeta(file: string): Sound {
   }
 }
 
+// Parse an integer field. An empty value is allowed for episode-less sounds and
+// maps to 0, which the frontend renders safely (unlike null, on which
+// `book.toString()` would throw).
 function parseInteger(value: string, context: string): number {
+  if (value === '') {
+    return 0
+  }
   if (!/^\d+$/.test(value)) {
     throw new Error(`${context}: expected an integer, got "${value}"`)
   }

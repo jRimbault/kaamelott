@@ -1,8 +1,8 @@
-import { getAttributes, Data } from 'attributes'
-import { debounce, createNode } from 'dom'
-import { normalizeDiacritics } from 'utils'
-import { Sound, fakeDecimalToRoman } from 'sounds'
-import { replaceList, filteredList } from 'layout'
+import { getAttributes, Data } from './attributes'
+import { debounce, createNode } from './dom'
+import { normalizeDiacritics } from './utils'
+import { Sound, fakeDecimalToRoman } from './sounds'
+import { replaceList, filteredList } from './layout'
 
 export function initFilters(sounds: Sound[]) {
   const input = document.querySelector<HTMLInputElement>('input#searchbox')
