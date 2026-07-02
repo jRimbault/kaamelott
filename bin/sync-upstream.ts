@@ -3,6 +3,7 @@ import child_process = require('child_process')
 import fs = require('fs')
 import path = require('path')
 
+// https://github.com/2ec0b4/kaamelott-soundboard
 const UPSTREAM_REMOTE = 'upstream'
 const UPSTREAM_REF = `${UPSTREAM_REMOTE}/master`
 const SOUNDS_DIR = path.join(__dirname, '..', 'sounds')
