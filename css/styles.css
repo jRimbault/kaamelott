@@ -155,30 +155,75 @@ img {
   font-size: 1.3rem;
 }
 
-/* Scope chips wrap onto as many rows as needed so every field stays visible
- * (no horizontal scroll / hidden options). The label is a full-width caption
- * above the chips so a wrapped set still reads as one tidy centered group. */
-#search-scopes {
+/* Reserve the clear button's slot even while empty, instead of the global
+ * `[hidden] { display: none }`. Popping the button in/out of the flex row
+ * would otherwise change the row's total width and shift the centered
+ * search bar every time a character is typed or erased. */
+#clear-search[hidden] {
+  display: inline-flex !important;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Anchors a dropdown (.dropdown-menu) to its own toggle button, so each of
+ * the search-row's menus opens directly under itself regardless of where it
+ * sits in the row (as opposed to anchoring to the whole row's bounding box). */
+.menu-anchor {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Icon-only toggle buttons (scope + sort/group), same footprint as the other
+ * control pills. */
+.icon-btn {
+  min-width: var(--tap);
+  padding: 0.5rem;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  background-color: currentColor;
+}
+
+.icon-filter {
+  -webkit-mask: url(../img/filter.svg) center / contain no-repeat;
+  mask: url(../img/filter.svg) center / contain no-repeat;
+}
+
+.icon-sort {
+  -webkit-mask: url(../img/sort.svg) center / contain no-repeat;
+  mask: url(../img/sort.svg) center / contain no-repeat;
+}
+
+/* Dropdown menu: hidden panel anchored under its toggle button. Rows stack
+ * full-width so the current selection (.is-active, scope menu only) reads
+ * clearly as a highlighted list item rather than a chip. */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  right: 0;
+  z-index: 20;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.6rem;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.2rem;
+  min-width: 200px;
+  padding: 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--surface-2);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
 }
 
-.scope-label {
-  flex: 1 0 100%;
-  margin-bottom: 0.1rem;
-  font-size: 0.85rem;
-  color: var(--text-dim);
-}
-
-.controls .scope-btn {
+.controls .menu-item {
+  justify-content: flex-start;
   min-height: 36px;
-  padding: 0.3rem 0.8rem;
-  background: var(--surface-2);
-  font-size: 0.82rem;
+  padding: 0.4rem 0.6rem;
+  background: transparent;
+  color: var(--text);
+  font-size: 0.9rem;
+  text-align: left;
   box-shadow: none;
 }
 
@@ -186,14 +231,6 @@ img {
   background: var(--gold);
   color: var(--ink);
   font-weight: 600;
-}
-
-#group-filters {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 0.7rem;
 }
 
 #filter-status {

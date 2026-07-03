@@ -18,8 +18,19 @@ export function initFilters(sounds: Sound[]) {
     })
   }
   // The advanced-search prefixes used to be discoverable only through a hover
-  // tooltip. Expose them as visible chips that scope the search instead.
+  // tooltip. Expose them as a scope menu instead.
   initScopeChips(input, runFilter)
+  // The grouping actions (by character, by book, reset to A-Z) live in their
+  // own menu so they close together once one of them is picked.
+  groupMenu = initDropdown('#group-toggle', '#group-menu')
+  if (groupMenu) {
+    const menu = groupMenu.menu
+    menu.addEventListener('click', $event => {
+      if ($event.target instanceof HTMLButtonElement && groupMenu) {
+        groupMenu.close()
+      }
+    })
+  }
   const defaultSearch = window.location.search.substring(1)
   if (defaultSearch) {
     input.value = defaultSearch
@@ -61,6 +72,51 @@ function attributeFilter(
   })
 }
 
+interface Dropdown {
+  readonly toggle: HTMLButtonElement
+  readonly menu: HTMLElement
+  close(): void
+}
+
+// Reference to the grouping menu so `resetSearch` can close it alongside the
+// scope menu (the A-Z reset button itself lives inside this menu).
+let groupMenu: Dropdown | undefined
+
+// Wire a toggle button to a dropdown panel: click to open/close, click
+// outside to close, and Escape to close without falling through to the
+// global Escape shortcut (which would otherwise reset the whole search).
+function initDropdown(
+  toggleSelector: string,
+  menuSelector: string,
+): Dropdown | undefined {
+  const toggle = document.querySelector<HTMLButtonElement>(toggleSelector)
+  const menu = document.querySelector<HTMLElement>(menuSelector)
+  if (!toggle || !menu) return undefined
+  const setOpen = (open: boolean) => {
+    menu.hidden = !open
+    toggle.setAttribute('aria-expanded', String(open))
+  }
+  toggle.addEventListener('click', () => setOpen(menu.hidden))
+  document.addEventListener('click', $event => {
+    if (
+      !menu.hidden &&
+      $event.target instanceof Node &&
+      !menu.contains($event.target) &&
+      !toggle.contains($event.target)
+    ) {
+      setOpen(false)
+    }
+  })
+  menu.addEventListener('keydown', $event => {
+    if ($event.key === 'Escape' && !menu.hidden) {
+      $event.stopPropagation()
+      setOpen(false)
+      toggle.focus()
+    }
+  })
+  return { toggle, menu, close: () => setOpen(false) }
+}
+
 enum DisplayState {
   hide = 'none',
   // Empty string removes the inline override so the stylesheet governs layout
@@ -72,14 +128,19 @@ interface FilterString {
   value: string
 }
 
-// Active search scope, driven by the visible scope chips. Empty string means
-// "search every field"; otherwise it is a single-letter prefix (c, q, t, b, n)
+// Active search scope, driven by the scope menu. Empty string means "search
+// every field"; otherwise it is a single-letter prefix (c, q, t, b, n)
 // understood by `filterBuilder`.
 let activeScope = ''
 
-// Wire the scope chips: clicking one restricts the search to a single field,
-// updates its example placeholder, and re-runs the current query.
+// Reference to the scope menu so `resetSearch` can close it.
+let scopeMenu: Dropdown | undefined
+
+// Wire the scope menu: the toggle button opens/closes a dropdown of scope
+// options; picking one restricts the search to a single field, updates its
+// example placeholder and the toggle's label, and re-runs the current query.
 function initScopeChips(input: HTMLInputElement, runFilter: () => void) {
+  scopeMenu = initDropdown('#scope-toggle', '#search-scopes')
   const chips = Array.from(
     document.querySelectorAll<HTMLButtonElement>('#search-scopes .scope-btn'),
   )
@@ -87,17 +148,29 @@ function initScopeChips(input: HTMLInputElement, runFilter: () => void) {
     chip.addEventListener('click', () => {
       activeScope = chip.dataset.scope ?? ''
       for (const other of chips) {
-        other.classList.toggle('is-active', other === chip)
-        other.setAttribute('aria-pressed', String(other === chip))
+        const isActive = other === chip
+        other.classList.toggle('is-active', isActive)
+        other.setAttribute('aria-checked', String(isActive))
       }
       const placeholder = chip.dataset.placeholder
       if (placeholder) {
         input.placeholder = placeholder
       }
+      updateToggleLabel(scopeMenu, chip.textContent ?? '')
+      if (scopeMenu) {
+        scopeMenu.close()
+      }
       runFilter()
       input.focus()
     })
   }
+}
+
+function updateToggleLabel(dropdown: Dropdown | undefined, scopeName: string) {
+  if (!dropdown) return
+  const label = `Rechercher dans : ${scopeName}`
+  dropdown.toggle.title = label
+  dropdown.toggle.setAttribute('aria-label', label)
 }
 
 function filterOnKeyUp(input: FilterString) {
@@ -174,10 +247,19 @@ export function resetSearch() {
   for (const chip of chips) {
     const isAll = (chip.dataset.scope ?? '') === ''
     chip.classList.toggle('is-active', isAll)
-    chip.setAttribute('aria-pressed', String(isAll))
-    if (isAll && chip.dataset.placeholder && input) {
-      input.placeholder = chip.dataset.placeholder
+    chip.setAttribute('aria-checked', String(isAll))
+    if (isAll) {
+      updateToggleLabel(scopeMenu, chip.textContent ?? '')
+      if (chip.dataset.placeholder && input) {
+        input.placeholder = chip.dataset.placeholder
+      }
     }
+  }
+  if (scopeMenu) {
+    scopeMenu.close()
+  }
+  if (groupMenu) {
+    groupMenu.close()
   }
   toggleClearButton('')
 }
