@@ -109,6 +109,12 @@ img {
 
 #searchbox {
   flex: 1 1 auto;
+  /* A flex item defaults to min-width:auto and won't shrink below the input's
+   * intrinsic (~20-char) width. On narrow screens that forces the search row
+   * wider than the viewport; with justify-content:center the overflow splits
+   * to both sides, clipping the input on the left and the last button on the
+   * right. min-width:0 lets the input shrink to fit instead. */
+  min-width: 0;
   max-width: 520px;
   min-height: var(--tap);
   padding: 0.55rem 0.85rem;
